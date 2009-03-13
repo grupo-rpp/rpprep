@@ -1,18 +1,15 @@
 este es un archivo CSS
 esta es la información que agregó Paco
 
-h1 :
+h1 : (cambio en la linea 4)
 {
 float:left;
 }
 
-<<<<<<< HEAD:test.css
 h2 :
 {
 float:left;
 font-size:130%;
-=======
 h3 {
 	color:#333;
->>>>>>> afeec868e529993e7c281a501c2798c3f20c54d0:test.css
 }
