@@ -1,0 +1,13 @@
+item01
+item02
+item03
+item04
+item05
+item06
+
+item07
+
+1. git add .  (agrupa archivos que serán publicados)
+2. git commit -a -m "nombre del commit" (crea una nueva version local)
+3. git pull git@github.com:pacoreyes/gruporpp.git master (jalar la última version del servidor )
+4. git push git@github.com:pacoreyes/gruporpp.git (publicar de local al servidor)
