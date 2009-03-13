@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>[TITLE]</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen"  />
+<link href="skins/tango/skin.css" rel="stylesheet" type="text/css" media="screen"  />
+<script type="text/javascript" src="lib/jquery-1.2.3.pack.js"></script>
+<script type="text/javascript" src="lib/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+        visible: 4
+    });
+});
+
+</script>
+<script type="text/javascript">
+
+ $(document).ready(function(){
+    
+    $("#boton").click(function () {
+        $("#busquedaavanzada").slideToggle("slow");
+    });
+
+  });
+
+</script>
+</head>
+<body>
+<div id="contenedor">
+  <div id="cabecera">
+    <div id="usuario">
+    	 <a href="#">Haz de reportero w tu p&aacute;gina de inicio</a>
+     	 <span><a href="Registrarse" title="registrarse">Registrarse</a></span>
+         <span><a href="ingresar" title="ingresar">Ingresar</a>&nbsp; <h2>|</h2>&nbsp</span>
+     </div>
+     
+    <div id="logo"> <span><a href="#"><img src="img/logo_rw.gif" /></a></span> </div>
+    
+    <div id="menu_general">
+      <div class="menu">
+        <ul>
+          <li class="btn_activo"><a href="#"><span>Portada</span></a></li>
+          <li class="btn_pasivo"><a href="#"><span>Reportajes</span></a></li>
+          <li class="btn_pasivo"><a href="#"><span>Reporteros</span></a></li>
+        </ul>
+      </div>
+      <div id="menu_buscador">
+        <form action="index.php" method="post">
+          <fieldset>
+          <input type="text" class="menu_itext" />
+          <input type="submit" class="menu_boton" title="Buscar" value="Buscar Noticias"/>
+          </fieldset>
+        </form>
+        <span><a href="#" id="boton">B&uacute;queda avanzanda</a></span> </div>
+    </div>
+  </div> <!--[if !IE]>fin cabecera<![endif]-->
+ 
+  <div id="cuerpo">
+    <div id="busquedaavanzada">
+      <form action="index.php" method="post">
+        <h2>Busqueda Avanzada:</h2>
+        <fieldset>
+        <legend>Busqueda Avanzada</legend>
+        <label for="noticia">Tipo de Noticia:</label>
+        <input type="text" class="txt-buscadornoticia" id="noticia" />
+        <label for="titulares">Titulares:</label>
+        <input type="text" class="txt-titulares" id="titulares" />
+        <label for="palabras-claves">Palabras Claves:</label>
+        <input type="text" class="txt-palabrasclave" id="palabras-claves" />
+        <label for="secciones">Secciones:</label>
+        <input type="text" class="txt-secciones" id="secciones" />
+        </fieldset>
+        <p>
+          <input type="image" src="img/new_buscar.gif" alt="Buscar" class="boton"/>
+          <img src="img/btn_cerrar.gif" alt="cerrar" id="cerrarba" /> </p>
+      </form>
+    </div> <!--[if !IE]>busqueda avanzada<![endif]-->
+ 
+    <div id="cuerpo_izq_perfil">
+        <div id="perfil">
+                  <div class="perfil_datos">
+				 		
+					<img src="img/yo.jpg" />
+					
+					<ul>
+							<li> Usuario:<span> giancvc</span> </li>
+							<li> Email: gcvc@ec-red.com</li>
+							<li> Nombre: Gian Carlo Valdizan Cassinelli</li>
+							<li> Ciudad: Lima</li>
+							<li> Ocupación:</li>
+							<li> Intereses:</li>
+							<li> HomePage:</li>
+							
+					</ul>	
+					
+				  </div> <!--[if !IE]>fin perfil datos<![endif]-->
+      
+	  
+                  <div id="perfil_biografia">
+                    <div class="main_title"><h2>Biograf&iacute;a</h2></div>
+                    <p>Gian Carlo Valdizán Cassinelli nace en Miraflores, Lima el 4 de Julio de 1974, estudioso de las letras publica a de sus primeros reportajes y Cronicas en. Gian Carlo Valdizán Cassinelli de de de nace en Miraflores, Lima el 4 de Julio de 1974, estudioso de las letras publica sus primeros reportajes y de de de Cronicas en. Gian Carlo Valdizán Cassinelli nace en Miraflores, Lima el 4 de Julio de 1974, estudioso de las letras publica sus primeros reportajes y Cronicas en
+                    </p>
+                  </div> <!--[if !IE]>fin perfil biografia<![endif]-->
+          
+        </div><!--[if !IE]>fin perfil <![endif]-->
+		
+		
+<!--INICIO BLOQUE NOTICIAS--->		
+<div id="noticias">
+        <h2>Noticias del Reportero</h2>
+   <!--------------------------------------------------------->     
+        <div class="bloquenota1">
+         	<img src="img/naz.jpg" class="foto1"/>
+          	<h3>Lluvias afectaron figura de La Mano en las líneas de Nasca </h3>
+          	<p><a href="#"> Las fuertes lluvias que produjeron el deslizamiento de lodo y piedras este domingo a la altura del kilómetro 426 y 436 de la Panamericana Sur afectaron seriamente el geoglifo de "La mano", el cual forma parte de las líneas de Nasca, afirmó el arqueólogo residente del Instituto Nacional de Cultura (INC), Mario Olaechea.</a></p>
+            
+            <div class="reportero_datos">
+                  <img src="img/dummy.gif" class="foto2"/>
+                  <a href="#">Posteado por</a>
+                  <h4>Sebastian Delgado Pariasca</h4>
+                  <a href="#">Comentar está noticia</a></div>
+        </div>
+    <!--------------------------------------------------------->         
+           <div class="bloquenota1">
+           
+         	<img src="img/naz.jpg" class="foto1"/>
+          	<h3>Lluvias afectaron figura de La Mano en las líneas de Nasca </h3>
+          	<p><a href="#"> Las fuertes lluvias que produjeron el deslizamiento de lodo y piedras este domingo a la altura del kilómetro 426 y 436 de la Panamericana Sur afectaron seriamente el geoglifo de "La mano", el cual forma parte de las líneas de Nasca, afirmó el arqueólogo residente del Instituto Nacional de Cultura (INC), Mario Olaechea.</a></p>
+            
+            <div class="reportero_datos">
+                  <img src="img/dummy.gif" class="foto2"/>
+                  <a href="#">Posteado por</a>
+                  <h4>Sebastian Delgado Pariasca</h4>
+                  <a href="#">Comentar está noticia</a>
+				  
+       		</div>
+         </div>
+         
+        
+   <!---------------------------------------------------------> 
+   
+   
+    <div class="bloquenota1">
+           
+         	<img src="img/naz.jpg" class="foto1"/>
+          	<h3>Lluvias afectaron figura de La Mano en las líneas de Nasca </h3>
+          	<p><a href="#"> Las fuertes lluvias que produjeron el deslizamiento de lodo y piedras este domingo a la altura del kilómetro 426 y 436 de la Panamericana Sur afectaron seriamente el geoglifo de "La mano", el cual forma parte de las líneas de Nasca, afirmó el arqueólogo residente del Instituto Nacional de Cultura (INC), Mario Olaechea.</a></p>
+            
+            <div class="reportero_datos">
+                  <img src="img/dummy.gif" class="foto2"/>
+                  <a href="#">Posteado por</a>
+                  <h4>Sebastian Delgado Pariasca</h4>
+                  <a href="#">Comentar está noticia</a>
+       		</div>
+         </div>
+         
+        
+   <!--------------------------------------------------------->    
+   
+   
+            
+      </div>
+  
+  
+  <!--FIN BLOQUE NOTICIAS--->		 
+    </div> <!--[if !IE]>fin cuerpo izq perfil <![endif]-->
+    
+    
+    
+    <!-- cuerpo der  -->
+     <div id="cuerpo_der">
+      <div id="sidebar">
+        <div id="menu_der"> espacio </div>
+        <div id="lovisteen"> espacio destacado </div>
+        <div id="explora">
+          <h2>EXPLORA!</h2>
+          <span class="explora1"><a href="#">seleccion</a></span> <span class="explora2"><a href="#"> partido</a></span> <span class="explora2"><a href="#">null </a></span> <span class="explora1"><a href="#">lima </a></span> <span class="explora1"><a href="#"> gato</a></span> <span class="explora2"><a href="#"> fritz</a></span> <span class="explora1"><a href="#">chana </a></span> <span class="explora2"><a href="#"> olimpiadas</a></span> <span class="explora1"><a href="#"> videna</a></span> <span class="explora2"><a href="#"> the  siniestrado</a></span> <span class="explora1"><a href="#"> sexo</a></span> <span class="explora2"><a href="#"> sex</a></span> <span class="explora1"><a href="#"> selva</a></span> <span class="explora2"><a href="#"> santa</a></span> <span class="explora1"><a href="#"> rox </a></span> <span class="explora2"><a href="#"> rosa </a></span> <span class="explora1"><a href="#"> robinho</a></span> </div>
+        <div id="reporteros"> REPORTEROS </div>
+        <div id="advder"> [OAS_300X250] </div>
+        
+  
+  <div class="comisiones">
+        <a href="#" class="comisiones_titulo">Te sugerimos una comisión?</a>
+        <em>Temas de las noticias de hoy</em>
+        <ul>
+          <li><a href="#">Fotodenuncias</a></li>
+          <li><a href="#">Calles rotas en mi ciudad</a></li>
+          <li><a href="#">¿Qué te disgusta de tu ciudad?</a></li>
+          <li><a href="#">¿Cómo es mi barrio?</a></li>
+          <li> <a href="#">Conciertos en mi ciudad</a></li>
+          <li><a href="#">¿Qué pasa en los estadios?</a></li>
+          <li><a href="#">Peruanos en el extranjero</a></li>
+          <li><a href="#">¿Cuál es la comida favorita de tu país?</a></li>
+        </ul>
+  </div>
+  <!--     -->        
+ <div class="comisiones">
+        <a href="#" class="comisiones_titulo">Necesitas Ayuda?</a>
+        <em>Cuentanos tu historia</em>
+        <ul>
+          <li class="comisiones_ayuda"><a href="#">Los ingredientes para una buena historia</a></li>
+          <li class="comisiones_ayuda"><a href="#">Qué es un reportero web ?</a></li>
+          <li class="comisiones_ayuda"><a href="#">Las Comisiones de ReporteroW</a></li>
+          <li class="comisiones_ayuda"><a href="#">Toma excelentes fotos</a></li>
+          <li class="comisiones_ayuda"> <a href="#">Conciertos en mi ciudad</a></li>
+          <li class="comisiones_ayuda"><a href="#">¿Qué pasa en los estadios?</a></li>
+          <li class="comisiones_ayuda"><a href="#">Peruanos en el extranjero</a></li>
+          <li class="comisiones_ayuda"><a href="#">¿Cuál es la comida favorita de tu país?</a></li>
+        </ul>
+  </div>
+       
+      </div>
+    </div>
+  </div>
+  
+  <!-- fin cuerpo der  -->
+  <!-- fin cuerpo  -->
+  
+  
+</div>
+<!-- Fin Contenedor  -->

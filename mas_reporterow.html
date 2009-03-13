@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>[TITLE]</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen"  />
+<link href="skins/tango/skin.css" rel="stylesheet" type="text/css" media="screen"  />
+<script type="text/javascript" src="lib/jquery-1.2.3.pack.js"></script>
+<script type="text/javascript" src="lib/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+        visible: 4
+    });
+});
+
+</script>
+<script type="text/javascript">
+
+ $(document).ready(function(){
+    
+    $("#boton").click(function () {
+        $("#busquedaavanzada").slideToggle("slow");
+    });
+
+  });
+
+</script>
+</head>
+<body>
+<div id="contenedor">
+  <div id="cabecera">
+    <div id="usuario"> <a href="#">Haz de reportero w tu p&aacute;gina de inicio</a> <span><a href="Registrarse" title="registrarse">Registrarse</a></span> <span><a href="ingresar" title="ingresar">Ingresar</a>&nbsp;
+      <h2>|</h2>
+      &nbsp</span> </div>
+    <div id="logo"> <span><a href="#"><img src="img/logo_rw.gif" /></a></span> </div>
+    <div id="menu_general">
+      <div id="menu">
+        <ul>
+          <li class="btn_activo"><a href="#"><span>Portada</span></a></li>
+          <li class="btn_pasivo"><a href="#"><span>Reportajes</span></a></li>
+          <li class="btn_pasivo"><a href="#"><span>Reporteros</span></a></li>
+        </ul>
+      </div>
+      <div id="menu_buscador">
+        <form action="index.php" method="post">
+          <fieldset>
+          <input type="text" class="menu_itext" />
+          <input type="submit" class="menu_boton" title="Buscar" value="Buscar Noticias"/>
+          </fieldset>
+        </form>
+        <span><a href="#" id="boton">B&uacute;queda vanzanda</a></span> </div>
+    </div>
+  </div>
+  <!-- fin cabecera -->
+  <div id="cuerpo">
+    <div id="busquedaavanzada">
+      <form action="index.php" method="post">
+        <h2>Busqueda Avanzada:</h2>
+        <fieldset>
+        <legend>Busqueda Avanzada</legend>
+        <label for="noticia">Tipo de Noticia:</label>
+        <input type="text" class="txt-buscadornoticia" id="noticia" />
+        <label for="titulares">Titulares:</label>
+        <input type="text" class="txt-titulares" id="titulares" />
+        <label for="palabras-claves">Palabras Claves:</label>
+        <input type="text" class="txt-palabrasclave" id="palabras-claves" />
+        <label for="secciones">Secciones:</label>
+        <input type="text" class="txt-secciones" id="secciones" />
+        </fieldset>
+        <p>
+          <input type="image" src="img/new_buscar.gif" alt="Buscar" class="boton"/>
+          <img src="img/btn_cerrar.gif" alt="cerrar" id="cerrarba" /> </p>
+      </form>
+    </div>
+    <!-- fin busqueda avanzada -->
+   <div id="cuerpo_izq_superrep">
+       <div class="super_reportero">
+   			<div class="main_title"><h2>Los Super Reporteros</h2></div>
+            <ul>
+            	<li>
+                	<a href="#"><img src="img/programa1.gif" alt="foto" /></a>
+                    <div class="rw_user"><a href="#">user1</a></div>
+              </li>
+            	<li>
+                	<a href="#"><img src="img/programa1.gif" alt="foto" /></a>
+                    <div class="rw_user"><a href="#">user2</a></div>
+                </li>
+            	<li>
+                	<a href="#"><img src="img/programa1.gif" alt="foto" /></a>
+                    <div class="rw_user"><a href="#">user3</a></div>
+                </li>
+            	<li>
+                	<a href="#"><img src="img/programa1.gif" alt="foto" /></a>
+                    <div class="rw_user"><a href="#">user4</a></div>
+                </li>
+            	<li>
+                	<a href="#"><img src="img/programa1.gif" alt="foto" /></a>
+                    <div class="rw_user"><a href="#">user5</a></div>
+                </li>  
+            	<li>
+                	<a href="#"><img src="img/programa1.gif" alt="foto" /></a>
+                    <div class="rw_user"><a href="#">user6</a></div>
+                </li>
+            	<li>
+                	<a href="#"><img src="img/programa1.gif" alt="foto" /></a>
+                    <div class="rw_user"><a href="#">user7</a></div>
+                </li>
+            	<li>
+                	<a href="#"><img src="img/programa1.gif" alt="foto" /></a>
+                    <div class="rw_user"><a href="#">user8</a></div>
+                </li>                             
+            </ul>
+     
+    </div><!--[if !IE]>fin super_reportero  <![endif]-->
+    
+    
+     <div class="super_reportero">
+   			<div class="main_title"><h2>Reporteros W</h2></div>
+            <ul>
+            	<li>
+                	<a href="#"><img src="img/programa1.gif" alt="foto" /></a>
+                    <div class="rw_user"><a href="#">user1</a></div>
+              </li>
+            	<li>
+                	<a href="#"><img src="img/programa1.gif" alt="foto" /></a>
+                    <div class="rw_user"><a href="#">user2</a></div>
+                </li>
+            	<li>
+                	<a href="#"><img src="img/programa1.gif" alt="foto" /></a>
+                    <div class="rw_user"><a href="#">user3</a></div>
+                </li>
+            	<li>
+                	<a href="#"><img src="img/programa1.gif" alt="foto" /></a>
+                    <div class="rw_user"><a href="#">user4</a></div>
+                </li>
+                                    
+            </ul>
+     
+    </div><!--[if !IE]>fin super_reportero  <![endif]-->
+    
+    <div class="paginado">
+       <div class="rw_txt_pag"><strong>P&aacute;gina:</strong>&nbsp;[PAGINA]</div>
+       <div class="rw_txt_nextpag">Anterior l Siguiente</div>
+    </div>
+    
+    
+    
+    
+</div><!--[if !IE]>fin cuerpo izq superrep  <![endif]-->
+    
+    
+    
+    <!-- cuerpo der  -->
+    <div id="cuerpo_der">
+      <div id="sidebar">
+        <div id="menu_der"> espacio </div>
+        <div id="lovisteen"> espacio destacado </div>
+        <div id="explora">
+        <p>EXPLORA!</p>
+        <span class="explora1"><a href="#">seleccion</a></span> <span class="explora2"><a href="#"> partido</a></span> <span class="explora2"><a href="#">null </a></span> <span class="explora1"><a href="#">lima </a></span> <span class="explora1"><a href="#"> gato</a></span> <span class="explora2"><a href="#"> fritz</a></span> <span class="explora1"><a href="#">chana </a></span> <span class="explora2"><a href="#"> olimpiadas</a></span> <span class="explora1"><a href="#"> videna</a></span> <span class="explora2"><a href="#"> the  siniestrado</a></span> <span class="explora1"><a href="#"> sexo</a></span> <span class="explora2"><a href="#"> sex</a></span> <span class="explora1"><a href="#"> selva</a></span> <span class="explora2"><a href="#"> santa</a></span> <span class="explora1"><a href="#"> rox </a></span> <span class="explora2"><a href="#"> rosa </a></span> <span class="explora1"><a href="#"> robinho</a></span> 
+        </div>
+        
+        
+      <div id="reporteros"> REPORTEROS </div>
+      
+      <div id="advder"> [OAS_300X250] </div>
+      
+        <div id="comisiones">
+        <div id="titulonoticia2"><a href="#">Te sugerimos una comisión?</a></div>
+        <div id="temadecomision"> Temas de las noticias de hoy </div>
+        <div id="temadecomisiondetalle"> <a href="#">Fotodenuncias<br>
+          </a> <a href="#">Marchas y manifestaciones</a><br>
+          <a href="#">Calles rotas en mi ciudad</a><br>
+          <a href="#">¿Qué te gusta de tu ciudad?</a><br>
+          <a href="#">¿Qué te disgusta de tu ciudad?</a><br>
+          <a href="#">¿Cómo es mi barrio?</a><br>
+          <a href="#">Conciertos en mi ciudad</a><br>
+          <a href="#">¿Qué pasa en los estadios?</a><br>
+          <a href="#">Peruanos en el extranjero</a><br>
+          <a href="#">¿Cuál es la comida favorita de tu país?</a><br>
+        </div>
+      </div>
+      <div id="ayuda">
+        <div id="titulonoticia2"><a href="#">Necesitas Ayuda ?</a></div>
+        <div id="temadecomision"> Cuentanos tu historia como un verdadero reportero</div>
+        <div id="ayudadetalle"> <a href="#">Qué es un reportero web ?</a><br>
+          <a href="#">Los ingredientes para una buena historia</a><br>
+          <a href="#">Toma excelentes fotos</a><br>
+          <a href="#">Envía tu mejor video</a><br>
+          <a href="#">Las Comisiones de ReporteroW</a><br>
+          <a href="#">Graba el sonido de tu historia</a><br>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div> 
+  
+  <!-- fin cuerpo der  -->
+  <!-- fin cuerpo  -->
+</div>
+<!-- Fin Contenedor  -->
