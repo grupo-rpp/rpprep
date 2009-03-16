@@ -598,7 +598,6 @@ border-bottom:#CCCCCC solid 1px
   #cuerpo #bloque_derecho{
   float:right;
   width:306px;
-     background:#fff;
   }
   
   .quees{
@@ -1318,10 +1317,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		.comision_lista h3{
 		float:right;
 		}
-		
-	
-	
-	
+
   /*---------------------------PORTADA NOTICIAS _LOGOUT---------------------------*/
 	
 							.noticias_lista-noticias{
