@@ -218,13 +218,13 @@ border-bottom:#CCCCCC solid 1px
 	.reporteros_destacados{
 	float:left;
 	width:324px;
-	margin-right:3px;
+	margin-right:5px;
 	padding:3px;
 	border:1px solid #F2F2F2;
 	}
 	
 	.reporteros_destacados h4{
-	padding:4px;
+	padding:4px 0 4px 4px ;
 	}
 	
 	
@@ -241,7 +241,9 @@ border-bottom:#CCCCCC solid 1px
 	
 	.reporteros_destacados h5{
 	float:right;
-	padding:10px 10px 0 0;
+	padding-right:12px;
+	padding-bottom:10px;
+	padding-top:5px;
 	}
 	
 	
@@ -256,8 +258,14 @@ border-bottom:#CCCCCC solid 1px
 	
 	#actividades_sitio{
 	float:left;
-	width:330px;
-	border:#CCCCCC solid 1px;
+	padding:3px;
+	width:325px;
+	border:#F2F2F2 solid 1px;
+	background:#F7F7F7;
+	}
+	
+	#actividades_sitio h4{
+	padding:4px 0 4px 4px ;
 	}
 	
 	#actividades_sitio h2{
@@ -339,23 +347,22 @@ border-bottom:#CCCCCC solid 1px
 	
 	#areas{
 	float:left;
-	width:660px;
-	padding:5px 2px 0 2px;
+	width:670px;
 	margin:10px 0;
 	border:#f2f2f2 solid 1px;
 	}
 	
 	
 	#areas .areas_{
-	margin:0 2px;
-	padding-bottom:25px;
+	padding-top:10px;
+	padding-left:8px;
 	}
 	
 	#areas .areas_ .area_uno{
 	float:left;
-	width:320px;
+	width:322px;
 	margin-bottom:10px;
-	padding-right:6px;
+	padding-right:8px;
 	}
 	
 	
@@ -415,7 +422,12 @@ border-bottom:#CCCCCC solid 1px
 	.mapa{
 	float:left;
 	margin-top:5px;
+	width:670px;
 	border-bottom:#CCC solid 1px;
+	}
+	
+	.mapa .foto_mapa{
+	float:left;
 	}
 	
 	.mapa .foto_mapa{
@@ -581,219 +593,211 @@ border-bottom:#CCCCCC solid 1px
 				  
 /*-------------------------------------------------------*/				  
 				  
-		#cuerpo #bloque_derecho{
-		float:right;
-		width:325px;
-		}
-		
-		.quees{
-		float:right;
-		width:320px;
-		height:41px;
-		}
-		
-		.quees h2{
-		padding:5px 60px;
-		font-size:16px;
-		color:#0281CA;
-		font-weight:bold;
-		}
-		
-		
-		.comosubo{
-		float:right;
-		width:318px;
-		height:180px;
-		background: #f7f7f7;
-		border:1px solid #CCC;
-		}
-		
-		.comosubo h2{
-		padding:10px 10px; 
-		}
-		
-		.comosubo ul li{
-		float:left;
-		width:320px;
-		margin-bottom:3px;
-		padding:3px 0 2px 0;
-		display:block;
-		}
-		
-		.comosubo ul li span a{
-		font-size:16px;
-		font-weight:bold;
-		padding-left:8px;
-		color:#555;
-		}
-		
-		.comosubo ul li span a:hover{
-		color:#df0202;
-		}
-		
-		.comosubo ul li img{
-		padding-left:25px;
-		}	
-		
-		.comisiones{
-		float:left;
-		margin:5px 0;
-		}
-		
-		.comisiones img{
-		padding:0 5px;
-		}
-		
-		.comisiones h4{
-		float:left;
-		padding:0 0 0 5px;
-		margin:5px 0 3px 0;
-		font-family:Arial, Helvetica, sans-serif;
-		font-size:16px;
-		color:#000000;
-		}
-		
-		.comisiones_{
-		float:right;
-		width:318px;
-		padding:5px 0;
-		margin:0 0 0 5px;
-		background:#f6f6f6;
-		border:#f2f2f2 solid 1px;
-		}
-		
-		.comisiones_ ul li{
-		float:left;
-		width:280px;
-		padding:3px 12px;
-		display:inline;
-		}
-		
-		.comisiones_ ul li p a{
-		margin-left:40px;
-		color:#1d4d6c;}
-		
-		
-		
-		
-		.comisiones_ ul li h3{
-		float:right;
-		}
-		
-		
-		.comisiones_ ul li span{
-		padding-left:8px;
-		font-size:11px;
-		color:#0099FF;
-		}	  			  
-/*-----------------------------------------------------------------*/					  
+		/*-------------------------------------------------------*/      
+      
+  #cuerpo #bloque_derecho{
+  float:right;
+  width:306px;
+     background:#fff;
+  }
+  
+  .quees{
+  float:right;
+  width:300px;
+  height:41px;
+  }
+  
+  .quees h2{
+  padding:5px 60px;
+  font-size:16px;
+  color:#0281CA;
+  font-weight:bold;
+  }
+  
+  
+  .comosubo{
+  float:right;
+  width:298px;
+  height:180px;
+  background: #f7f7f7;
+  border:1px solid #CCC;
+  }
+  
+  .comosubo h2{
+  padding:10px 10px; 
+  }
+  
+  .comosubo ul li{
+  float:left;
+  margin-bottom:3px;
+  padding:3px 0 2px 0;
+  display:block;
+  }
+  
+  .comosubo ul li span a{
+  font-size:16px;
+  font-weight:bold;
+  padding-left:8px;
+  color:#555;
+  }
+  
+  .comosubo ul li span a:hover{
+  color:#df0202;
+  }
+  
+  .comosubo ul li img{
+  padding-left:25px;
+  } 
+  
+  .comisiones{
+  float:left;
+  margin:5px 0;
+  }
+  
+  .comisiones img{
+        padding:0 5px;
+  }
+  
+  .comisiones h4{
+   float:left;
+   padding:0 0 0 5px;
+   margin:5px 0 3px 0;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:16px;
+   color:#000000;
+  }
+  
+  
+  .comisiones_{
+   float:right;
+   width:300px;
+   padding:5px 0;
+   margin:0 0 0 5px;
+  }
+  
+  .comisiones_ ul li{
+  float:left;
+  width:280px;
+  padding:3px 12px;
+  display:inline;
+  }
+  
+  .comisiones_ ul li p a{
+  margin-left:40px;
+  color:#1d4d6c;}
+  
+  
+  
+  
+  .comisiones_ ul li h3{
+  float:right;
+  }
+  
+  
+  .comisiones_ ul li span{
+  padding-left:8px;
+  font-size:11px;
+  color:#0099FF;
+  }        
+/*-----------------------------------------------------------------*/       
 
-		.publi_300x250{
-		float:right;
-		width:320px;
-		height:250px;
-		background:#666;
-		font-size:16px;
-		color:#FFF;
-		margin-bottom:10px;
-		}
-		
-		
+  .publi_300x250{
+  float:right;
+  width:300px;
+  height:250px;
+  background:#666;
+  font-size:16px;
+  color:#FFF;
+  margin-bottom:10px;
+  }
 
+/*-----------------------------------------------------------------*/ 
+  .grupos_{
+  float:right;
+  margin:5px 0;
+  }
+  
+  .grupitos_{
+  float:right;
+  width:288px;
+  padding:3px 6px;
+  background:#f7f7f7;
+  border:#CCC solid 1px;
+  } 
+  
+  .interes_{
+  float:right;
+  width:288px;
+  padding:3px 6px;
+  border-top:#CCC solid 1px;
+  } 
 
-/*-----------------------------------------------------------------*/	
-		.grupos_{
-		float:right;
-		margin:5px 0;
-		}
-		
-		.grupitos_{
-		float:right;
-		width:306px;
-		padding:3px 6px;
-		background:#f7f7f7;
-		border:#CCC solid 1px;
-		}	
-		
-		.interes_{
-		float:right;
-		width:306px;
-		padding:3px 6px;
-		border-top:#CCC solid 1px;
-		} 
+  .grupitos_ ul{
+  margin:0 0 0 25px;
+  }
+  .grupos_ h4{
+  float:left;
+  padding-left:5px;
+  padding-bottom:3px;
+  }
+  .grupos_ h5{
+  float:right;
+  padding:5px 5px 5px 0;
+  }
+  
+  
+  .grupos_ .grupitos_ ul li span{
+  color:#0099FF;
+  font-size:11px;
+  padding-left:5px;
+  }
+  
+  
+  
+  
+  .grupos_ .grupitos_ p a{
+  float:right;
+  padding-bottom:6px;
+  padding-right:5px;
+  color:#5B5B5B;
+  }
+  
+  .grupos_ .grupitos_ p a:hover{
+  color:#df0202;
+  }  
+  
 
-		.grupitos_ ul{
-		margin:0 0 0 25px;
-		}
-		.grupos_ h4{
-		float:left;
-		padding-left:5px;
-		padding-bottom:3px;
-		}
-		.grupos_ h5{
-		float:right;
-		padding:5px 5px 5px 0;
-		}
-		
-		
-		.grupos_ .grupitos_ ul li span{
-		color:#0099FF;
-		font-size:11px;
-		padding-left:5px;
-		}
-		
-		
-		
-		
-		.grupos_ .grupitos_ p a{
-		float:right;
-		padding-bottom:6px;
-		padding-right:5px;
-		color:#5B5B5B;
-		}
-		
-		.grupos_ .grupitos_ p a:hover{
-		color:#df0202;
-		}		
-		
-
-		.tag_1 a{
-		font-family:"Times New Roman", Times, serif;
-		padding-left:8px;
-		padding-right:2px;
-		color:#CCCCCC;
-		font-size:18px;
-		}
-		.tag_1 a:hover{
-		color:#df0202;
-		}
-		
-		.tag_2 a{
-		font-family:"Times New Roman", Times, serif;
-		color:#666;
-		font-size:22px;
-		}
-		.tag_2 a:hover{
-		color:#df0202;
-		}
-		
-		.tag_3 a{
-		font-family:"Times New Roman", Times, serif;
-		padding-left:5px;
-		padding-right:2px;
-		color: #CCCCCC;
-		font-size:26px;
-		}
-		.tag_3 a:hover{
-		color:#df0202;
-		}
-		
-		
-		
-		
-
-			 
-
+  .tag_1 a{
+  font-family:"Times New Roman", Times, serif;
+  padding-left:8px;
+  padding-right:2px;
+  color:#CCCCCC;
+  font-size:18px;
+  }
+  .tag_1 a:hover{
+  color:#df0202;
+  }
+  
+  .tag_2 a{
+  font-family:"Times New Roman", Times, serif;
+  color:#666;
+  font-size:22px;
+  }
+  .tag_2 a:hover{
+  color:#df0202;
+  }
+  
+  .tag_3 a{
+  font-family:"Times New Roman", Times, serif;
+  padding-left:5px;
+  padding-right:2px;
+  color: #CCCCCC;
+  font-size:26px;
+  }
+  .tag_3 a:hover{
+  color:#df0202;
+  }
+  
 
 /*-----------------------------------------------------------------*/
 
