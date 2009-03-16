@@ -127,7 +127,7 @@ float:left;
 width:360px;
 height:40px;
 padding-top:20px;
-padding-left:137px;
+padding-left:122px;
 }
 
 #publicar{
@@ -722,7 +722,7 @@ padding-left:10px
   width:288px;
   padding:3px 6px;
   background:#f7f7f7;
-  border:#CCC solid 1px;
+  border:#CCC solid 1px; margin-right:10px;
   } 
   
   .interes_{
