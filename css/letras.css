@@ -14,15 +14,17 @@
 	}
 		
 	h2{
-	font-size:15px;
+	font-size:16px;
 	color: #327199;
 	font-family: Arial, Helvetica, sans-serif;
 	}
 	
 	h2 a{
-	font-size:15px;
+	font-size:16px;
 	color: #327199;
 	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+    line-height:20px;
 	}
 	
 	h2 a:hover{
@@ -48,6 +50,7 @@
 	color:#333;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:15px;
+	font-weight:bold;
 	}
 	
 	h4 a{
@@ -91,7 +94,6 @@
 	}
 	
 	p{
-	color:#5B5B5B;
 	text-decoration:none;
 	line-height:16px;
 	}
