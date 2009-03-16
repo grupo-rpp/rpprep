@@ -147,13 +147,11 @@ padding-left:10px
 
 /*
 --------------------------------------------*/
-  
 
-  
   
   .noticias{
   float:left;
-  width:670px;
+  width:658px;
   padding:10px 0;
   border-bottom:#e7e7e7 solid 1px;  
   }
@@ -597,7 +595,8 @@ padding-left:10px
       
   #cuerpo #bloque_derecho{
   float:right;
-  width:310px; background-color:#fff;
+  width:310px; 
+  background-color:#fff;
   }
   
   .quees{
