@@ -153,7 +153,7 @@ padding-left:10px
   
   .noticias{
   float:left;
-  width:670px;
+  width:655px;
   padding:10px 0;
   border-bottom:#e7e7e7 solid 1px;  
   }
@@ -261,6 +261,7 @@ padding-left:10px
 	padding:3px;
 	width:325px;
 	border:#F2F2F2 solid 1px;
+	margin-left:5px;
 	background:#F7F7F7;
 	}
 	
@@ -498,7 +499,7 @@ padding-left:10px
 	width:996px;
 	padding-bottom:50px;
 	padding:10px 0 40px 0;
-	background:#efefef;
+	background:#ffffff;
 	}
 	
 	
@@ -719,7 +720,7 @@ padding-left:10px
   
   .grupitos_{
   float:right;
-  width:288px;
+  width:286px;
   padding:3px 6px;
   background:#f7f7f7;
   border:#CCC solid 1px; margin-right:10px;
