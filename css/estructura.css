@@ -86,7 +86,7 @@ padding:3px 0 5px 0;
 #registro_izq{
 font-size:11px;
 float:left;
-padding-left:20px;
+padding-left:30px;
 color: #999999;
 }
 
@@ -120,6 +120,7 @@ float:left;
 float:left;
 width:250px;
 height:55px;
+padding-left:20px;
 }
 
 #menu_buscador{
@@ -127,7 +128,7 @@ float:left;
 width:300px;
 height:40px;
 padding-top:20px;
-padding-left:120px;
+padding-left:115px;
 }
 
 #publicar{
