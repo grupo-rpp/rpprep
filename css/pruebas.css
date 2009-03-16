@@ -9,6 +9,8 @@ body{ font-family:Arial}
 
 
 .caja2{ width:200px;
-		height:450px;
-		border:1px solid #000; float:left; margin-right:10px;
+		height:300px;
+		border:1px solid #000; float:left; margin-right:10px; background-image:url(../img/btn_over.gif)
 		}
+		
+.foto{ width:200px; height:150px;}		
