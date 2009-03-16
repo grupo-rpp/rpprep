@@ -172,14 +172,14 @@ padding-left:10px
   
   .user{
   float:left;
-  width:86px;
+  width:87px;
   padding:3px;
   border:#EFEFEF solid 1px;
   }
   
   .lista-noticias{
   float:left;   
-  width:575px;
+  width:565px;
   }
   
   .mini_foto{
@@ -217,7 +217,7 @@ padding-left:10px
 	
 	.reporteros_destacados{
 	float:left;
-	width:324px;
+	width:304px;
 	margin-right:5px;
 	padding:3px;
 	border:1px solid #F2F2F2;
@@ -235,7 +235,7 @@ padding-left:10px
 	
 	.reporteros_destacados ul li{
 	float:left;
-	padding:5px;
+	padding:5px 2px 5px  4px ;
 	}	
 
 	
@@ -347,7 +347,7 @@ padding-left:10px
 	
 	#areas{
 	float:left;
-	width:670px;
+	width:660px;
 	margin:10px 0;
 	border:#f2f2f2 solid 1px;
 	}
@@ -360,7 +360,7 @@ padding-left:10px
 	
 	#areas .areas_ .area_uno{
 	float:left;
-	width:322px;
+	width:312px;
 	margin-bottom:10px;
 	padding-right:8px;
 	}
@@ -504,7 +504,7 @@ padding-left:10px
 	
 	#cuerpo #bloque_izquierdo{
 	float:left;
-	width:670px;
+	width:655px;
 	padding:10px;
 	background:#FFFFFF;
 	}
@@ -535,7 +535,7 @@ padding-left:10px
 		float:left;
 		display:inline;
 		height:178px;
-		width:355px;
+		width:345px;
 		}
 		
 		#noticia_titular h1{
@@ -597,13 +597,13 @@ padding-left:10px
       
   #cuerpo #bloque_derecho{
   float:right;
-  width:306px;
+  width:310px; background-color:#fff;
   }
   
   .quees{
   float:right;
   width:300px;
-  height:41px;
+  height:41px; margin-right:10px; margin:10px 10px 0 0; 
   }
   
   .quees h2{
@@ -619,7 +619,7 @@ padding-left:10px
   width:298px;
   height:180px;
   background: #f7f7f7;
-  border:1px solid #CCC;
+  border:1px solid #CCC; margin-right:10px;
   }
   
   .comosubo h2{
@@ -630,7 +630,7 @@ padding-left:10px
   float:left;
   margin-bottom:3px;
   padding:3px 0 2px 0;
-  display:block;
+  display:block; width:300px;
   }
   
   .comosubo ul li span a{
@@ -651,6 +651,7 @@ padding-left:10px
   .comisiones{
   float:left;
   margin:5px 0;
+   margin-right:10px;
   }
   
   .comisiones img{
@@ -707,7 +708,7 @@ padding-left:10px
   background:#666;
   font-size:16px;
   color:#FFF;
-  margin-bottom:10px;
+   margin: 0 10px 10px 0;
   }
 
 /*-----------------------------------------------------------------*/ 
@@ -729,6 +730,7 @@ padding-left:10px
   width:288px;
   padding:3px 6px;
   border-top:#CCC solid 1px;
+   margin-right:10px;
   } 
 
   .grupitos_ ul{
