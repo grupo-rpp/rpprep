@@ -172,7 +172,8 @@ padding-left:10px
   float:left;
   width:87px;
   padding:3px;
-  border:#EFEFEF solid 1px;
+  border:#EFEFEF solid 1px; 
+  background-color:#F8F8F8;
   }
   
   .lista-noticias{
@@ -233,7 +234,7 @@ padding-left:10px
 	
 	.reporteros_destacados ul li{
 	float:left;
-	padding:5px 2px 5px  4px ;
+	padding:3px 2px 3px  4px ;
 	}	
 
 	
@@ -325,15 +326,16 @@ padding-left:10px
 	
 	
 	#actividades_sitio .user_actividades .ultimas{
-	width:260px;
-	float:right;
+		width:255px;
+		padding-left:5px;
+		float:left;
  	}
 	
 	#actividades_sitio .user_actividades .ultimas span{
-	font-weight:bold;
-	font-size:11px;
-	margin-right:3px;
- 	color:#B49E25;
+		font-weight:bold;
+		font-size:11px;
+		margin-right:3px;
+		color:#B49E25;
 	}
 	
   
@@ -652,6 +654,7 @@ padding-left:10px
   float:left;
   margin:5px 0;
    margin-right:10px;
+   border: solid 1px #ccc;
   }
   
   .comisiones img{
@@ -670,7 +673,7 @@ padding-left:10px
   
   .comisiones_{
    float:right;
-   width:300px;
+   width:250px;
    padding:5px 0;
    margin:0 0 0 5px;
   }
@@ -697,7 +700,7 @@ padding-left:10px
   .comisiones_ ul li span{
   padding-left:8px;
   font-size:11px;
-  color:#0099FF;
+  color:#ff8800;
   }        
 /*-----------------------------------------------------------------*/       
 
