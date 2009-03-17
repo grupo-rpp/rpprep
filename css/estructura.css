@@ -506,7 +506,7 @@ padding-left:10px
 	float:left;
 	width:655px;
 	padding:10px;
-	background:#FFFFFF;
+	background:#FFFFFF; border-right:1px #ccc dashed;
 }
 	
 	#cuerpo #bloque_izquierdo #noticia_principal{
@@ -600,7 +600,7 @@ padding-left:10px
   #cuerpo #bloque_derecho{
   float:right;
   width:310px; 
-  background-color:#ededed;
+  background-color:#fff;
   padding-left:10px;
   }
   
@@ -820,7 +820,7 @@ padding-left:10px
 #piecera{
 float:left;
 width:996px;
-padding:0 10px;
+
 height:200px;
 background: #292929;
 }
