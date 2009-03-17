@@ -736,7 +736,7 @@ padding-left:10px
   width:288px;
   padding:3px 6px;
   border-top:#CCC solid 1px;
-   margin-right:10px;
+   margin-right:10px; background-color:#FFF;
   } 
 
   .grupitos_ ul{
