@@ -253,8 +253,9 @@ color:#df0202;
 
 .regionales_titu { color:#327199; font-weight:bold;}
 
-.fechachica{ font-family:arial;
-			font-size:9px;
-			color:#000;
-			font-weight:bold;
+.fechachica{
+	font-family:arial;
+	font-size:9px;
+	color:#bbb;
+	font-weight:bold;
 			}
