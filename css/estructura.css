@@ -96,7 +96,7 @@ padding-right:11px;
 }
 
 #registro_der a{
-color:#666666;
+color:#327199;
 font-weight:bold;
 }
 
@@ -172,7 +172,8 @@ padding-left:10px
   float:left;
   width:87px;
   padding:3px;
-  border:#EFEFEF solid 1px;
+  border:#EFEFEF solid 1px; 
+  background-color:#F8F8F8;
   }
   
   .lista-noticias{
@@ -232,13 +233,13 @@ padding-left:10px
 	
 	.reporteros_destacados ul li{
 	float:left;
-	padding:5px 2px 5px  4px ;
+	padding:3px 2px 3px  4px ;
 	}	
 
 	
 	.reporteros_destacados h5{
 	float:right;
-	padding-right:12px;
+	padding-right:5px;
 	padding-bottom:10px;
 	padding-top:5px;
 	}
@@ -324,15 +325,16 @@ padding-left:10px
 	
 	
 	#actividades_sitio .user_actividades .ultimas{
-	width:260px;
-	float:right;
+		width:255px;
+		padding-left:5px;
+		float:left;
  	}
 	
 	#actividades_sitio .user_actividades .ultimas span{
-	font-weight:bold;
-	font-size:11px;
-	margin-right:3px;
- 	color:#B49E25;
+		font-weight:bold;
+		font-size:11px;
+		margin-right:3px;
+		color:#B49E25;
 	}
 	
   
@@ -347,7 +349,8 @@ padding-left:10px
 	float:left;
 	width:654px;
 	margin:10px 0;
-	border:#f2f2f2 solid 1px;
+	border:#ccc solid 1px; 
+	background-color:#f7f7f7;
 	}
 	
 	
@@ -453,7 +456,7 @@ padding-left:10px
 	
 	.noti{
 	float:left;
-	width:345px;
+	width:340px;
 	}
 	
 	
@@ -470,7 +473,7 @@ padding-left:10px
 	
 	.masciudad {
 	float:right;
-	padding:10px 15px;
+	padding: 0px 15px 5px 15px;
 	}
 	
 	
@@ -503,12 +506,13 @@ padding-left:10px
 	float:left;
 	width:655px;
 	padding:10px;
-	background:#FFFFFF;
-	}
+	background:#FFFFFF; border-right:1px #ccc dashed; 	}
 	
 	#cuerpo #bloque_izquierdo #noticia_principal{
 	float:left;
-	width:670px;
+	width:657px;
+	padding-bottom:20px;
+	border-bottom:1px solid #ccc;
 	}
 	
 	
@@ -537,7 +541,7 @@ padding-left:10px
 		
 		#noticia_titular h1{
 		float: left;
-		margin-top:0 ;
+		margin-bottom:5px;
 		}
 		
 		#noticia_titular p{
@@ -628,7 +632,7 @@ padding-left:10px
   float:left;
   margin-bottom:3px;
   padding:3px 0 2px 0;
-  display:block; width:300px;
+  display:block; width:300px; height:25px;
   }
   
   .comosubo ul li span a{
@@ -643,13 +647,14 @@ padding-left:10px
   }
   
   .comosubo ul li img{
-  padding-left:25px;
+  padding-left:15px;
   } 
   
   .comisiones{
   float:left;
   margin:5px 0;
    margin-right:10px;
+   border: solid 1px #ccc;
   }
   
   .comisiones img{
@@ -668,7 +673,7 @@ padding-left:10px
   
   .comisiones_{
    float:right;
-   width:300px;
+   width:250px;
    padding:5px 0;
    margin:0 0 0 5px;
   }
@@ -676,12 +681,12 @@ padding-left:10px
   .comisiones_ ul li{
   float:left;
   width:280px;
-  padding:3px 12px;
+  padding:3px 2px;
   display:inline;
   }
   
   .comisiones_ ul li p a{
-  margin-left:40px;
+ 
   color:#1d4d6c;}
   
   
@@ -695,7 +700,7 @@ padding-left:10px
   .comisiones_ ul li span{
   padding-left:8px;
   font-size:11px;
-  color:#0099FF;
+  color:#ff8800;
   }        
 /*-----------------------------------------------------------------*/       
 
@@ -732,7 +737,7 @@ padding-left:10px
   } 
 
   .grupitos_ ul{
-  margin:0 0 0 25px;
+  margin:5px 0 0 25px;
   }
   .grupos_ h4{
   float:left;
@@ -1120,7 +1125,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	#bloque_derecho h4 {
 	float:left;
-	padding-left:5px;
+	padding-left:5px; width:200px;
 	}
 	
 	#reporteros_peru{
@@ -1318,12 +1323,48 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		float:right;
 		}
 
+
+.mas-noticias{
+  float:left;
+  width:650px;
+  margin:2px 0;
+  border-bottom:#ccc solid 1px;
+  padding:3px;
+  }
+  
+ .noticiasportada_foto{
+	width:80px;
+	height:65px;
+	float:left;
+	margin:5px 5px 0 0;
+					   }
+					   
+.noticiasportada_foto2 {
+	width:55px;
+	height:45px;
+	float:left;
+	margin:5px 5px 0 0;					   
+					   }
+  
+  
+  .mas-noticias .lista-noticias p{
+  padding-right:3px;
+  }
+  
+  .mas-noticias .lista-noticias .user{
+  padding-left:10px;
+  }
+
+
+
+
+
   /*---------------------------PORTADA NOTICIAS _LOGOUT---------------------------*/
 	
 							.noticias_lista-noticias{
 							float:left;
 							padding:1px 0;
-							width:476px;
+							width:470px;
 						  	}
 
 							.noticiasportada_foto{
