@@ -1324,12 +1324,48 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		float:right;
 		}
 
+
+.mas-noticias{
+  float:left;
+  width:650px;
+  margin:2px 0;
+  border-bottom:#ccc solid 1px;
+  padding:3px;
+  }
+  
+ .noticiasportada_foto{
+	width:80px;
+	height:65px;
+	float:left;
+	margin:5px 5px 0 0;
+					   }
+					   
+.noticiasportada_foto2 {
+	width:55px;
+	height:45px;
+	float:left;
+	margin:5px 5px 0 0;					   
+					   }
+  
+  
+  .mas-noticias .lista-noticias p{
+  padding-right:3px;
+  }
+  
+  .mas-noticias .lista-noticias .user{
+  padding-left:10px;
+  }
+
+
+
+
+
   /*---------------------------PORTADA NOTICIAS _LOGOUT---------------------------*/
 	
 							.noticias_lista-noticias{
 							float:left;
 							padding:1px 0;
-							width:476px;
+							width:470px;
 						  	}
 
 							.noticiasportada_foto{
