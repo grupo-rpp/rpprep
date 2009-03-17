@@ -96,7 +96,7 @@ padding-right:11px;
 }
 
 #registro_der a{
-color:#666666;
+color:#327199;
 font-weight:bold;
 }
 
@@ -507,12 +507,13 @@ padding-left:10px
 	float:left;
 	width:655px;
 	padding:10px;
-	background:#FFFFFF;
-	}
+	background:#FFFFFF; border-right:1px #ccc dashed; 	}
 	
 	#cuerpo #bloque_izquierdo #noticia_principal{
 	float:left;
-	width:670px; padding-bottom:20px; border-bottom:1px solid #ccc;
+	width:657px;
+	padding-bottom:20px;
+	border-bottom:1px solid #ccc;
 	}
 	
 	
