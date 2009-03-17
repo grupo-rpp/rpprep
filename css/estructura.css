@@ -325,15 +325,16 @@ padding-left:10px
 	
 	
 	#actividades_sitio .user_actividades .ultimas{
-	width:260px;
-	float:right;
+		width:255px;
+		padding-left:5px;
+		float:left;
  	}
 	
 	#actividades_sitio .user_actividades .ultimas span{
-	font-weight:bold;
-	font-size:11px;
-	margin-right:3px;
- 	color:#B49E25;
+		font-weight:bold;
+		font-size:11px;
+		margin-right:3px;
+		color:#B49E25;
 	}
 	
   

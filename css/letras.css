@@ -204,24 +204,16 @@ color:#df0202;
 
 /*--ACTIVIDADES DEL SITIO--------------------------------------------------*/
 
-	#actividades_sitio ul li .user_ultimas .ultimas a{
-	color:#134D86;
-	font-family: Arial, Helvetica, sans-serif;
- 	}
-	
-	#actividades_sitio ul li .user_ultimas .ultimas a:hover{
-	color: #df0202;
- 	}
-	
 	.ultimas a{
 	color:#3584D1;
+	margin-bottom:3px;
 	}
 	
 	.ultimas a:hover{
 	color:#df0202;
 	}
 	
-	
+
 
 /*--MAPA--------------------------------------------------*/
 
