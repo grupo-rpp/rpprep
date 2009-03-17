@@ -37,7 +37,7 @@
 	}
 	
 	h3 a{
-  	color:#00abec;
+  	color:#5F8CE0;
   	}
 	
 	h3 a:hover{
@@ -228,6 +228,13 @@ color:#df0202;
 	color:#134D86;
 	}
 	
+	
+	.noti h4{
+	color:#FF8800;
+	font-size:14px;
+	}
+	
+	
 	.noti a:hover{
 	color:#df0202;
 	}
@@ -255,7 +262,7 @@ color:#df0202;
 
 .fechachica{ font-family:arial;
 			font-size:9px;
-			color:#000;
+			color:#bdbdbd;
 			font-weight:bold;
 			}
 			
