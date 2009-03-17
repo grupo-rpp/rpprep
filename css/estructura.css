@@ -601,7 +601,8 @@ padding-left:10px
   #cuerpo #bloque_derecho{
   float:right;
   width:310px; 
-  background-color:#fff;
+  background-color:#efefef;
+  padding-left:10px;
   }
   
   .quees{
