@@ -167,10 +167,10 @@ padding-left:10px
   }
   
   .user{
-  float:left;
-  padding:3px;
-  border:#EFEFEF solid 1px; 
-  background-color:#fcfcfc;
+	float:left;
+	padding:3px;
+	border:#EFEFEF solid 1px;
+	background-color:#F9FFFF;
   }
   
   .lista-noticias{
@@ -508,7 +508,7 @@ padding-left:10px
 	float:left;
 	width:655px;
 	padding:10px;
-	background:#FFFFFF; border-right:1px #ccc dashed;
+	background:#FFFFFF; border-right:1px #ccc solid;
 }
 	
 	#cuerpo #bloque_izquierdo #noticia_principal{
@@ -602,13 +602,12 @@ padding-left:10px
   #cuerpo #bloque_derecho{
   float:right;
   width:310px; 
-<<<<<<< HEAD:css/estructura.css
+
   background-color:#ededed;
   padding-left:2px;
-=======
+
   background-color:#fff;
-  padding-left:10px;
->>>>>>> 5271d1010ea31753bb473bd86cace33474c886f0:css/estructura.css
+ 
   }
   
   .quees{
