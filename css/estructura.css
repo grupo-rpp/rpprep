@@ -188,6 +188,10 @@ padding-left:10px
    margin-right:4px;
   }
   
+  .foto_noticias{ width:80px;
+  				   height:60px;
+				   border:1px solid #ccc;
+				   }
   .datos_user{
    float:left;
   }
@@ -497,7 +501,7 @@ padding-left:10px
 	float:left;
 	width:996px;
 	padding-bottom:50px;
-	padding:10px 0 40px 0;
+	padding:10px 0 10px 0;
 	background:#fff;
 	}
 	
