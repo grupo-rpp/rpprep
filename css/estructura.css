@@ -1339,7 +1339,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
   width:650px;
   margin:2px 0;
   border-bottom:#ccc solid 1px;
-  padding:3px;
+  padding:3px 0 3px 3px;
   }
   
  .noticiasportada_foto{
@@ -1373,8 +1373,9 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 							.noticias_lista-noticias{
 							float:left;
-							padding:1px 3px;;
-							width:462px;
+							padding:1px 3px 1px 5px;
+							margin-right:10px;
+							width:458px;
 						  	}
 
 							.noticiasportada_foto{
