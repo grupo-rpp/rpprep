@@ -348,7 +348,8 @@ padding-left:10px
 	float:left;
 	width:654px;
 	margin:10px 0;
-	border:#f2f2f2 solid 1px;
+	border:#ccc solid 1px; 
+	background-color:#f7f7f7;
 	}
 	
 	
@@ -454,7 +455,7 @@ padding-left:10px
 	
 	.noti{
 	float:left;
-	width:345px;
+	width:340px;
 	}
 	
 	
