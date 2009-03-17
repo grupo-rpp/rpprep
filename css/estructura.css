@@ -510,7 +510,8 @@ padding-left:10px
 	float:left;
 	width:655px;
 	padding:10px;
-	background:#FFFFFF; border-right:1px #ccc dashed;
+	background:#FFFFFF;
+	border-right:1px #ccc solid;
 }
 	
 	#cuerpo #bloque_izquierdo #noticia_principal{
