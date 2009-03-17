@@ -106,8 +106,6 @@ color:#df0202;
 
 #cabecera_medio{
 float:left;
-padding-top:4px;
-padding-left:10px;
 width:996px;
 display:inline;
 }
@@ -118,6 +116,7 @@ float:left;
 
 #logaso{
 float:left;
+padding-left:15px;
 width:250px;
 height:55px;
 }
@@ -135,7 +134,6 @@ float:right;
 width:240px;
 height:60px;
 padding-top:5px;
-padding-right:5px; 
 }
 
 #cabecera_menu{
@@ -170,10 +168,9 @@ padding-left:10px
   
   .user{
   float:left;
-  width:87px;
   padding:3px;
   border:#EFEFEF solid 1px; 
-  background-color:#F8F8F8;
+  background-color:#fcfcfc;
   }
   
   .lista-noticias{
@@ -183,7 +180,7 @@ padding-left:10px
   
   .mini_foto{
    float:left;
-   border:#CCC solid 1px;
+   border:#e1e1e1 solid 1px;
    padding:2px;
    margin-right:4px;
   }
@@ -233,7 +230,7 @@ padding-left:10px
 	
 	.reporteros_destacados ul li{
 	float:left;
-	padding:3px 2px 3px  4px ;
+	padding:3px 0 3px  4px ;
 	}	
 
 	
@@ -334,7 +331,7 @@ padding-left:10px
 		font-weight:bold;
 		font-size:11px;
 		margin-right:3px;
-		color:#B49E25;
+		color:#ff8800;
 	}
 	
   
@@ -601,7 +598,7 @@ padding-left:10px
   float:right;
   width:310px; 
   background-color:#ededed;
-  padding-left:10px;
+  padding-left:2px;
   }
   
   .quees{
@@ -622,7 +619,7 @@ padding-left:10px
   float:right;
   width:298px;
   height:180px;
-  background: #f7f7f7;
+  background: #f0f0f0;
   border:1px solid #CCC; margin-right:10px;
   }
   
@@ -657,7 +654,7 @@ padding-left:10px
   margin:5px 0;
    margin-right:10px;
    border: solid 1px #ccc;
-   background-color:#FFF;
+   background-color:#f0f0f0;
   }
   
   .comisiones img{
@@ -1367,7 +1364,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							.noticias_lista-noticias{
 							float:left;
 							padding:1px 0;
-							width:470px;
+							width:468px;
 						  	}
 
 							.noticiasportada_foto{
