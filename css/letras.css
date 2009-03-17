@@ -57,7 +57,7 @@
 	}
 	
 	h4 a:hover{
-	color:#ff000;
+	color:#ff0000;
 	}
 	
 	
@@ -242,3 +242,12 @@ color:#df0202;
 	.noti .ultimas a:hover{
 	color:#DF0202;
 	}
+/*----clases nueva*/
+
+.size12 a{ font-size:12px; color:#00abed;}
+.size12 a:hover{ color:#b30000;}
+
+
+.bold{ font-weight:bold; font-size:11px;}
+
+.regionales_titu { color:#327199; font-weight:bold;}
