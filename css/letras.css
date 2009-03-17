@@ -28,7 +28,7 @@
 	}
 	
 	h2 a:hover{
-	color: #5F8CE0;
+	color: #B30000;
 	}
 	
 	h3 {
@@ -260,6 +260,7 @@ color:#df0202;
 
 .regionales_titu { color:#327199; font-weight:bold;}
 
+<<<<<<< HEAD:css/letras.css
 .fechachica{ font-family:arial;
 			font-size:9px;
 			color:#bdbdbd;
@@ -267,3 +268,11 @@ color:#df0202;
 			}
 			
 			
+=======
+.fechachica{
+	font-family:arial;
+	font-size:9px;
+	color:#bbb;
+	font-weight:bold;
+			}
+>>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/letras.css

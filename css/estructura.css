@@ -167,10 +167,17 @@ padding-left:10px
   }
   
   .user{
+<<<<<<< HEAD:css/estructura.css
   float:left;
   padding:3px;
   border:#EFEFEF solid 1px; 
   background-color:#fcfcfc;
+=======
+	float:left;
+	padding:3px;
+	border:#EFEFEF solid 1px;
+	background-color:#F9FFFF;
+>>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/estructura.css
   }
   
   .lista-noticias{
@@ -205,7 +212,7 @@ padding-left:10px
   	.caja_noticias{
 	float:left;
 	width:670px;
-	margin:0 0 20px 0;
+	margin:0 0 7px 0;
 	}
   
   
@@ -238,9 +245,13 @@ padding-left:10px
 	
 	.reporteros_destacados ul li{
 	float:left;
+<<<<<<< HEAD:css/estructura.css
 	padding-right:4px;
 	/*padding-right:4px;
 	padding-bottom:8px;*/
+=======
+	padding:3px 0 3px  4px ;
+>>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/estructura.css
 	}	
 
 	
@@ -511,9 +522,15 @@ padding-left:10px
 	float:left;
 	width:655px;
 	padding:10px;
+<<<<<<< HEAD:css/estructura.css
 	background:#FFFFFF; 
 	border-right:1px #f2f2f2 solid;
 	}
+=======
+	background:#FFFFFF;
+	border-right:1px #f2f2f2 solid;
+}
+>>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/estructura.css
 	
 	#cuerpo #bloque_izquierdo #noticia_principal{
 	float:left;
@@ -607,12 +624,21 @@ padding-left:10px
   float:right;
   width:310px; 
 <<<<<<< HEAD:css/estructura.css
+<<<<<<< HEAD:css/estructura.css
   background-color:#ededed;
   padding-left:2px;
 =======
   background-color:#fff;
   padding-left:10px;
 >>>>>>> 5271d1010ea31753bb473bd86cace33474c886f0:css/estructura.css
+=======
+
+  background-color:#ededed;
+  padding-left:2px;
+
+  background-color:#fff;
+ 
+>>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/estructura.css
   }
   
   .quees{
@@ -1342,6 +1368,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
   float:left;
   width:650px;
   margin:2px 0;
+<<<<<<< HEAD:css/estructura.css
   border-bottom:#f2f2f2 solid 1px;
   padding:3px 3px 3px 0;
   }
@@ -1349,6 +1376,10 @@ background: url(../img/btn_activo.gif) right top no-repeat;
   
   .mas-noticias .user{
   float:right;
+=======
+  border-bottom:#ccc solid 1px;
+  padding:3px 0 3px 3px;
+>>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/estructura.css
   }
   
  .noticiasportada_foto{
@@ -1382,9 +1413,15 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 							.noticias_lista-noticias{
 							float:left;
+<<<<<<< HEAD:css/estructura.css
 							padding:1px 0;
 							width:456px;
 							margin-right:4px;
+=======
+							padding:1px 3px 1px 5px;
+							margin-right:10px;
+							width:458px;
+>>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/estructura.css
 						  	}
 
 							.noticiasportada_foto{
