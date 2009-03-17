@@ -506,7 +506,8 @@ padding-left:10px
 	float:left;
 	width:655px;
 	padding:10px;
-	background:#FFFFFF; border-right:1px #ccc dashed; 	}
+	background:#FFFFFF;
+}
 	
 	#cuerpo #bloque_izquierdo #noticia_principal{
 	float:left;
@@ -599,7 +600,8 @@ padding-left:10px
   #cuerpo #bloque_derecho{
   float:right;
   width:310px; 
-  background-color:#fff;
+  background-color:#ededed;
+  padding-left:10px;
   }
   
   .quees{
@@ -655,6 +657,7 @@ padding-left:10px
   margin:5px 0;
    margin-right:10px;
    border: solid 1px #ccc;
+   background-color:#FFF;
   }
   
   .comisiones img{
@@ -1409,4 +1412,3 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	
 	
-
