@@ -182,20 +182,19 @@ padding-left:10px
   
   .mini_foto{
    float:left;
-   width:22px;
-   height:29px;
-   padding-right:6px;
-   padding-left:2px;
+   border:#CCC solid 1px;
+   padding:2px;
+   margin-right:4px;
   }
   
   .datos_user{
    float:left;
   }
 
-  .datos_user img{
-  float:left;
-  padding-top:2px;
-  }	
+    .datos_user img{
+    float:left;
+	padding-top:2px;
+    }	
   
   	.caja_noticias{
 	float:left;

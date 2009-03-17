@@ -37,7 +37,7 @@
 	}
 	
 	h3 a{
-  	color:#5F8CE0;
+  	color:#00abec;
   	}
 	
 	h3 a:hover{
@@ -144,7 +144,8 @@ color: #DF0202;
 
 .txt_localidad{
 font-size:11px;
-color: #B49E25;
+color: #BBBBBB;
+line-height:13px;
 }
 
 
