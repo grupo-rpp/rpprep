@@ -151,7 +151,7 @@ padding-left:10px
   
   .noticias{
   float:left;
-  width:658px;
+  width:655px;
   padding:10px 0;
   border-bottom:#e7e7e7 solid 1px;  
   }
@@ -200,7 +200,7 @@ padding-left:10px
   	.caja_noticias{
 	float:left;
 	width:670px;
-	margin:0 0 8px 0;
+	margin:0 0 20px 0;
 	}
   
   
@@ -346,7 +346,7 @@ padding-left:10px
 	
 	#areas{
 	float:left;
-	width:660px;
+	width:654px;
 	margin:10px 0;
 	border:#f2f2f2 solid 1px;
 	}
@@ -366,8 +366,7 @@ padding-left:10px
 	
 	
 	.area_actividad{
-	padding-top:5px;
-	padding-bottom:10px;
+	padding:5px 0;
 	}
 	
 	#areas .areas_ .area_uno .user_actividades{
@@ -420,13 +419,15 @@ padding-left:10px
 	
 	.mapa{
 	float:left;
-	margin-top:5px;
-	width:670px;
-	border-bottom:#CCC solid 1px;
+	width:655px;
+	border:#f2f2f2 solid 1px;
 	}
+	
+	
 	
 	.mapa .foto_mapa{
 	float:left;
+	padding:10px 10px 0 10px;
 	}
 	
 	.mapa .foto_mapa{
@@ -442,19 +443,18 @@ padding-left:10px
 	}
 	
 	.mapa .foto_mapa .mapita{
-	margin:2px;
+	padding-top:5px;
 	}
 	
 	.mapa .datos_mapa{
 	float:left;
-	width:375px;
-	padding-top:22px;
+	width:350px;
+	padding-top:28px;
 	}
 	
 	.noti{
 	float:left;
-	padding-left:5px;
-	width:375px;
+	width:345px;
 	}
 	
 	
@@ -471,8 +471,7 @@ padding-left:10px
 	
 	.masciudad {
 	float:right;
-	padding-right:5px;
-	padding-bottom:5px;
+	padding:10px 15px;
 	}
 	
 	
