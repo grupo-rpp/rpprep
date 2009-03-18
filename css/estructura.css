@@ -240,7 +240,7 @@ padding-left:9px;
 	
 	.reporteros_destacados ul li{
 	float:left;
-	padding:10px 3px 12px 3px ;
+	padding:10px 3px 11px 3px ;
 	}	
 
 	
@@ -520,7 +520,7 @@ padding-left:9px;
 	#cuerpo #bloque_izquierdo #noticia_principal{
 	float:left;
 	width:657px;
-	padding-bottom:10px;
+	padding-bottom:6px;
 	border-bottom:1px solid #efefef;
 	}
 	
@@ -851,7 +851,7 @@ background-color:#fff;
 
 #piecera .pieceracopyright {  width:180px;
 							font-weight:bold;
-							 margin:40px 50px 1px 1px;  }
+							 margin:40px 50px 1px 60px;  }
 							
 							
 #piecera .pieceranav{    margin-top:40px;}				
@@ -1364,7 +1364,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
   width:650px;
   margin:2px 0;
   border-bottom:#ccc solid 1px;
-  padding:3px;
+  padding: 3px 3px 3px 0px;
   }
   
  
@@ -1394,14 +1394,14 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 							.noticias_lista-noticias{
 							float:left;
-							padding:1px 0;
+							padding:1px 0px 0 2px ;
 							width:460px;
 
 						  	}
 
 
 							.mas-noticias .user{
-							float:right;
+							float:right; margin-top:21px;
 							}
 
 
