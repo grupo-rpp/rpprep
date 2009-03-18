@@ -193,14 +193,19 @@ color:#df0202;
 /*--COMISIONES--------------------------------------------------*/
 
 		.comisiones_ ul li p a{
-		color:#134D86;
-		font-family:Arial, Helvetica, sans-serif;
-		font-size:14px;
+		color:#666;
+		font-family: Times New Roman, Times, serif;
+		font-size:18px;
 		}
 		
 		.comisiones_ ul li p a:hover{
 		color:#df0202;
 		}
+		
+		.comisiones_ ul li span{
+  		font-size:11px;
+ 		color:#0099FF;
+ 		}
 
 
 /*--ACTIVIDADES DEL SITIO--------------------------------------------------*/

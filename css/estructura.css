@@ -642,10 +642,8 @@ padding-left:10px;
   
   .comosubo{
   float:right;
-  width:298px;
-  height:180px;
-  background: #f0f0f0;
-  border:1px solid #CCC; margin-right:10px;
+  margin-right:10px;
+  margin-bottom:10px;
   }
   
   .comosubo h2{
@@ -674,13 +672,10 @@ padding-left:10px;
   padding-left:15px;
   } 
   
-  .comisiones{
-  float:left;
-  margin:5px 0;
-   margin-right:10px;
-   border: solid 1px #ccc;
-   background-color:#f0f0f0;
-  }
+   .comisiones{   
+   float:right;
+   margin:5px 0;
+   }
   
   .comisiones img{
         padding:0 5px;
@@ -697,16 +692,17 @@ padding-left:10px;
   
   
   .comisiones_{
-   float:right;
-   width:250px;
-   padding:5px 0;
-   margin:0 0 0 5px;
+  float:right;
+  width:286px;
+  padding:3px 6px;
+  background:#f7f7f7;
+  border:#CCC solid 1px; margin-right:10px;
   }
   
   .comisiones_ ul li{
   float:left;
   width:280px;
-  padding:3px 2px;
+  padding:5px 2px;
   display:inline;
   }
   
@@ -723,10 +719,7 @@ padding-left:10px;
   
   
   .comisiones_ ul li span{
-  padding-left:8px;
-  font-size:11px;
-  color:#ff8800;
-  }        
+  padding-left:8px;}        
 /*-----------------------------------------------------------------*/       
 
   .publi_300x250{
@@ -734,9 +727,7 @@ padding-left:10px;
   width:300px;
   height:250px;
   background:#666;
-  font-size:16px;
-  color:#FFF;
-   margin: 0 10px 10px 0;
+  margin: 10px 10px 10px 0;
   }
 
 /*-----------------------------------------------------------------*/ 
@@ -1150,7 +1141,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	#bloque_derecho h4 {
 	float:left;
-	padding-left:5px; width:200px;
+	padding-left:5px;
+	width:200px;
 	}
 	
 	#reporteros_peru{
