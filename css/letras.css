@@ -28,7 +28,7 @@
 	}
 	
 	h2 a:hover{
-	color: #5F8CE0;
+	color: #DF0202;
 	}
 	
 	h3 {
@@ -224,7 +224,7 @@ color:#df0202;
 /*--MAPA--------------------------------------------------*/
 
 	.noti h4{
-	color: #000;
+	color: #6D6D6D;
 	font-size:13px;
 	}
 	
@@ -257,7 +257,7 @@ color:#df0202;
 /*----clases nueva*/
 
 .size12 a{ font-size:12px; color:#134D86;}
-.size12 a:hover{ color:#b30000;}
+.size12 a:hover{ color:#DF0202;}
 
 
 .bold{ font-weight:bold; font-size:11px;}
@@ -266,8 +266,10 @@ color:#df0202;
 
 .fechachica{ font-family:arial;
 			font-size:9px;
-			color:#bdbdbd;
+			color:#6D6D6D;
 			font-weight:bold;
 			}
 			
-			
+.gris{
+	color:#F00;
+}			
