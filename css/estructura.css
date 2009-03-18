@@ -620,10 +620,16 @@ padding-left:9px;
       
   #cuerpo #bloque_derecho{
   float:right;
+<<<<<<< HEAD:css/estructura.css
   width:310px;
   padding-top:10px;
   background-color:#fff;
+=======
+  width:310px; 
+  background-color:#ececec;
+>>>>>>> 92e74d3dafd99e934617a1b1decaa3e1415cafdd:css/estructura.css
   padding-left:10px;
+  height:1725px;
 
   }
   
@@ -643,8 +649,7 @@ padding-left:9px;
   
   .comosubo{
   float:right;
-  margin-right:10px;
-  margin-bottom:10px;
+  margin:10px 10px 10px 0; 
   }
   
   .comosubo h2{
