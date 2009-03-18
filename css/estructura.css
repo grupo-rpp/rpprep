@@ -503,8 +503,8 @@ padding-left:9px;
 	#cuerpo{
 	float:left;
 	width:996px;
-	padding-bottom:50px;
-	padding:0 0 50px 0;
+
+	padding:0 0 20px 0;
 	background:#ffffff;
 	}
 	
@@ -831,10 +831,31 @@ padding-left:9px;
 	
 #piecera{
 float:left;
-width:996px;
-height:200px;
-background: #292929;
+width:995px;
+height:100px;
+border:1px solid #efefef;
+background-color:#fff;
 }
+
+#piecera ul{ margin:0;
+			padding:0;}
+			
+
+#piecera ul li { float:left; }
+
+#piecera ul li ul {margin:0;
+					padding:0; text-align:right; }
+					
+#piecera ul li ul li { float:left; padding-right:5px; }
+
+#piecera .pieceralogo{ padding:20px 60px 0 10px;  }
+
+#piecera .pieceracopyright {  width:180px;
+							font-weight:bold;
+							 margin:40px 50px 1px 1px;  }
+							
+							
+#piecera .pieceranav{    margin-top:40px;}				
 
 /* ULTRAMENU */
 
