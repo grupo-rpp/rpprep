@@ -169,12 +169,11 @@ padding-left:9px;
   }
   
   .user{
-
   float:left;
   padding:3px;
   border:#EFEFEF solid 1px; 
-  background-color:#fcfcfc; width:87px;
-
+  background-color:#F9FBFF;
+  width:87px;
   }
   
   .lista-noticias{
@@ -193,6 +192,7 @@ padding-left:9px;
   				   height:60px;
 				   padding:2px;
 				   border:1px solid #efefef;
+				   margin-top:2px;
 				   }
   
   .datos_user{
@@ -521,7 +521,7 @@ padding-left:9px;
 	#cuerpo #bloque_izquierdo #noticia_principal{
 	float:left;
 	width:657px;
-	padding-bottom:20px;
+	padding-bottom:10px;
 	border-bottom:1px solid #efefef;
 	}
 	
@@ -556,7 +556,6 @@ padding-left:9px;
 		#noticia_titular{
 		float:left;
 		display:inline;
-		height:178px;
 		width:345px;
 		}
 		
