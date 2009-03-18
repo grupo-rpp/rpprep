@@ -503,8 +503,8 @@ padding-left:9px;
 	#cuerpo{
 	float:left;
 	width:996px;
-	padding-bottom:50px;
-	padding:0 0 50px 0;
+
+	padding:0 0 20px 0;
 	background:#ffffff;
 	}
 	
@@ -556,7 +556,6 @@ padding-left:9px;
 		float:left;
 		display:inline;
 		width:345px;
-		padding-bottom:15px;
 		}
 		
 		#noticia_titular h1{
@@ -572,9 +571,7 @@ padding-left:9px;
 		float:left;
 		width:300px; 
 		height:225px;
-		margin-right:8px;
-		padding:1px;
-		border:#EFEFEF solid 1px;
+		margin-right:12px;
 		}			
 		
 		#noticia_usuario{
@@ -620,14 +617,8 @@ padding-left:9px;
       
   #cuerpo #bloque_derecho{
   float:right;
-<<<<<<< HEAD:css/estructura.css
-  width:310px;
-  padding-top:10px;
-  background-color:#fff;
-=======
   width:310px; 
   background-color:#ececec;
->>>>>>> 92e74d3dafd99e934617a1b1decaa3e1415cafdd:css/estructura.css
   padding-left:10px;
   height:1725px;
 
@@ -749,8 +740,8 @@ padding-left:9px;
   float:right;
   width:286px;
   padding:3px 6px;
-  background:#f7f7f7;
-  border:#CCC solid 1px; margin-right:10px;
+  background:#333;
+  margin-right:10px;
   } 
   
   .interes_{
@@ -758,7 +749,7 @@ padding-left:9px;
   width:288px;
   padding:3px 6px;
   border-top:#CCC solid 1px;
-   margin-right:10px; background-color:#FFF;
+  margin-right:10px;
   } 
 
   .grupitos_ ul{
@@ -774,13 +765,15 @@ padding-left:9px;
   
   
   .grupos_ .grupitos_ ul li span{
-  color:#0099FF;
+  color:#ff8800;
   font-size:11px;
   padding-left:5px;
   }
   
   
-  
+  .grupitos_ h5 a{
+  color:#CCCCCC;
+  }
   
   .grupos_ .grupitos_ p a{
   float:right;
@@ -795,10 +788,10 @@ padding-left:9px;
   
 
   .tag_1 a{
-  font-family:"Times New Roman", Times, serif;
+  font-family:Times New Roman, Times, serif;
   padding-left:8px;
   padding-right:2px;
-  color:#CCCCCC;
+  color: #ccc;
   font-size:18px;
   }
   .tag_1 a:hover{
@@ -806,8 +799,8 @@ padding-left:9px;
   }
   
   .tag_2 a{
-  font-family:"Times New Roman", Times, serif;
-  color:#666;
+  font-family:Times New Roman, Times, serif;
+  color: #666666;
   font-size:22px;
   }
   .tag_2 a:hover{
@@ -815,10 +808,10 @@ padding-left:9px;
   }
   
   .tag_3 a{
-  font-family:"Times New Roman", Times, serif;
+  font-family:Times New Roman, Times, serif;
   padding-left:5px;
   padding-right:2px;
-  color: #CCCCCC;
+  color: #8D8D8D;
   font-size:26px;
   }
   .tag_3 a:hover{
@@ -840,8 +833,43 @@ padding-left:9px;
 #piecera{
 float:left;
 width:996px;
-height:200px;
-background: #292929;
+height:100px;
+background:url(../img/foot.jpg) no-repeat;
+}
+
+#piecera ul{ margin:0;
+			padding:10px 0 0 320px;
+			}
+			
+
+#piecera ul li { float:left; }
+
+#piecera ul li ul {margin:0;
+					padding:0; text-align:right; }
+					
+#piecera ul li ul li { float:left; padding-right:5px; }
+
+#piecera .pieceralogo{ padding-top:20px; padding-left:10px; width:280px;  }
+
+#piecera .pieceracopyright {  width:180px;
+							font-weight:bold;
+							 margin:40px 50px 1px 1px;  }
+							
+							
+#piecera .pieceranav{
+margin-top:40px;
+}				
+
+#piecera .pieceranav h3{
+color:#666;
+}
+
+#piecera .pieceranav ul li h3 a{
+color:#666;
+}
+
+#piecera .pieceranav ul li h3 a:hover{
+color: #999999;
 }
 
 /* ULTRAMENU */
@@ -1349,10 +1377,10 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .mas-noticias{
   float:left;
-  width:655px;
+  width:650px;
   margin:2px 0;
   border-bottom:#ccc solid 1px;
-  padding:3px 0 3px 0;
+  padding:3px;
   }
   
  
@@ -1390,7 +1418,6 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 							.mas-noticias .user{
 							float:right;
-							margin-top:21px;
 							}
 
 
@@ -1398,7 +1425,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							width:80px;
 							height:60px;
 							float:left;
-							margin-right: 15px;
+							margin-right: 10px;
 							}
 					   
 		
