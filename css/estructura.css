@@ -556,6 +556,7 @@ padding-left:9px;
 		float:left;
 		display:inline;
 		width:345px;
+		padding-bottom:15px;
 		}
 		
 		#noticia_titular h1{
@@ -571,7 +572,9 @@ padding-left:9px;
 		float:left;
 		width:300px; 
 		height:225px;
-		margin-right:12px;
+		margin-right:8px;
+		padding:1px;
+		border:#EFEFEF solid 1px;
 		}			
 		
 		#noticia_usuario{
@@ -617,8 +620,8 @@ padding-left:9px;
       
   #cuerpo #bloque_derecho{
   float:right;
-  width:310px; 
-
+  width:310px;
+  padding-top:10px;
   background-color:#fff;
   padding-left:10px;
 
@@ -1341,10 +1344,10 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .mas-noticias{
   float:left;
-  width:650px;
+  width:655px;
   margin:2px 0;
   border-bottom:#ccc solid 1px;
-  padding:3px;
+  padding:3px 0 3px 0;
   }
   
  
@@ -1382,6 +1385,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 							.mas-noticias .user{
 							float:right;
+							margin-top:21px;
 							}
 
 
@@ -1389,7 +1393,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							width:80px;
 							height:60px;
 							float:left;
-							margin-right: 10px;
+							margin-right: 15px;
 							}
 					   
 		
