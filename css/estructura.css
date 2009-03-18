@@ -183,7 +183,7 @@ padding-left:9px;
   
   .mini_foto{
    float:left;
-   border:#eefefef solid 1px;
+   border:#efefef solid 1px;
    padding:2px;
    margin-right:4px;
   }
@@ -1020,8 +1020,9 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	.menu_itext{
 	border:#ccc solid 1px;
 	width:230px;
-	font-size:11px;
+    font-size:1.1em;
 	color:#666666;
+	padding-bottom:2px;
 	}
 	
 	
