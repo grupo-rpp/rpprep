@@ -141,7 +141,7 @@ padding-top:5px;
 #cabecera_menu{
 float:left;
 width:986px;
-border-bottom:#CCC solid 1px;
+
 padding-left:10px;
 }
 
@@ -535,7 +535,7 @@ padding-left:10px;
 		
 		.degrade{
 		float:left;
-		width:996px;
+		width:996px; height:21px; background-image:url(../img/degrade.gif);
 		}		
 		
 		

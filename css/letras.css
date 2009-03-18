@@ -28,7 +28,7 @@
 	}
 	
 	h2 a:hover{
-	color: #5F8CE0;
+	color: #DF0202;
 	}
 	
 	h3 {
@@ -252,7 +252,7 @@ color:#df0202;
 /*----clases nueva*/
 
 .size12 a{ font-size:12px; color:#134D86;}
-.size12 a:hover{ color:#b30000;}
+.size12 a:hover{ color:#DF0202;}
 
 
 .bold{ font-weight:bold; font-size:11px;}
