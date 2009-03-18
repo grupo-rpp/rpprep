@@ -28,7 +28,7 @@
 	}
 	
 	h2 a:hover{
-	color: #B30000;
+	color: #DF0202;
 	}
 	
 	h3 {
@@ -144,7 +144,7 @@ color: #DF0202;
 
 .txt_localidad{
 font-size:11px;
-color: #BBBBBB;
+color: #6d6d6d;
 line-height:13px;
 }
 
@@ -193,14 +193,19 @@ color:#df0202;
 /*--COMISIONES--------------------------------------------------*/
 
 		.comisiones_ ul li p a{
-		color:#134D86;
-		font-family:Arial, Helvetica, sans-serif;
-		font-size:14px;
+		color:#666;
+		font-family: Times New Roman, Times, serif;
+		font-size:18px;
 		}
 		
 		.comisiones_ ul li p a:hover{
 		color:#df0202;
 		}
+		
+		.comisiones_ ul li span{
+  		font-size:11px;
+ 		color:#0099FF;
+ 		}
 
 
 /*--ACTIVIDADES DEL SITIO--------------------------------------------------*/
@@ -218,6 +223,12 @@ color:#df0202;
 
 /*--MAPA--------------------------------------------------*/
 
+	.noti h4{
+	color: #6D6D6D;
+	font-size:13px;
+	}
+	
+	
 	.noti h2{
 	font-family:Arial, Helvetica, sans-serif;
 	color:#000000;
@@ -227,13 +238,6 @@ color:#df0202;
 	font-family:Arial, Helvetica, sans-serif;
 	color:#134D86;
 	}
-	
-	
-	.noti h4{
-	color:#FF8800;
-	font-size:14px;
-	}
-	
 	
 	.noti a:hover{
 	color:#df0202;
@@ -253,26 +257,19 @@ color:#df0202;
 /*----clases nueva*/
 
 .size12 a{ font-size:12px; color:#134D86;}
-.size12 a:hover{ color:#b30000;}
+.size12 a:hover{ color:#DF0202;}
 
 
 .bold{ font-weight:bold; font-size:11px;}
 
 .regionales_titu { color:#327199; font-weight:bold;}
 
-<<<<<<< HEAD:css/letras.css
 .fechachica{ font-family:arial;
-			font-size:9px;
-			color:#bdbdbd;
-			font-weight:bold;
+			 font-size:9px;
+			 color:#aaa;
+			 font-weight:bold;
 			}
 			
-			
-=======
-.fechachica{
-	font-family:arial;
-	font-size:9px;
-	color:#bbb;
-	font-weight:bold;
-			}
->>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/letras.css
+.gris{
+	color:#F00;
+}			
