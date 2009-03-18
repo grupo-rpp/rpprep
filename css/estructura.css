@@ -75,6 +75,7 @@ float:left;
 width:996px;
 padding:10px 0 0 0;
 background:#FFFFFF;
+background:url(../img/city.gif) bottom no-repeat;
 }
 
 #registro{
@@ -139,8 +140,8 @@ padding-top:5px;
 #cabecera_menu{
 float:left;
 width:986px;
-border-bottom:#CCCCCC solid 1px;
-padding-left:10px
+border-bottom:#CCC solid 1px;
+padding-left:10px;
 }
 
 /*
@@ -167,17 +168,10 @@ padding-left:10px
   }
   
   .user{
-<<<<<<< HEAD:css/estructura.css
   float:left;
   padding:3px;
   border:#EFEFEF solid 1px; 
   background-color:#fcfcfc;
-=======
-	float:left;
-	padding:3px;
-	border:#EFEFEF solid 1px;
-	background-color:#F9FFFF;
->>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/estructura.css
   }
   
   .lista-noticias{
@@ -195,9 +189,7 @@ padding-left:10px
   .foto_noticias{ width:80px;
   				   height:60px;
 				   padding:2px;
-				   background-color:#FCFCFC;
-				   border:1px solid #EFEFEF;
-				   margin-right:5px;
+				   border:1px solid #ccc;
 				   }
   
   .datos_user{
@@ -212,7 +204,7 @@ padding-left:10px
   	.caja_noticias{
 	float:left;
 	width:670px;
-	margin:0 0 7px 0;
+	margin:0 0 20px 0;
 	}
   
   
@@ -227,7 +219,8 @@ padding-left:10px
 	
 	.reporteros_destacados{
 	float:left;
-	width:309px;
+	width:304px;
+	margin-right:5px;
 	padding:3px;
 	border:1px solid #F2F2F2;
 	}
@@ -239,25 +232,20 @@ padding-left:10px
 	
 	.reporteros_destacados ul{
 	float:left;
-	padding-left:5px;
 	}
 	
 	
 	.reporteros_destacados ul li{
 	float:left;
-<<<<<<< HEAD:css/estructura.css
-	padding-right:4px;
-	/*padding-right:4px;
-	padding-bottom:8px;*/
-=======
 	padding:3px 0 3px  4px ;
->>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/estructura.css
 	}	
 
 	
 	.reporteros_destacados h5{
-	float:left;
+	float:right;
+	padding-right:5px;
 	padding-bottom:10px;
+	padding-top:5px;
 	}
 	
 	
@@ -473,13 +461,13 @@ padding-left:10px
 	.noti{
 	float:left;
 	width:340px;
+	padding-bottom:5px;
 	}
 	
 	
 	
 	.mapa .datos_mapa .user_ciudad{
 	float:left;
-	padding-left:5px;
 	padding-bottom:8px;
 	}
 	
@@ -513,8 +501,9 @@ padding-left:10px
 	float:left;
 	width:996px;
 	padding-bottom:50px;
-	padding:10px 0 10px 0;
-	background:#fff;
+	padding:0 0 10px 0;
+	background:#ffffff;
+	
 	}
 	
 	
@@ -522,21 +511,15 @@ padding-left:10px
 	float:left;
 	width:655px;
 	padding:10px;
-<<<<<<< HEAD:css/estructura.css
-	background:#FFFFFF; 
-	border-right:1px #f2f2f2 solid;
-	}
-=======
 	background:#FFFFFF;
-	border-right:1px #f2f2f2 solid;
+	border-right:1px #ccc solid;
 }
->>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/estructura.css
 	
 	#cuerpo #bloque_izquierdo #noticia_principal{
 	float:left;
 	width:657px;
 	padding-bottom:20px;
-	border-bottom:1px solid #f2f2f2;
+	border-bottom:1px solid #ccc;
 	}
 	
 	
@@ -546,6 +529,17 @@ padding-left:10px
 				  
 /*---------------------------------------------------------*/
 
+		
+		.degrade{
+		float:left;
+		width:996px;
+		}		
+		
+		
+		
+		
+		
+		
 		.foto_principal{
 		float:left;
 		border:0;
@@ -624,21 +618,12 @@ padding-left:10px
   float:right;
   width:310px; 
 <<<<<<< HEAD:css/estructura.css
-<<<<<<< HEAD:css/estructura.css
   background-color:#ededed;
   padding-left:2px;
 =======
   background-color:#fff;
   padding-left:10px;
 >>>>>>> 5271d1010ea31753bb473bd86cace33474c886f0:css/estructura.css
-=======
-
-  background-color:#ededed;
-  padding-left:2px;
-
-  background-color:#fff;
- 
->>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/estructura.css
   }
   
   .quees{
@@ -1368,26 +1353,11 @@ background: url(../img/btn_activo.gif) right top no-repeat;
   float:left;
   width:650px;
   margin:2px 0;
-<<<<<<< HEAD:css/estructura.css
-  border-bottom:#f2f2f2 solid 1px;
-  padding:3px 3px 3px 0;
-  }
-  
-  
-  .mas-noticias .user{
-  float:right;
-=======
   border-bottom:#ccc solid 1px;
-  padding:3px 0 3px 3px;
->>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/estructura.css
+  padding:3px;
   }
   
- .noticiasportada_foto{
-	width:80px;
-	height:65px;
-	float:left;
-	margin:5px 5px 0 0;
-					   }
+ 
 					   
 .noticiasportada_foto2 {
 	width:55px;
@@ -1413,22 +1383,21 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 							.noticias_lista-noticias{
 							float:left;
-<<<<<<< HEAD:css/estructura.css
 							padding:1px 0;
-							width:456px;
-							margin-right:4px;
-=======
-							padding:1px 3px 1px 5px;
-							margin-right:10px;
-							width:458px;
->>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/estructura.css
+							width:460px;
 						  	}
+
+
+							.mas-noticias .user{
+							float:right;
+							}
+
 
 							.noticiasportada_foto{
 							width:80px;
 							height:60px;
 							float:left;
-							margin:5px 12px 0 0;
+							margin-right: 10px;
 							}
 					   
 		
