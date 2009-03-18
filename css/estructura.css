@@ -1022,8 +1022,9 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	.menu_itext{
 	border:#ccc solid 1px;
 	width:230px;
-	font-size:11px;
+    font-size:1.1em;
 	color:#666666;
+	padding-bottom:2px;
 	}
 	
 	
