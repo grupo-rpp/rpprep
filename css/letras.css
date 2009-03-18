@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+	 body{
+	 font-family:Arial, Helvetica, sans-serif;
+     color:#000;
+	 font-size:12px;
+ 	 }
+ 
+ 	h1{
+	font-size: 20px;
+	font-weight:700;
+	color:#327199;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+		
+	h2{
+	font-size:16px;
+	color: #327199;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	h2 a{
+	font-size:16px;
+	color: #327199;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+    line-height:20px;
+	}
+	
+	h2 a:hover{
+	color: #B30000;
+	}
+	
+	h3 {
+	color: #0066FF;
+	font-size:11px;
+	}
+	
+	h3 a{
+  	color:#5F8CE0;
+  	}
+	
+	h3 a:hover{
+  	color:#DF0202;
+  	}
+  
+	
+	h4{
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	}
+	
+	h4 a{
+	color:#5F8CE0;
+	}
+	
+	h4 a:hover{
+	color:#ff0000;
+	}
+	
+	
+	h5 {
+	float:right;
+	font-size:12px;
+	text-decoration:none;
+	color:#333;
+	}
+
+	h5 a{
+	color: #327199;
+	}
+	
+	h5 a:hover{
+	color: #df0202;
+	}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 	a{
+	text-decoration:none;
+	color:#000;
+	}
+	
+	p{
+	text-decoration:none;
+	line-height:16px;
+	}
+	
+	.ultimas{
+	color:#000000;
+	}
+ 
+    a:hover{
+	text-decoration:none;
+    }
+
+	.vermas a{
+	font-size:100% ;
+	color:#327199;
+	}
+	
+	.vermas a:hover{
+	color:#df0202;
+	}
+    
+	
+		
+
+
+
+
+#cabecera_menu{
+font-size:14px;
+}
+	
+#cabecera_rss{
+font-size:12px;
+}	
+	
+#cabecera_datos_busqueda a{
+font-size:10px;
+text-decoration:underline;
+}
+
+.txt_nombre a{
+font-size:11px;
+color: #5F8CE0;
+}
+
+.txt_nombre a:hover{
+color: #DF0202;
+}
+
+.txt_localidad{
+font-size:11px;
+color: #BBBBBB;
+line-height:13px;
+}
+
+
+
+
+/*--TITULARES--------------------------------------------------*/
+
+
+
+#noticia_principal #noticia_titular h1 a{
+color:#327199;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#noticia_principal #noticia_titular h1 a:hover{
+color:#df0202;
+}
+
+
+.mas-noticias .lista-noticias h2 a{
+color: #3584d1;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.mas-noticias .lista-noticias h2 a:hover{
+color: #df0202;
+}
+
+
+
+/*--REPORTEROS DESTACADOS--------------------------------------------------*/
+
+
+
+
+/*.reporteros_destacados span a{
+color:#327199;
+}
+
+.reporteros_destacados span a:hover{
+color:#df0202;
+}*/
+
+
+/*--COMISIONES--------------------------------------------------*/
+
+		.comisiones_ ul li p a{
+		color:#134D86;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		}
+		
+		.comisiones_ ul li p a:hover{
+		color:#df0202;
+		}
+
+
+/*--ACTIVIDADES DEL SITIO--------------------------------------------------*/
+
+	.ultimas a{
+	color:#3584D1;
+	margin-bottom:3px;
+	}
+	
+	.ultimas a:hover{
+	color:#df0202;
+	}
+	
+
+
+/*--MAPA--------------------------------------------------*/
+
+	.noti h2{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000000;
+	}
+	
+	.noti a{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#134D86;
+	}
+	
+	
+	.noti h4{
+	color:#FF8800;
+	font-size:14px;
+	}
+	
+	
+	.noti a:hover{
+	color:#df0202;
+	}
+	
+	.noti p{
+	color:#666;
+	}
+	
+	.noti .ultimas a{
+	color: #3584D1;
+	}
+	
+	.noti .ultimas a:hover{
+	color:#DF0202;
+	}
+/*----clases nueva*/
+
+.size12 a{ font-size:12px; color:#134D86;}
+.size12 a:hover{ color:#b30000;}
+
+
+.bold{ font-weight:bold; font-size:11px;}
+
+.regionales_titu { color:#327199; font-weight:bold;}
+
+<<<<<<< HEAD:css/letras.css
+.fechachica{ font-family:arial;
+			font-size:9px;
+			color:#bdbdbd;
+			font-weight:bold;
+			}
+			
+			
+=======
+.fechachica{
+	font-family:arial;
+	font-size:9px;
+	color:#bbb;
+	font-weight:bold;
+			}
+>>>>>>> 8164dc71920000e911e31f20e779bcceb8dab533:css/letras.css
