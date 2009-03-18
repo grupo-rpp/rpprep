@@ -642,15 +642,8 @@ padding-left:9px;
   
   .comosubo{
   float:right;
-<<<<<<< HEAD:css/estructura.css
   margin-right:10px;
   margin-bottom:10px;
-=======
-  width:298px;
-  height:180px;
-  background: #f0f0f0;
-  border:1px solid #efefef; margin-right:10px;
->>>>>>> ca7703a5633b541e37cf55dcef3cc92cb9d347ed:css/estructura.css
   }
   
   .comosubo h2{
@@ -698,14 +691,7 @@ padding-left:9px;
         padding:0 5px;
   }
   
-  .comisiones h4{
-   float:left;
-   padding:0 0 0 5px;
-   margin:5px 0 3px 0;
-   font-family:Arial, Helvetica, sans-serif;
-   font-size:16px;
-   color:#000000;
-  }
+  
   
   
   .comisiones_{
@@ -719,7 +705,7 @@ padding-left:9px;
   .comisiones_ ul li{
   float:left;
   width:280px;
-  padding:5px 2px;
+  padding:5px 0 5px 5px;
   display:inline;
   }
   
@@ -744,13 +730,13 @@ padding-left:9px;
   width:300px;
   height:250px;
   background:#666;
-  margin: 10px 10px 10px 0;
+  margin: 15px 10px 15px 0;
   }
 
 /*-----------------------------------------------------------------*/ 
   .grupos_{
   float:right;
-  margin:5px 0;
+  margin-bottom:10px;
   }
   
   .grupitos_{
@@ -773,8 +759,6 @@ padding-left:9px;
   margin:5px 0 0 25px;
   }
   .grupos_ h4{
-  float:left;
-  padding-left:5px;
   padding-bottom:3px;
   }
   .grupos_ h5{
@@ -1158,7 +1142,6 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	#bloque_derecho h4 {
 	float:left;
-	padding-left:5px;
 	width:200px;
 	}
 	
