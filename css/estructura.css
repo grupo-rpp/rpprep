@@ -153,7 +153,7 @@ padding-left:10px;
   float:left;
   width:655px;
   padding:10px 0;
-  border-bottom:#e7e7e7 solid 1px;  
+  border-bottom:#efefef solid 1px;  
   }
   
   .masnoticias{
@@ -182,7 +182,7 @@ padding-left:10px;
   
   .mini_foto{
    float:left;
-   border:#e1e1e1 solid 1px;
+   border:#eefefef solid 1px;
    padding:2px;
    margin-right:4px;
   }
@@ -190,7 +190,7 @@ padding-left:10px;
   .foto_noticias{ width:80px;
   				   height:60px;
 				   padding:2px;
-				   border:1px solid #ccc;
+				   border:1px solid #efefef;
 				   }
   
   .datos_user{
@@ -513,14 +513,14 @@ padding-left:10px;
 	width:655px;
 	padding:10px;
 	background:#FFFFFF;
-	border-right:1px #ccc solid;
+	border-right:1px #efefef solid;
 }
 	
 	#cuerpo #bloque_izquierdo #noticia_principal{
 	float:left;
 	width:657px;
 	padding-bottom:20px;
-	border-bottom:1px solid #ccc;
+	border-bottom:1px solid #efefef;
 	}
 	
 	
@@ -646,7 +646,7 @@ padding-left:10px;
   width:298px;
   height:180px;
   background: #f0f0f0;
-  border:1px solid #CCC; margin-right:10px;
+  border:1px solid #efefef; margin-right:10px;
   }
   
   .comosubo h2{
@@ -679,7 +679,7 @@ padding-left:10px;
   float:left;
   margin:5px 0;
    margin-right:10px;
-   border: solid 1px #ccc;
+   border: solid 1px #efefef;
    background-color:#f0f0f0;
   }
   
