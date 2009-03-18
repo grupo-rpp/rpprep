@@ -847,7 +847,7 @@ background-color:#fff;
 					
 #piecera ul li ul li { float:left; padding-right:5px; }
 
-#piecera .pieceralogo{ padding:20px 60px 0 10px;  }
+#piecera .pieceralogo{ padding-top:20px; padding-left:10px; width:280px;  }
 
 #piecera .pieceracopyright {  width:180px;
 							font-weight:bold;
