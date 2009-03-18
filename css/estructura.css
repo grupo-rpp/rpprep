@@ -55,7 +55,8 @@ quotes: "" "";
 
 
 body {
-background:#efefef;
+background:#dfdfdf;
+margin-top: 5px
 }
 
 
@@ -73,7 +74,7 @@ margin:auto;
 #cabecera{
 float:left;
 width:996px;
-padding:10px 0 0 0;
+padding:5px 0 0 0;
 background:#FFFFFF;
 background:url(../img/city.gif) bottom no-repeat;
 }
@@ -117,7 +118,7 @@ float:left;
 
 #logaso{
 float:left;
-padding-left:15px;
+padding-left:8px;
 width:250px;
 height:55px;
 }
