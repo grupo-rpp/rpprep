@@ -167,7 +167,7 @@ padding-left:10px
   }
   
   .user{
-	float:left;
+	float:right;
 	padding:3px;
 	border:#EFEFEF solid 1px;
 	background-color:#F9FFFF;
@@ -1371,11 +1371,10 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
   /*---------------------------PORTADA NOTICIAS _LOGOUT---------------------------*/
 	
-							.noticias_lista-noticias{
-							float:left;
-							padding:1px 3px 1px 5px;
-							margin-right:10px;
-							width:458px;
+												.noticias_lista-noticias{
+	float:left;
+	padding:1px 3px 1px 5px;
+	width:458px;
 						  	}
 
 							.noticiasportada_foto{
