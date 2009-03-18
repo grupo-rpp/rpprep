@@ -28,7 +28,7 @@
 	}
 	
 	h2 a:hover{
-	color: #B30000;
+	color: #5F8CE0;
 	}
 	
 	h3 {
@@ -144,7 +144,7 @@ color: #DF0202;
 
 .txt_localidad{
 font-size:11px;
-color: #BBBBBB;
+color: #6d6d6d;
 line-height:13px;
 }
 
@@ -218,6 +218,12 @@ color:#df0202;
 
 /*--MAPA--------------------------------------------------*/
 
+	.noti h4{
+	color: #CCC;
+	font-size:13px;
+	}
+	
+	
 	.noti h2{
 	font-family:Arial, Helvetica, sans-serif;
 	color:#000000;
@@ -253,9 +259,12 @@ color:#df0202;
 
 .regionales_titu { color:#327199; font-weight:bold;}
 
-.fechachica{
-	font-family:arial;
-	font-size:9px;
-	color:#bbb;
-	font-weight:bold;
+.fechachica{ font-family:arial;
+			font-size:9px;
+			color:#bdbdbd;
+			font-weight:bold;
 			}
+			
+.gris{
+	color:#F00;
+}			
