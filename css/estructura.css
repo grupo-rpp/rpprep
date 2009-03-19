@@ -379,10 +379,27 @@ padding-left:9px;
 	padding-left:8px;
 	}
 	
-	#areas .areas_ .area_uno{
+	
+	.titulo_area{
 	float:left;
 	width:312px;
 	margin-bottom:10px;
+	border-bottom:#ccc solid 1px;
+	}
+	
+	.titulo_area img{
+	float:left;
+	}
+	
+	.titulo_area h4{
+	padding-left:25px;
+	padding-top:17px;
+	}
+	
+	#areas .areas_ .area_uno{
+	float:left;
+	width:312px;
+	padding-bottom:10px;
 	padding-right:10px;
 	}
 	
@@ -449,7 +466,7 @@ padding-left:9px;
 	
 	.mapa .foto_mapa{
 	float:left;
-	padding:10px 10px 0 10px;
+	padding:10px 0 0 8px;
 	}
 	
 	.mapa .foto_mapa{
@@ -465,14 +482,14 @@ padding-left:9px;
 	}
 	
 	.mapa .foto_mapa .mapita{
-	padding-top:2px;
+	padding-top:5px;
 	}
 	
 	.mapa .datos_mapa{
-	float:left;
-	width:321px;
-	padding-left:9px;
-	padding-top:28px;
+ 	float:left;
+ 	width:320px;
+ 	padding-left:10px;
+ 	padding-top:28px;
 	}
 	
 	.noti{
@@ -548,7 +565,12 @@ padding-left:9px;
 		
 		.degrade{
 		float:left;
+<<<<<<< HEAD:css/estructura.css
+		width:996px;
+		height:10px;
+=======
 		width:996px; height:10px;
+>>>>>>> 4c4b75811a33fb021858cbdc2106f85763c66dd6:css/estructura.css
 		background-image:url(../img/degrade.gif);
 		}		
 		
