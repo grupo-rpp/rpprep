@@ -457,13 +457,13 @@ padding-left:9px;
 	
 	.mapa .datos_mapa{
 	float:left;
-	width:350px;
+	width:324px; padding-left:9px;
 	padding-top:28px;
 	}
 	
 	.noti{
 	float:left;
-	width:340px;
+	width:323px;
 	padding-bottom:5px;
 	}
 	
