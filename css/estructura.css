@@ -555,7 +555,7 @@ padding-left:9px;
 	#cuerpo #bloque_izquierdo #noticia_principal_inter{
 	float:left;
 	width:657px;
-	padding-bottom:8px;	
+	padding-bottom:8px; margin-top:8px;	
 	}
 	
 					
@@ -707,59 +707,7 @@ padding-left:9px;
   float:left;
   margin:0 0px 5px 0;  
   }
-  
-    .comisionesparati{
-  float:left;
-  margin:0 10px 20px 0;  
-  }
-
-  
-  .comisiones img{
-        padding:0 5px;
-  }
-  
-  
-  
-  
-  .comisiones_{
-  float:right;
-  width:286px;
-  padding:3px 6px;
-  background:#f7f7f7;
-  border:#CCC solid 1px; margin-right:10px;
-  }
-  
-    .comisiones_2{
-  float:right;
-  width:286px;
-  
-  background:#f7f7f7;
-  border:#CCC solid 1px; margin-right:10px;
-  }
-  
-  
-  .comisiones_ ul li{
-  float:left;
-  width:280px;
-  padding:5px 0 5px 5px;
-  display:inline;
-  }
-  
-  .comisiones_ ul li p a{
- 
-  color:#1d4d6c;}
-  
-  
-  
-  
-  .comisiones_ ul li h3{
-  float:right;
-  }
-  
-  
-  .comisiones_ ul li span{
-  padding-left:8px;}        
-/*-----------------------------------------------------------------*/       
+      
 
   .publi_300x250{
   float:right;
@@ -1151,18 +1099,18 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	list-style:none;
 	margin:0;
 	padding:0;
-	background:#009966; 
+	
 	}
 	
 	ul#lomas_tabs_nav li a{
 	display:block;
 	margin-left:1px;
-	padding:0 15px ;
-	background:no-repeat #ececec;	
+	padding:0 15px;
+	background-image:url(../img/btn_normal3.gif);
 	cursor:pointer; /*agregar*/
 	height:25px;
 	float:left;
-	color:#000;
+	color:#327199;
 	font-size:11px;
 	line-height:25px;
 	border-left: 1px solid #ccc;
@@ -1176,9 +1124,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 
 
-	ul#lomas_tabs_nav li a.activo, ul#lomas_tabs_nav li a:hover.activo{
-	background-color:#fff;
-	color:#000;
+	ul#lomas_tabs_nav li a.activo, ul#lomas_tabs_nav li a:hover.activo{ background-image: url(../img/btn_activo.gif);
+	color:#fff;
 	height:25px;
 	font-size:11px;
 	line-height:25px;	
@@ -1190,26 +1137,6 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 
 
-	/*.paginado_{
-	float:left;
-	padding:5px 5px 5px 580px;
-	margin-left:1px;
-	border-top:#CCC solid 1px;
-	}
-	
-	.paginado2_{
-	float:left;
-	padding:5px 5px 10px 580px;
-	margin-left:1px;
-	}
-	
-	.paginado_ a{
-	color:#327199;
-	}
-	
-	.paginado_ a:hover{
-	color:#ff0000;
-	}*/
 	
 	
 	#bloque_derecho h4 {
@@ -1473,7 +1400,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							line-height:22px;
 							float:left;
 							padding-right:10px;
-							margin-left:1px;
+							margin-left:1px; background-image:url(../img/btn_normal2.gif);
 							}
 							
 							
@@ -1487,29 +1414,29 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							}
 							
 							
-		.comisiones_ , .categorias {/*agregado*/
-		float:left;
-		width:300px;
-		padding:5px 0;
-		background:#f6f6f6;
-		border:#f2f2f2 solid 1px;
+		.comisiones_ {/*agregado*/
+	float:left;
+	width:300px;
+	height:200px;
+	background:#f6f6f6;
+	border:#f2f2f2 solid 1px;
 		}
 		
-		.comisiones_ ul li, .categorias ul li{ /*agregado*/
+		.comisiones_ ul li{ /*agregado*/
 		float:left;
 		width:280px;
 		padding:3px 20px;
 		display:inline;
 		}
 		
-		.comisiones_ ul li p a , .categorias ul li p a {/*agregado*/
+		.comisiones_ ul li p a {/*agregado*/
 		padding-left:10px;
 		color:#1d4d6c;
 		
 		font-size:14px;
 		}
 		
-		.comisiones_ ul li p a:hover, .categorias ul li p a:hover { /*agregado*/
+		.comisiones_ ul li p a:hover { /*agregado*/
 		color:#df0202;
 		}
 							
@@ -1545,11 +1472,65 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		
 		
 	
- /*---------------------------FIN PORTADA NOTICIAS _LOGOUT-------------------------------------*/
+ /*---------------------------FIN PORTADA NOTICIAS _LOGOUT LOGIN-------------------------------------*/
 	
 	
-	
-	
+	/*---------------------------PORTADA REPORTEROS ---------------------------*/
+	  
+	 .reporteros_sigues{
+		 				width:655px;
+	 					 height:140px;						 
+						 margin:5px 0 10px 2px;
+						 border:1px  solid #ccc;
+						 }
+						 
+	.reporteros_sigues p{ margin-left:4px; }					 
+						 
+	.reporteros_content{
+	width:652px;
+	height:660px;
+	margin-left:1px;
+	float:left;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding-top:10px;
+						}
+						
+	.reporteros_siguesfotos ul{ margin:0;
+								padding:0;
+								}
+								
+	.reporteros_siguesfotos ul li{ float:left;
+									width:120px;
+									height:125px;
+									
+									margin:5px 20px 0 20px;
+									}
+									
+	.reporteros_destacadodeta{
+								width:250px;
+								height:100px;
+								margin-top:10px; float:left;
+								}
+								
+	.reporteros_destacadodeta .reporteros_fotodesta{ margin:3px 5px 0 10px;
+													float:left;  }							
+		 
+	 .reporteros_destacadodeta  p {  float:left;}
+	 
+	 .reporteros_destacadodeta h3{ padding-top:15px;}
+	 
+	 .reporteros_premio{ width:250px;
+	 					  height:100px;
+						  float:left;
+	 					  
+						  margin:3px 5px 0 50px;
+						  border:1px solid #CCC;
+						  }
+	.reportero_fotos{ width:120px; height:90px; }					  
+	    /*--------------------------- FIN PORTADA REPORTEROS ---------------------------*/
+			
 	
 	
 		
