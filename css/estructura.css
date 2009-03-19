@@ -240,7 +240,7 @@ padding-left:9px;
 	
 	.reporteros_destacados ul li{
 	float:left;
-	padding:10px 3px 12px 3px ;
+	padding:10px 3px 11px 3px ;
 	}	
 
 	
@@ -452,7 +452,7 @@ padding-left:9px;
 	}
 	
 	.mapa .foto_mapa .mapita{
-	padding-top:5px;
+	padding-top:2px;
 	}
 	
 	.mapa .datos_mapa{
@@ -520,7 +520,7 @@ padding-left:9px;
 	#cuerpo #bloque_izquierdo #noticia_principal{
 	float:left;
 	width:657px;
-	padding-bottom:10px;
+	padding-bottom:6px;
 	border-bottom:1px solid #efefef;
 	}
 	
@@ -618,7 +618,7 @@ padding-left:9px;
   #cuerpo #bloque_derecho{
   float:right;
   width:310px; 
-  background-color:#ececec;
+  background-color:#fff;
   padding-left:10px;
   height:1725px;
 
@@ -669,20 +669,13 @@ padding-left:9px;
   padding-left:15px;
   } 
   
-<<<<<<< HEAD:css/estructura.css
-   .comisiones{   
-   float:right;
-   margin:5px 0;
-   }
-=======
+
   .comisiones{
   float:left;
   margin:5px 0;
    margin-right:10px;
-   border: solid 1px #efefef;
-   background-color:#f0f0f0;
   }
->>>>>>> ca7703a5633b541e37cf55dcef3cc92cb9d347ed:css/estructura.css
+
   
   .comisiones img{
         padding:0 5px;
@@ -853,7 +846,7 @@ background:url(../img/foot.jpg) no-repeat;
 
 #piecera .pieceracopyright {  width:180px;
 							font-weight:bold;
-							 margin:40px 50px 1px 1px;  }
+							 margin:40px 20px 1px 10px;  }
 							
 							
 #piecera .pieceranav{
@@ -1377,10 +1370,10 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .mas-noticias{
   float:left;
-  width:650px;
+  width:658px;
   margin:2px 0;
   border-bottom:#ccc solid 1px;
-  padding:3px;
+  padding: 3px 0px 3px 0px;
   }
   
  
@@ -1410,14 +1403,14 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 							.noticias_lista-noticias{
 							float:left;
-							padding:1px 0;
+							padding:1px 0px 0 2px ;
 							width:460px;
 
 						  	}
 
 
 							.mas-noticias .user{
-							float:right;
+							float:right; margin-top:21px;
 							}
 
 
