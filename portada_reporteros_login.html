@@ -1,0 +1,510 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet"  href="css/estructura.css"  type="text/css" media="screen"/>
+<link rel="stylesheet"  href="css/letras.css"  type="text/css" media="screen"/>
+<link rel="stylesheet"  href="css/color.css"  type="text/css" media="screen"/>
+<script type="text/javascript" src="js/jquery-1.2.3.min.js"></script>
+<script type="text/javascript" src="js/menu2.js"></script>
+<script src="SpryAssets/SpryValidationSelect.js" type="text/javascript"></script>
+
+<title>[RPP_PROTOTIPO_REPORTEROW]</title>
+<link href="SpryAssets/SpryValidationSelect.css" rel="stylesheet" type="text/css" /></head>
+<body>
+
+<div id="contenedor">
+		
+		<div id="cabecera">
+        
+            <div id="registro">
+                    <div id="registro_izq">Tu estas en<span id="spryselect1">
+                      <label>
+                      <select name="select1" id="select1" class="borde_paises">
+                        <option>Per&uacute;</option>
+                        <option>Argentina</option>
+                        <option>Brasil</option>
+                        <option>Paraguay</option>
+                        <option>Perú</option>
+                        </select>
+                      </label>
+                      <img src="img/banderita.gif" alt=""/>
+                    <span class="selectRequiredMsg">Please select an item.</span></span></div>
+                    <div id="registro_der">
+                    Bienvenido USUARIO, 
+                   <span><a href="#">10</a> <img src="img/cartita.jpg"/> </span> 
+                    <a href="#">Mi cuenta</a> | 
+                    <a href="#">Cerrar Sesión</a></div>
+          </div>
+        
+            <div id="cabecera_medio">
+                    <div id="logaso"><img src="img/reportero.jpg" alt=""/></div>
+                    <div id="menu_buscador">
+                        <form action="index.php" method="post">
+                          <fieldset>
+                          <input type="text" class="menu_itext" />
+                          <input type="submit" class="menu_boton" title="Buscar" value="Buscar"/>
+                          </fieldset>
+                        </form>
+                    </div> <!--[if !IE]>fin menu buscador<![endif]-->
+                    
+                    <div id="publicar"><img src="img/sube.gif" alt="" /></div>
+            </div>
+            
+        	<div id="cabecera_menu">
+                 <ul id="nav">
+                        <li class="inicio"><a href="#"><span>Portada</span></a></li>
+                            
+                            <li class="boton1"><a href="#"><span>Noticias </span></a>
+                                <ul>
+                                    <li><a href="#">Reportero W</a></li>
+                                </ul>
+                            </li>
+                    
+                            <li class="boton2"><a href="#"><span>Reporteros</span></a>
+                          <ul>
+                                <li><a href="#">Reportero W</a></li>
+                          </ul>        
+                        </li>
+                     
+                        <li class="boton3"><a href="#"><span>Comisiones</span></a>
+                          <ul>
+                                <li><a href="#">Reportero W</a></li>
+                          </ul>            
+                        </li>
+                        
+                        <li class="boton4"><a href="#"><span>Tu ciudad</span></a>
+                          <ul>
+                                <li><a href="#">Reportero W</a></li>
+                          </ul>            
+                        </li>
+            	  </ul> 
+      		</div><!--[if !IE]>fin cabecera-menu <![endif]-->    
+      </div>
+        
+
+       <div id="cuerpo"><!--[if !IE]>inicio cuerpo<![endif]--> 
+           
+             <div class="degrade">
+          
+          </div>       
+           
+                    
+          
+          
+          <div id="bloque_izquierdo">
+          <div>
+         			<h4><a href="#">Portada</a> >Todas las ciudades</h4>
+          
+          </div>
+          
+           <div class="reporteros_sigues">
+             <h4>Reporteros que sigues</h4>
+             <div class="reporteros_siguesfotos">
+                 <ul>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 1</span>
+                      </li>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 2</span>
+                      </li>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 3</span>
+                      </li>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 4</span>
+                      </li>
+                 </ul>
+             </div>
+        </div>
+       		   <!--[if !IE]>fin reporteros que sigues<![endif]--> 
+               <div class="reporteros_sigues">
+                		 <h4>Reportero Destacado </h4>
+                        <div class="reporteros_destacadodeta">
+                                    <img src="img/foto_120x90.jpg" class="reporteros_fotodesta"/>
+                                    <h3>Malpartida</h3>
+                                    <img src="img/star.gif"/>
+                                    <p class="txt_localidad">Arequipa</p>
+                         </div>
+                         
+                         <div class="reporteros_premio" ></div>
+               
+               </div>
+               
+            <!--[if !IE]>fin reportero destacado<![endif]--> 
+               <div class="tablita">
+                       <ul id="lomas_tabs_nav">
+                            <li>
+                            <a  id="nuevos1" class="activo" onClick="javascript:ocultar('visto')"  onMouseOver="this.style.color='#ff0000'" onMouseOut="this.style.color='#333333'">Nuevos</a></li>
+                       </ul>
+            </div>
+                       
+                       <div class="tablita">
+                       <ul id="lomas_tabs_nav">
+                            <li><a  id="lomasvisto1" class="" onClick="javascript:ocultar('comentado')" onMouseOver="this.style.color='#ff0000'" onMouseOut="this.style.color='#333333'">Los m&aacute;s activos</a>   </li>
+                       </ul>
+                       </div>
+                       
+                        <div class="tablita">
+                       <ul id="lomas_tabs_nav">
+                            <li><a  id="lomascomentado1" class="" onClick="javascript:ocultar('comentado')"  onMouseOver="this.style.color='#ff0000'" onMouseOut="this.style.color='#333333'">Por ciudad</a>   </li>
+                       </ul>
+                   </div>
+                       
+                       <div class="tablita">
+                       <ul id="lomas_tabs_nav">
+                            <li><a  id="enotrosmedios1" class="" onClick="javascript:ocultar('comentado')" onMouseOver="this.style.color='#ff0000'" onMouseOut="this.style.color='#333333'"> De la A a la Z</a>   </li>
+                       </ul>
+                   </div>
+                
+              <!--[if !IE]>fin pestañas noticias<![endif]-->  
+               <div class="noticias_barrita_pestanas">
+                <div class="paginado_inter">
+					<p>P&aacute;ginas 1 <a href="#">2</a> <a href="#">3</a></p>               
+               </div>
+             
+            </div>
+              <!--[if !IE]>fin barrita   de pestañas<![endif]-->   
+            <div class="reporteros_content">
+            
+            <div class="reporteros_siguesfotos">
+                 <ul>
+                   <li>
+                     <img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                       <span>Usuario 1</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+                     <li><img src="img/foto_300x225.jpg" class="reportero_fotos"/>
+                      <span>Usuario 2</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                      
+                      </li>
+                      
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 3</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 4</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+              </ul>
+             </div>
+             
+             
+              <div class="reporteros_siguesfotos">
+                 <ul>
+                   <li>
+                     <img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                       <span>Usuario 1</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 2</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                      
+                      </li>
+                      
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 3</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 4</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+              </ul>
+             </div>
+             
+             <div class="reporteros_siguesfotos">
+                 <ul>
+                   <li>
+                     <img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                       <span>Usuario 1</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 2</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                      
+                      </li>
+                      
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 3</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 4</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+              </ul>
+             </div>
+            
+            <div class="reporteros_siguesfotos">
+                 <ul>
+                   <li>
+                     <img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                       <span>Usuario 1</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 2</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                      
+                      </li>
+                      
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 3</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 4</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+              </ul>
+             </div>
+             
+             <div class="reporteros_siguesfotos">
+                 <ul>
+                   <li>
+                     <img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                       <span>Usuario 1</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 2</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                      
+                      </li>
+                      
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 3</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+                     <li><img src="img/foto_120x90.jpg" class="reportero_fotos"/>
+                      <span>Usuario 4</span>
+                       <br>
+                      <h6> 
+                      <span><a href="#">mis noticias</a></span>
+                     </h6>
+                   </li>
+              </ul>
+             </div>
+             
+            </div>
+                <!--[if !IE]>fin reporteros content<![endif]-->   
+               
+
+               
+               
+             <div id="paginado_">
+					<p>P&aacute;ginas 1 <a href="#">2</a> <a href="#">3</a></p>               
+               </div>
+               
+               
+
+               
+               
+<!--[if !IE]>fin actividades del sitio<![endif]-->
+               
+               
+<!--[if !IE]>fin actividades del sitio<![endif]--><!--[if !IE]>fin reporteros_destacados<![endif]-->
+               
+</div><!--[if !IE]>fin bloque_izquierdo<![endif]--> 
+           
+           <div id="bloque_derecho">
+           		
+           
+   		     <div class="comisiones">
+                	
+                    <div class="categorias">
+                        <ul>
+                            <li>
+                                <p>Todos las comisiones </p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Abancay </a>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#"><span>Puerto Maldonado
+</span></a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Trujillo</p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Amazonas
+</a>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Abancay</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Amazonas</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Trujillo</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Abancay</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Amazonas</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Ayacucho</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Cajamarca</a></p>
+                            </li>
+                            
+                             <li>
+                                <p><a href="#">Ica</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Loreto</a></p>
+                            </li>
+                            
+                             <li>
+                                <p><a href="#">Puno</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Ucayali</a></p>
+                            </li>
+                            
+                             <li>
+                                <p><a href="#">Amazonas</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Huaraz</a></p>
+                            </li>
+                            
+                             <li>
+                                <p><a href="#">Puerto Maldonado</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Trujillo</a></p>
+                            </li>
+                            
+                             <li>
+                                <p><a href="#">Puerto Maldonado</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Huanuco</a></p>
+                            </li>
+                            
+                             <li>
+                                <p><a href="#">Tacna</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Loreto</a></p>
+                            </li>
+                            
+                             <li>
+                                <p><a href="#">Puerto Maldonado</a></p>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#">Cusco</a></p>
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+               </div>
+               <div class="publi_300x250">[PUBLICIDAD]</div>
+               
+               
+           </div><!--[if !IE]>fin bloque_derecho<![endif]--> 
+           
+        </div><!--[if !IE]>fin cuerpo<![endif]-->  
+
+
+
+        <div id="piecera"><!--[if !IE]>inicio piecera<![endif]-->   
+        
+        </div><!--[if !IE]>fin piecera<![endif]--> 
+     
+ 
+</div><!--[if !IE]>fin contenedor <![endif]--> 
+<script type="text/javascript">
+<!--
+var spryselect1 = new Spry.Widget.ValidationSelect("spryselect1");
+//-->
+</script>
+</body>
+</html>
