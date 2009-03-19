@@ -436,7 +436,7 @@ padding-left:9px;
 	
 	.mapa .foto_mapa{
 	float:left;
-	padding:10px 10px 0 10px;
+	padding:10px 0 0 10px;
 	}
 	
 	.mapa .foto_mapa{
@@ -452,13 +452,14 @@ padding-left:9px;
 	}
 	
 	.mapa .foto_mapa .mapita{
-	padding-top:2px;
+	padding-top:5px;
 	}
 	
 	.mapa .datos_mapa{
 	float:left;
-	width:324px; padding-left:9px;
-	padding-top:28px;
+	width:324px;
+	padding-left:9px;
+	padding-top:30px;
 	}
 	
 	.noti{
@@ -504,7 +505,7 @@ padding-left:9px;
 	float:left;
 	width:996px;
 
-	padding:0 0 20px 0;
+	
 	background:#ffffff;
 	}
 	
@@ -534,7 +535,9 @@ padding-left:9px;
 		
 		.degrade{
 		float:left;
-		width:996px; height:21px; background-image:url(../img/degrade.gif);
+		width:996px;
+		height:10px;
+		background-image:url(../img/degrade.gif);
 		}		
 		
 		
