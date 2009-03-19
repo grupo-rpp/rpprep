@@ -176,6 +176,19 @@ padding-left:9px;
   width:87px;
   }
   
+   .user2{
+  float:left;
+  padding:3px;
+  border:#EFEFEF solid 1px; 
+  background-color:#F9FBFF;
+  width:136px;
+  height:70px;
+  }
+  
+  
+  .fotodummy_reportero{ width:44px; height:60px; }
+  
+  
   .lista-noticias{
   float:left;   
   width:560px;
@@ -240,7 +253,7 @@ padding-left:9px;
 	
 	.reporteros_destacados ul li{
 	float:left;
-	padding:10px 3px 11px 3px ;
+	padding:10px 3px 11px 4px ;
 	}	
 
 	
@@ -504,7 +517,7 @@ padding-left:9px;
 	float:left;
 	width:996px;
 
-	padding:0 0 20px 0;
+	
 	background:#ffffff;
 	}
 	
@@ -512,7 +525,7 @@ padding-left:9px;
 	#cuerpo #bloque_izquierdo{
 	float:left;
 	width:655px;
-	padding:10px;
+	padding:15px 10px 5px 10px; 
 	background:#FFFFFF;
 	border-right:1px #efefef solid;
 }
@@ -720,7 +733,7 @@ padding-left:9px;
   width:300px;
   height:250px;
   background:#666;
-  margin: 15px 10px 15px 0;
+  margin: 15px 10px 17px 0;
   }
 
 /*-----------------------------------------------------------------*/ 
@@ -734,7 +747,7 @@ padding-left:9px;
   width:286px;
   padding:3px 6px;
   background:#333;
-  margin-right:10px;
+  margin-right:10px; margin-bottom:6px;
   } 
   
   .interes_{
