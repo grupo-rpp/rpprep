@@ -133,7 +133,7 @@ padding-left:122px;
 
 #publicar{
 float:right;
-width:240px;
+padding-right:10px;
 height:60px;
 padding-top:5px;
 }
@@ -369,8 +369,8 @@ padding-left:9px;
 	float:left;
 	width:652px;
 	margin:10px 0;
-	border:#ccc solid 1px; 
-	background-color:#f7f7f7;
+	border:#CCC solid 1px; 
+	backgroundr:#FFF;
 	}
 	
 	
@@ -384,22 +384,19 @@ padding-left:9px;
 	float:left;
 	width:312px;
 	margin-bottom:10px;
-	border-bottom:#ccc solid 1px;
+	border-bottom:#CCC solid 1px;
 	}
 	
 	.titulo_area img{
 	float:left;
 	}
 	
-	.titulo_area h4{
-	padding-left:25px;
-	padding-top:17px;
-	}
+	
 	
 	#areas .areas_ .area_uno{
 	float:left;
 	width:312px;
-	padding-bottom:10px;
+	padding-bottom:5px;
 	padding-right:10px;
 	}
 	
@@ -805,6 +802,16 @@ padding-left:9px;
   padding:5px 5px 5px 0;
   }
   
+  .grupos_ h5 a:hover{
+  color:#FF8800;
+  }
+  
+  
+  
+  
+  
+  
+  
   
   .grupos_ .grupitos_ ul li span{
   color:#ff8800;
@@ -837,7 +844,7 @@ padding-left:9px;
   font-size:18px;
   }
   .tag_1 a:hover{
-  color:#df0202;
+  color:#FF8800;
   }
   
   .tag_2 a{
@@ -846,7 +853,7 @@ padding-left:9px;
   font-size:22px;
   }
   .tag_2 a:hover{
-  color:#df0202;
+  color:#FF8800;
   }
   
   .tag_3 a{
@@ -857,7 +864,7 @@ padding-left:9px;
   font-size:26px;
   }
   .tag_3 a:hover{
-  color:#df0202;
+  color:#FF8800;
   }
   
 
@@ -1129,15 +1136,12 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	.titulo_interiores{ 
 	float:left;
-	width:670px;
-
 	padding-bottom:3px;
 	}
 	
 	
 	#veamos{
 	float:left;
-	border-top: #CCC solid 1px;
 	padding-bottom:25px;
 	}
 	
@@ -1326,7 +1330,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	.comisiones_grande{
 	float:left;
-	width:668px;
+	width:660px;
 	margin-left:1px;
 	padding-bottom:15px;
 	}
@@ -1339,7 +1343,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		
 	.comision_{
 	float:left;
-	width:640px;
+	width:656px;
 	padding:4px 0 ;
 	border-bottom:#ccc solid 1px;
 	}
@@ -1347,6 +1351,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	.foto_comision{
 	float:left;
 	width:80px;
+	padding-right:12px;
 	}
 	
 	.foto_comision img{
@@ -1355,8 +1360,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	}
 	
 	.datos_comision{
-	float:right;
-	width:550px;
+	float:left;
+	width:560px;
 	}
 	
 	.datitos{
