@@ -839,10 +839,10 @@ padding-left:9px;
 
 	
 #piecera{
-float:left;
-width:996px;
-height:100px;
-background:url(../img/foot.jpg) no-repeat;
+	float:left;
+	width:996px;
+	height:60px;
+	background:url(../img/foot.jpg) no-repeat;
 }
 
 #piecera ul{ margin:0;
@@ -855,17 +855,19 @@ background:url(../img/foot.jpg) no-repeat;
 #piecera ul li ul {margin:0;
 					padding:0; text-align:right; }
 					
-#piecera ul li ul li { float:left; padding-right:5px; }
+#piecera ul li ul li { float:left; padding-left:13px; }
 
 #piecera .pieceralogo{ padding-top:20px; padding-left:10px; width:280px;  }
 
-#piecera .pieceracopyright {  width:180px;
-							font-weight:bold;
-							 margin:40px 20px 1px 10px;  }
+#piecera .pieceracopyright {
+	width:180px;
+	font-weight:bold;
+	margin:15px 20px 1px 10px;
+}
 							
 							
 #piecera .pieceranav{
-margin-top:40px;
+margin-top:15px;
 }				
 
 #piecera .pieceranav h3{
@@ -877,7 +879,7 @@ color:#666;
 }
 
 #piecera .pieceranav ul li h3 a:hover{
-color: #999999;
+color: #f80;
 }
 
 /* ULTRAMENU */
