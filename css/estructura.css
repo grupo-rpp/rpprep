@@ -565,14 +565,9 @@ padding-left:9px;
 		
 		.degrade{
 		float:left;
-<<<<<<< HEAD:css/estructura.css
-		width:996px;
-		height:10px;
-=======
-		width:996px; height:10px;
->>>>>>> 4c4b75811a33fb021858cbdc2106f85763c66dd6:css/estructura.css
-		background-image:url(../img/degrade.gif);
-		}		
+  		width:996px; height:10px;
+  		background-image:url(../img/degrade.gif);
+  		}		
 		
 		
 		
@@ -1328,27 +1323,29 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	width:668px;
 	margin-left:1px;
 	padding-bottom:15px;
-	border:#ccc solid 1px;
 	}
 	
 	.comisiones_grande h4{
 	float:left;
-	padding:5px 0 0 5px;
+	padding	:5px 0;
 	}
 	
 		
 	.comision_{
 	float:left;
 	width:640px;
-	padding:4px 0 4px 5px;
-	margin-left:5px;
+	padding:4px 0 ;
 	border-bottom:#ccc solid 1px;
 	}
 	
 	.foto_comision{
 	float:left;
 	width:80px;
-	margin-right:9px;
+	}
+	
+	.foto_comision img{
+	border: #efefef solid 1px;
+	padding:2px;
 	}
 	
 	.datos_comision{
