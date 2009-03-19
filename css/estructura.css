@@ -240,7 +240,7 @@ padding-left:9px;
 	
 	.reporteros_destacados ul li{
 	float:left;
-	padding:10px 3px 12px 3px ;
+	padding:10px 3px 11px 3px ;
 	}	
 
 	
@@ -452,18 +452,18 @@ padding-left:9px;
 	}
 	
 	.mapa .foto_mapa .mapita{
-	padding-top:5px;
+	padding-top:2px;
 	}
 	
 	.mapa .datos_mapa{
 	float:left;
-	width:350px;
+	width:324px; padding-left:9px;
 	padding-top:28px;
 	}
 	
 	.noti{
 	float:left;
-	width:340px;
+	width:323px;
 	padding-bottom:5px;
 	}
 	
@@ -520,7 +520,7 @@ padding-left:9px;
 	#cuerpo #bloque_izquierdo #noticia_principal{
 	float:left;
 	width:657px;
-	padding-bottom:10px;
+	padding-bottom:6px;
 	border-bottom:1px solid #efefef;
 	}
 	
@@ -618,7 +618,7 @@ padding-left:9px;
   #cuerpo #bloque_derecho{
   float:right;
   width:310px; 
-  background-color:#ececec;
+  background-color:#fff;
   padding-left:10px;
   height:1725px;
 
@@ -669,20 +669,13 @@ padding-left:9px;
   padding-left:15px;
   } 
   
-<<<<<<< HEAD:css/estructura.css
-   .comisiones{   
-   float:right;
-   margin:5px 0;
-   }
-=======
+
   .comisiones{
   float:left;
   margin:5px 0;
    margin-right:10px;
-   border: solid 1px #efefef;
-   background-color:#f0f0f0;
   }
->>>>>>> ca7703a5633b541e37cf55dcef3cc92cb9d347ed:css/estructura.css
+
   
   .comisiones img{
         padding:0 5px;
@@ -740,8 +733,8 @@ padding-left:9px;
   float:right;
   width:286px;
   padding:3px 6px;
-  background:#f7f7f7;
-  border:#CCC solid 1px; margin-right:10px;
+  background:#333;
+  margin-right:10px;
   } 
   
   .interes_{
@@ -749,7 +742,7 @@ padding-left:9px;
   width:288px;
   padding:3px 6px;
   border-top:#CCC solid 1px;
-   margin-right:10px; background-color:#FFF;
+  margin-right:10px;
   } 
 
   .grupitos_ ul{
@@ -765,13 +758,15 @@ padding-left:9px;
   
   
   .grupos_ .grupitos_ ul li span{
-  color:#0099FF;
+  color:#ff8800;
   font-size:11px;
   padding-left:5px;
   }
   
   
-  
+  .grupitos_ h5 a{
+  color:#CCCCCC;
+  }
   
   .grupos_ .grupitos_ p a{
   float:right;
@@ -786,10 +781,10 @@ padding-left:9px;
   
 
   .tag_1 a{
-  font-family:"Times New Roman", Times, serif;
+  font-family:Times New Roman, Times, serif;
   padding-left:8px;
   padding-right:2px;
-  color:#CCCCCC;
+  color: #ccc;
   font-size:18px;
   }
   .tag_1 a:hover{
@@ -797,8 +792,8 @@ padding-left:9px;
   }
   
   .tag_2 a{
-  font-family:"Times New Roman", Times, serif;
-  color:#666;
+  font-family:Times New Roman, Times, serif;
+  color: #666666;
   font-size:22px;
   }
   .tag_2 a:hover{
@@ -806,10 +801,10 @@ padding-left:9px;
   }
   
   .tag_3 a{
-  font-family:"Times New Roman", Times, serif;
+  font-family:Times New Roman, Times, serif;
   padding-left:5px;
   padding-right:2px;
-  color: #CCCCCC;
+  color: #8D8D8D;
   font-size:26px;
   }
   .tag_3 a:hover{
@@ -830,14 +825,14 @@ padding-left:9px;
 	
 #piecera{
 float:left;
-width:995px;
+width:996px;
 height:100px;
-border:1px solid #efefef;
-background-color:#fff;
+background:url(../img/foot.jpg) no-repeat;
 }
 
 #piecera ul{ margin:0;
-			padding:0;}
+			padding:10px 0 0 320px;
+			}
 			
 
 #piecera ul li { float:left; }
@@ -851,10 +846,24 @@ background-color:#fff;
 
 #piecera .pieceracopyright {  width:180px;
 							font-weight:bold;
-							 margin:40px 50px 1px 1px;  }
+							 margin:40px 20px 1px 10px;  }
 							
 							
-#piecera .pieceranav{    margin-top:40px;}				
+#piecera .pieceranav{
+margin-top:40px;
+}				
+
+#piecera .pieceranav h3{
+color:#666;
+}
+
+#piecera .pieceranav ul li h3 a{
+color:#666;
+}
+
+#piecera .pieceranav ul li h3 a:hover{
+color: #999999;
+}
 
 /* ULTRAMENU */
 
@@ -1361,10 +1370,10 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .mas-noticias{
   float:left;
-  width:650px;
+  width:658px;
   margin:2px 0;
   border-bottom:#ccc solid 1px;
-  padding:3px;
+  padding: 3px 0px 3px 0px;
   }
   
  
@@ -1394,14 +1403,14 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 							.noticias_lista-noticias{
 							float:left;
-							padding:1px 0;
+							padding:1px 0px 0 2px ;
 							width:460px;
 
 						  	}
 
 
 							.mas-noticias .user{
-							float:right;
+							float:right; margin-top:21px;
 							}
 
 
