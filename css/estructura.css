@@ -159,7 +159,7 @@ padding-left:9px;
   .masnoticias{
   float:left;
   width:655px;
-  padding-top:10px;
+  padding-top:8px;
  
   }
   
@@ -175,6 +175,19 @@ padding-left:9px;
   background-color:#F9FBFF;
   width:87px;
   }
+  
+   .user2{
+  float:left;
+  padding:3px;
+  border:#EFEFEF solid 1px; 
+  background-color:#F9FBFF;
+  width:136px;
+  height:70px;
+  }
+  
+  
+  .fotodummy_reportero{ width:44px; height:60px; }
+  
   
   .lista-noticias{
   float:left;   
@@ -224,7 +237,7 @@ padding-left:9px;
 	float:left;
 	width:304px;
 	margin-right:5px;
-	padding:3px;
+	padding:3px; padding-bottom:7px;
 	border:1px solid #F2F2F2;
 	}
 	
@@ -240,7 +253,7 @@ padding-left:9px;
 	
 	.reporteros_destacados ul li{
 	float:left;
-	padding:10px 3px 11px 3px ;
+	padding:10px 3px 11px 4px ;
 	}	
 
 	
@@ -364,6 +377,23 @@ padding-left:9px;
 	#areas .areas_{
 	padding-top:10px;
 	padding-left:8px;
+	}
+	
+	
+	.titulo_area{
+	float:left;
+	width:312px;
+	margin-bottom:10px;
+	border-bottom:#ccc solid 1px;
+	}
+	
+	.titulo_area img{
+	float:left;
+	}
+	
+	.titulo_area h4{
+	padding-left:25px;
+	padding-top:17px;
 	}
 	
 	#areas .areas_ .area_uno{
@@ -513,7 +543,7 @@ padding-left:9px;
 	#cuerpo #bloque_izquierdo{
 	float:left;
 	width:655px;
-	padding:10px;
+	padding:8px 10px 10px; 
 	background:#FFFFFF;
 	border-right:1px #efefef solid;
 }
@@ -521,7 +551,7 @@ padding-left:9px;
 	#cuerpo #bloque_izquierdo #noticia_principal{
 	float:left;
 	width:657px;
-	padding-bottom:6px;
+	padding-bottom:7px;
 	border-bottom:1px solid #efefef;
 	}
 	
@@ -535,8 +565,12 @@ padding-left:9px;
 		
 		.degrade{
 		float:left;
+<<<<<<< HEAD:css/estructura.css
 		width:996px;
 		height:10px;
+=======
+		width:996px; height:10px;
+>>>>>>> 4c4b75811a33fb021858cbdc2106f85763c66dd6:css/estructura.css
 		background-image:url(../img/degrade.gif);
 		}		
 		
@@ -723,7 +757,7 @@ padding-left:9px;
   width:300px;
   height:250px;
   background:#666;
-  margin: 15px 10px 15px 0;
+  margin: 15px 10px 17px 0;
   }
 
 /*-----------------------------------------------------------------*/ 
@@ -737,7 +771,7 @@ padding-left:9px;
   width:286px;
   padding:3px 6px;
   background:#333;
-  margin-right:10px;
+  margin-right:10px; margin-bottom:6px;
   } 
   
   .interes_{
@@ -1373,7 +1407,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .mas-noticias{
   float:left;
-  width:658px;
+  width:654px;
   margin:2px 0;
   border-bottom:#ccc solid 1px;
   padding: 3px 0px 3px 0px;
@@ -1406,7 +1440,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 							.noticias_lista-noticias{
 							float:left;
-							padding:1px 0px 0 2px ;
+							padding:1px 0px 5px 4px ;
 							width:460px;
 
 						  	}
