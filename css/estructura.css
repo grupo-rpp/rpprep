@@ -158,7 +158,7 @@ padding-left:9px;
   
   .masnoticias{
   float:left;
-  width:655px;
+  width:652px;
   padding-top:8px;
  
   }
@@ -277,7 +277,7 @@ padding-left:9px;
 	#actividades_sitio{
 	float:left;
 	padding:3px;
-	width:325px;
+	width:324px;
 	border:#ccc solid 1px;
 	margin-left:5px;
 	background:#F7F7F7;
@@ -367,7 +367,7 @@ padding-left:9px;
 	
 	#areas{
 	float:left;
-	width:654px;
+	width:652px;
 	margin:10px 0;
 	border:#ccc solid 1px; 
 	background-color:#f7f7f7;
@@ -441,7 +441,7 @@ padding-left:9px;
 	
 	.mapa{
 	float:left;
-	width:655px;
+	width:652px;
 	border:#f2f2f2 solid 1px;
 	}
 	
@@ -470,7 +470,8 @@ padding-left:9px;
 	
 	.mapa .datos_mapa{
 	float:left;
-	width:324px; padding-left:9px;
+	width:321px;
+	padding-left:9px;
 	padding-top:28px;
 	}
 	
@@ -533,7 +534,7 @@ padding-left:9px;
 	#cuerpo #bloque_izquierdo #noticia_principal{
 	float:left;
 	width:657px;
-	padding-bottom:7px;
+	padding-bottom:8px;
 	border-bottom:1px solid #efefef;
 	}
 	
