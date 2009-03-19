@@ -1326,6 +1326,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	#noticia_principal a img{
 	float:right;
 	padding-right:3px;
+	padding-top:15px;
 	}
 	
 	.comisiones_grande{
@@ -1365,7 +1366,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	}
 	
 	.datitos{
-	float:right;
+	float:left;
+	padding-top:3px;
 	width:550px;
 	height:10px;
 	}
