@@ -1482,7 +1482,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	.categorias{ width:290px;
 				height:190px;
 				border: 1px  solid #ccc;
-				float:left; padding:5px;}	
+				float:left; padding:5px; background-image:url(../img/font.gif)}	
 		
 		
 		.categorias ul{ margin:0; padding:0;}
