@@ -1084,14 +1084,16 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	.titulo_interiores{
 	float:left;
-	padding-bottom:3px;
-	padding-left: 5px;
 	}
 	
 	
 	#veamos{
 	float:left;
 	padding-bottom:25px;
+	}
+	
+	#veamos h4{
+	padding-bottom:3px;
 	}
 	
 	
@@ -1253,27 +1255,52 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	#noticia_principal a img{
 	float:right;
-	padding-right:3px;
+	padding-right:2px;
+	padding-top:25px;
 	}
 	
 	.comisiones_grande{
 	float:left;
-	width:660px;
-	margin-left:1px;
-	padding-bottom:15px;
+	width:638px;
+	padding:0 8px 10px 8px;
+	border:#CCC solid 1px;
+	margin-bottom:15px;
+	}
+	
+	.comisiones_grande h4{
+	color: #666666;
 	}
 	
 	.comisiones_grande h4{
 	float:left;
-	padding	:5px 0;
+	padding	:8px 0 5px 0;
+	}
+	
+	.comisiones_grande .paginas{
+	padding-top:15px;
+	float:right;
+	}
+	
+	.paginas a{
+	color:#5F8CE0;
+	}
+	
+	.paginas a:hover{
+	color: #DF0202;
 	}
 	
 		
 	.comision_{
 	float:left;
-	width:656px;
-	padding:4px 0 ;
+	width:638px;
+	padding:4px 0 4px 0;
 	border-bottom:#ccc solid 1px;
+	}
+	
+	.comision_2{
+	float:left;
+	width:638px;
+	padding:4px 0 4px 0;
 	}
 	
 	.foto_comision{
@@ -1289,19 +1316,18 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	.datos_comision{
 	float:left;
-	width:560px;
+	width:545px;
 	}
 	
 	.datitos{
-	float:right;
-	width:550px;
+	float:left;
 	height:10px;
 	}
   	
 	.links_comision{	
 	float:right;
 	text-align:right;
-	width:550px;
+	padding-top:10px;
 	}
 	
 	.links_comision span a{
@@ -1309,7 +1335,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	}
 	
 	.links_comision span a:hover{
-	color:#ff0000;
+	color:#DF0202;
 	}
 	
 	
@@ -1433,15 +1459,23 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							}
 							
 			/*---------comisiones-------------*/				
-		.comisiones_ {
-	float:left;
-	width:300px;	
-	background:#f6f6f6;
-	padding:5px 0 0  0;
-	border:#f2f2f2 solid 1px;
-	margin-bottom:15px;
+		
+		.arriba{
+		padding-top:25px;
 		}
 		
+		
+		.comisiones_ {
+		float:left;
+		width:300px;
+		background:#f6f6f6;
+		padding:5px 0 0  0;
+		border:#f2f2f2 solid 1px;
+		margin-bottom:15px;
+		}
+		
+<<<<<<< HEAD:css/estructura.css
+=======
 	.noticias_tevaainterezar{
 	border-left :1px solid #ccc;
 	border-right :1px solid #ccc;
@@ -1449,13 +1483,27 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	width:653px;
 	float:left; 
 }	
+>>>>>>> 2fd985f20afe7acbc9d34eb93a343761731341d1:css/estructura.css
 		
 		
+
+		.comisiones_ h4{
+		padding:5px 0 0 10px;
+		}
+		
+		
+		
+		
+		
+		.comisiones_ ul{ /*agregado*/
+		float:left;
+		padding:5px 0 5px 10px;
+		}
 		
 		.comisiones_ ul li{
 		float:left;
 		width:280px;
-		padding:3px 20px;
+		padding:4px 20px;
 		display:inline;
 		}
 		
@@ -1476,6 +1524,15 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		
 		}
 		
+		
+		
+		.noticias_tevaainterezar{
+	border-left :1px solid #ccc;
+	border-right :1px solid #ccc;
+	border-top :1px solid #ccc;
+	width:653px;
+	float:left; background-color:#f6f6f6;
+}	
 		
 		/*-----------Categorias ---------*/
 		
