@@ -1095,7 +1095,23 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	float:left;
 	padding-bottom:25px;
 	}
+
+	#veamos h4{
+	padding-bottom:3px;
+	}
 	
+	.invitar{
+	float:right;
+	}
+	
+	.invitar a img{
+	padding-right:10px;
+	}
+	
+	
+	
+	
+
 	
 	ul#lomas_tabs_nav li{
 	display:inline;
@@ -1352,31 +1368,12 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	}
 	
 	
-		.comisiones_top{
-		float:right;
-		width:318px;
-		padding-bottom:10px;
-		margin-bottom:10px;
-		border:#f2f2f2 solid 1px;
-		}
+	
 		
-		.comisiones_top h5{
-		padding:5px 0 5px 8px;
-		}
 		
 	
 		
-		.comision_lista{
-		float:left;
-		width:290px;
-		margin-left:8px;
-		margin-top:5px;
-		border-bottom:#CCC solid 1px;
-		}
 		
-		.comision_lista h3{
-		float:right;
-		}
 
 
 .mas-noticias{
@@ -1485,7 +1482,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	background:#f6f6f6;
 	padding:5px 0 0  0;
 	border:#f2f2f2 solid 1px;
-	margin-bottom:15px;
+	
 		}
 		
 	.noticias_tevaainterezar{
@@ -1498,10 +1495,39 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		
 		
 		
+=======
+		float:left;
+		width:300px;
+		background:#f6f6f6;
+		padding:5px 0 0  0;
+		border:#f2f2f2 solid 1px;
+		}
+		
+
+		.noticias_tevaainterezar{
+		border-left :1px solid #ccc;
+		border-right :1px solid #ccc;
+		border-top :1px solid #ccc;
+		width:653px;
+		float:left; 
+		}	
+
+		
+		.comisiones_ h4{
+		padding:5px 0 0 10px;
+		}
+		
+		
+		.comisiones_ ul{ /*agregado*/
+		float:left;
+		padding:5px 0 5px 10px;
+		}
+		
+
 		.comisiones_ ul li{
 		float:left;
 		width:280px;
-		padding:3px 20px;
+		padding:4px 20px;
 		display:inline;
 		}
 		
@@ -1517,12 +1543,65 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		}
 							
 	
-	.comisiones_ ul li span{
+		.comisiones_ ul li span{
 		padding-left:13px;
+		}
 		
+
+		
+		.noticias_tevaainterezar{
+		border-left :1px solid #ccc;
+		border-right :1px solid #ccc;
+		border-top :1px solid #ccc;
+		width:638px;
+		float:left; 
+		}	
+		
+		
+		.mas_comisiones{
+		float:left;
+		width:300px;
+		background:#f6f6f6;
+		padding:5px 0;
+		border:#f2f2f2 solid 1px;
+		margin-bottom:10px;
+		}
+		
+		.mas_comisiones h4{
+		padding:5px 0 0 10px;
+		}
+		
+		.mas_comisiones ul {
+		float:left;
+		padding:5px 0 5px 10px;
+		}
+		
+		.mas_comisiones ul li{
+		float:left;
+		width:280px;
+		padding-bottom:10px;
+		}
+		
+		.mas_comisiones ul li h3{
+		float:right;
+		padding-right:5px;
 		}
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
 		/*-----------Categorias ---------*/
 		
 	.categorias{ width:290px;
@@ -1561,7 +1640,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	/*---------------------------PORTADA REPORTEROS ---------------------------*/
 	  
 	 .reporteros_sigues{
-		 				width:655px;
+		 				width:650px;
 	 					 height:140px;						 
 						 margin:5px 0 10px 2px;
 						 border:1px  solid #ccc;
