@@ -1455,7 +1455,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							}
 					   
 		
-							.noticias_barrita_pestanas{ width:642px;
+							.noticias_barrita_pestanas{ width:641px;
 							height:22px;
 							border: 1px solid #ccc;									
 							text-align:right;
@@ -1640,23 +1640,41 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	/*---------------------------PORTADA REPORTEROS ---------------------------*/
 	  
 	 .reporteros_sigues{
-		 				width:650px;
-	 					 height:140px;						 
+		 				width:630px;
+	 					height:120px;					 
 						 margin:5px 0 10px 2px;
 						 border:1px  solid #ccc;
+						 padding:10px;
+						 float:left;
 						 }
+						 
+	.reporteros_sigues2{width:630px;
+	 						 
+						 margin:0px 0 10px 2px;
+						 border:1px  solid #ccc;
+						 padding:10px;
+						 float:left; background-color:#f8f8f8;}	
+						 
+						 
+	.reporteros_sigues2 h4{ width:250px; display:inline;} 					 
 						 
 	.reporteros_sigues p{ margin-left:4px; }					 
 						 
 	.reporteros_content{
-	width:652px;
-	height:660px;
-	margin-left:1px;
+	width:630px;
+	
+	margin:0px 0 10px 2px;
 	float:left;
 	border-left:1px solid #ccc;
 	border-right:1px solid #ccc;
 	border-bottom:1px solid #ccc;
-	padding-top:10px;
+	 padding:10px;
+	
+	/
+	
+	
+	
+	
 						}
 						
 	.reporteros_siguesfotos ul{ margin:0;
@@ -1665,32 +1683,50 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 								
 	.reporteros_siguesfotos ul li{ float:left;
 									width:120px;
-									height:125px;
 									
-									margin:5px 20px 0 20px;
+									
+									margin:10px 32px 10px 5px ;
 									}
 									
 	.reporteros_destacadodeta{
-								width:250px;
+								width:200px;
 								height:100px;
-								margin-top:10px; float:left;
+								margin-top:10px;
+								
+								float:left;
 								}
 								
-	.reporteros_destacadodeta .reporteros_fotodesta{ margin:3px 5px 0 10px;
+	.reporteros_destacadodeta .reporteros_fotodesta{ margin:3px 4px 0;
 													float:left;  }							
 		 
 	 .reporteros_destacadodeta  p {  float:left;}
 	 
 	 .reporteros_destacadodeta h3{ padding-top:15px;}
 	 
-	 .reporteros_premio{ width:250px;
-	 					  height:100px;
-						  float:left;
-	 					  
-						  margin:3px 5px 0 50px;
-						  border:1px solid #CCC;
+	 .reporteros_premio{
+	width:418px;
+	
+	float:left;
+	margin:0px 5px 0;
+	
 						  }
-	.reportero_fotos{ width:120px; height:90px; }					  
+	.reportero_fotos{ width:120px; height:90px; }
+	
+	.paginado_inter a{ color:#327199;} 
+	
+	.paginado_inter p { line-height:20px;} 
+ 
+ .paginado_ a:hover, .paginado_inter a:hover {
+ color:#ff0000;
+ }	
+ 
+ .datos_reportero_desta ul { margin:0; padding:0;}
+ 
+	.datos_reportero_desta ul li{ float:left;
+								  margin: 10px 20px 15px 1px;
+								  }
+								  
+	.datos_reportero_desta p{ margin-bottom:5px;}							  
 	    /*--------------------------- FIN PORTADA REPORTEROS ---------------------------*/
 			
 	

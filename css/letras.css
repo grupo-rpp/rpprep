@@ -155,12 +155,12 @@ line-height:13px;
 
 
 
-#noticia_principal #noticia_titular h1 a{
+#noticia_principal #noticia_titular h1 a, .reporteros_premio h1 a{
 color:#327199;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-#noticia_principal #noticia_titular h1 a:hover{
+#noticia_principal #noticia_titular h1 a:hover, .reporteros_premio h1 a:hover{
 color:#df0202;
 }
 
