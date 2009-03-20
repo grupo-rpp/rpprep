@@ -1348,6 +1348,14 @@ background: url(../img/btn_activo.gif) right top no-repeat;
   padding: 3px 0px 3px 0px;
   }
   
+  .mas-noticias_login{
+  float:left;
+  width:654px;
+ 
+  border-bottom:#ccc solid 1px;
+  padding: 16px 0 ;
+  }
+  
  
 					   
 .noticiasportada_foto2 {
@@ -1377,12 +1385,22 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							float:left;
 							padding:1px 0px 5px 4px ;
 							width:460px;
-
+						  	}
+							
+							
+								.noticias_lista-noticias_log{
+							float:left;
+							padding:1px 0px 0px 4px ;
+							width:460px;
 						  	}
 
 
 							.mas-noticias .user{
 							float:right; margin-top:21px; margin-right:2px;
+							}
+							
+							.mas-noticias_login .user{
+							float:right; margin-top:21px; margin-right:4px;
 							}
 
 
@@ -1429,7 +1447,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	border-right :1px solid #ccc;
 	border-top :1px solid #ccc;
 	width:653px;
-	float:left; background-color:#f6f6f6;
+	float:left; 
 }	
 		
 		
