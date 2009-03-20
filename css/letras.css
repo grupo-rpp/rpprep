@@ -206,7 +206,9 @@ color:#df0202;
   		font-size:11px;
  		color: #666666;
  		}
-
+		
+		.activo_categoria{ font-size:16px;
+ 		color: #f80;}
 
 /*--ACTIVIDADES DEL SITIO--------------------------------------------------*/
 
@@ -261,6 +263,7 @@ color:#df0202;
 
 
 .bold{ font-weight:bold; font-size:11px;}
+.bold2 { font-weight:bold; font-size:13px; margin-left:10px; ma}
 
 .regionales_titu { color:#327199; font-weight:bold;}
 

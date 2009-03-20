@@ -1082,15 +1082,18 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	/*PORTADA_REPORTERO*/
 	
-	.titulo_interiores{ 
+	.titulo_interiores{
 	float:left;
-	padding-bottom:3px;
 	}
 	
 	
 	#veamos{
 	float:left;
 	padding-bottom:25px;
+	}
+	
+	#veamos h4{
+	padding-bottom:3px;
 	}
 	
 	
@@ -1265,6 +1268,10 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	}
 	
 	.comisiones_grande h4{
+	color: #666666;
+	}
+	
+	.comisiones_grande h4{
 	float:left;
 	padding	:8px 0 5px 0;
 	}
@@ -1401,7 +1408,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 
 							.mas-noticias .user{
-							float:right; margin-top:21px;
+							float:right; margin-top:21px; margin-right:2px;
 							}
 
 
@@ -1433,17 +1440,30 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							margin-right:5px;
 							}
 							
-							
-		.comisiones_ {/*agregado*/
-	float:left;
-	width:300px;
-	background:#f6f6f6;
-	border:#f2f2f2 solid 1px;
+			/*---------comisiones-------------*/				
+		
+		.arriba{
+		padding-top:25px;
 		}
 		
-		.comisiones_ h4{
-		padding:5px 0 0 5px;
+		
+		.comisiones_ {
+		float:left;
+		width:300px;
+		background:#f6f6f6;
+		padding:5px 0 0  0;
+		border:#f2f2f2 solid 1px;
+		margin-bottom:15px;
 		}
+		
+		
+		
+
+		.comisiones_ h4{
+		padding:5px 0 0 10px;
+		}
+		
+		
 		
 		
 		
@@ -1452,40 +1472,55 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		padding:5px 0 5px 10px;
 		}
 		
-		
-		.comisiones_ ul li{ /*agregado*/
+		.comisiones_ ul li{
 		float:left;
 		width:280px;
 		padding:4px 20px;
 		display:inline;
 		}
 		
-		.comisiones_ ul li p a {/*agregado*/
+		.comisiones_ ul li p a {
 		padding-left:10px;
 		color:#1d4d6c;
 		
 		font-size:14px;
 		}
 		
-		.comisiones_ ul li p a:hover { /*agregado*/
+		.comisiones_ ul li p a:hover {
 		color:#df0202;
 		}
 							
 	
 	.comisiones_ ul li span{
-		padding-left:8px;
-		font-size:11px;
-		color:#0099FF;
+		padding-left:13px;
+		
 		}
 		
-		.categorias  ul li span{
-		font-family:arial;
-		font-size:16px;
-		color:#000;
-		font-weight:bold;
-		list-style-type:square;
-		}
 		
+		
+		.noticias_tevaainterezar{
+	border-left :1px solid #ccc;
+	border-right :1px solid #ccc;
+	border-top :1px solid #ccc;
+	width:653px;
+	float:left; background-color:#f6f6f6;
+}	
+		
+		/*-----------Categorias ---------*/
+		
+	.categorias{ width:290px;
+				height:190px;
+				border: 1px  solid #ccc;
+				float:left; padding:5px;}	
+		
+		
+		.categorias ul{ margin:0; padding:0;}
+		
+		
+		.categorias ul li{ font-size:15px; margin:10px 0 5px 50px; color:#f80; font-weight:bold;}
+		
+		.categorias ul li a:hover{ color:#f80; font-weight:normal; }
+		.categorias ul li a{ color:#000; font-weight:normal;}
 		
 	#paginado_{
 	float:right;
