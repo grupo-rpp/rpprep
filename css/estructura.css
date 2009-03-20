@@ -555,7 +555,9 @@ padding-left:9px;
 	#cuerpo #bloque_izquierdo #noticia_principal_inter{
 	float:left;
 	width:657px;
-	padding-bottom:8px; margin-top:8px;	
+	padding-bottom:10px;
+	margin:8px 0 10px 0px;
+	border-bottom:1px solid #ccc;
 	}
 	
 					
@@ -1084,6 +1086,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	.titulo_interiores{
 	float:left;
+	padding-bottom:3px;
+	padding-left: 5px;
 	}
 	
 	
@@ -1091,7 +1095,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	float:left;
 	padding-bottom:25px;
 	}
-	
+
 	#veamos h4{
 	padding-bottom:3px;
 	}
@@ -1107,6 +1111,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	
 	
+
 	
 	ul#lomas_tabs_nav li{
 	display:inline;
@@ -1120,7 +1125,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	display:block;
 	margin-left:1px;
 	padding:0 15px;
-	background-image:url(../img/btn_normal3.gif);
+	background-color:#f8f8f8;
 	cursor:pointer; /*agregar*/
 	height:25px;
 	float:left;
@@ -1138,8 +1143,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 
 
-	ul#lomas_tabs_nav li a.activo, ul#lomas_tabs_nav li a:hover.activo{ background-image: url(../img/btn_activo.gif);
-	color:#fff;
+	ul#lomas_tabs_nav li a.activo, ul#lomas_tabs_nav li a:hover.activo{ background-color:#FFF;
+	color:#000;
 	height:25px;
 	font-size:11px;
 	line-height:25px;	
@@ -1255,6 +1260,22 @@ background: url(../img/btn_activo.gif) right top no-repeat;
  	}
 	
 	
+	.comision_{
+	float:left;
+	width:638px;
+	padding:4px 0;	
+	border-bottom:#ccc solid 1px;
+	}
+	
+		.comision_2{
+	float:left;
+	width:638px;
+	padding:4px 0;	
+	
+	}
+	
+	
+	
 	
 	/*FIN PORTADA_REPORTERO*/
 	
@@ -1266,79 +1287,76 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	#noticia_principal a img{
 	float:right;
-	padding-right:2px;
-	padding-top:25px;
+	padding-right:3px;
 	}
 	
 	.comisiones_grande{
-	float:left;
-	width:638px;
-	padding:0 8px 10px 8px;
-	border:#CCC solid 1px;
-	margin-bottom:15px;
-	}
+ float:left;
+ width:638px;
+ padding:0 8px 10px 8px;
+ border:#CCC solid 1px;
+ margin-bottom:15px;
+ }
+ 
+ .comisiones_grande h4{
+ color: #666666;
+ }
+ 
+ .comisiones_grande h4{
+ float:left;
+ padding :8px 0 5px 0;
+ }
+ 
+ .comisiones_grande .paginas{
+ padding-top:15px;
+ float:right;
+ }
+ 
+ .paginas a{
+ color:#5F8CE0;
+ }
+ 
+ .paginas a:hover{
+ color: #DF0202;
+ }
 	
-	.comisiones_grande h4{
-	color: #666666;
-	}
 	
-	.comisiones_grande h4{
-	float:left;
-	padding	:8px 0 5px 0;
-	}
 	
-	.comisiones_grande .paginas{
-	padding-top:15px;
-	float:right;
-	}
-	
-	.paginas a{
-	color:#5F8CE0;
-	}
-	
-	.paginas a:hover{
-	color: #DF0202;
-	}
-	
-		
-	.comision_{
-	float:left;
-	width:638px;
-	padding:4px 0 4px 0;
-	border-bottom:#ccc solid 1px;
-	}
-	
-	.comision_2{
-	float:left;
-	width:638px;
-	padding:4px 0 4px 0;
-	}
 	
 	.foto_comision{
 	float:left;
 	width:80px;
-	padding-right:12px;
+	margin-right:9px;
 	}
+	
 	
 	.foto_comision img{
 	border: #efefef solid 1px;
 	padding:2px;
 	}
 	
+	
+	
 	.datos_comision{
 	float:left;
-	width:545px;
+	width:540px;
 	}
+	
+	
+	
+	
 	
 	.datitos{
 	float:left;
+	
 	height:10px;
 	}
+	
   	
 	.links_comision{	
 	float:right;
-	text-align:right;
-	padding-top:10px;
+	text-align:right; padding-top:10px;
+	
 	}
 	
 	.links_comision span a{
@@ -1346,7 +1364,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	}
 	
 	.links_comision span a:hover{
-	color:#DF0202;
+	color:#ff0000;
 	}
 	
 	
@@ -1368,10 +1386,16 @@ background: url(../img/btn_activo.gif) right top no-repeat;
   
   .mas-noticias_login{
   float:left;
-  width:654px;
- 
+  width:638px; padding:10px 0;  
   border-bottom:#ccc solid 1px;
-  padding: 16px 0 ;
+  
+  }
+  
+  .mas-noticias_login2{
+  float:left;
+  width:638px; padding:10px 0;  
+ 
+  
   }
   
  
@@ -1407,17 +1431,18 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							
 							
 								.noticias_lista-noticias_log{
-							float:left;
-							padding:1px 0px 0px 4px ;
-							width:460px;
+								float:left;
+								padding:1px 0px 0px 4px;
+								width:445px;
 						  	}
 
+.noticias_lista-noticias_log h2{ padding-right:10px}
 
 							.mas-noticias .user{
 							float:right; margin-top:21px; margin-right:2px;
 							}
 							
-							.mas-noticias_login .user{
+							.mas-noticias_login .user, .mas-noticias_login2 .user{
 							float:right; margin-top:21px; margin-right:4px;
 							}
 
@@ -1437,7 +1462,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							line-height:22px;
 							float:left;
 							padding-right:10px;
-							margin-left:1px; background-image:url(../img/btn_normal2.gif);
+							margin-left:1px; background-color:#FFF;
 							}
 							
 							
@@ -1451,13 +1476,26 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							}
 							
 			/*---------comisiones-------------*/				
-		
-		.arriba{
-		padding-top:25px;
+		.comisiones_ {
+	float:left;
+	width:300px;	
+	background:#f6f6f6;
+	padding:5px 0 0  0;
+	border:#f2f2f2 solid 1px;
+	
 		}
 		
+	.noticias_tevaainterezar{
+	border :1px solid #ccc;
+	width:638px;
+	float:left;
+	padding:8px;
+	margin-bottom:10px;  
+}	
 		
-		.comisiones_ {
+		
+		
+=======
 		float:left;
 		width:300px;
 		background:#f6f6f6;
@@ -1485,6 +1523,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		padding:5px 0 5px 10px;
 		}
 		
+
 		.comisiones_ ul li{
 		float:left;
 		width:280px;
@@ -1508,14 +1547,14 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		padding-left:13px;
 		}
 		
-		
+
 		
 		.noticias_tevaainterezar{
 		border-left :1px solid #ccc;
 		border-right :1px solid #ccc;
 		border-top :1px solid #ccc;
-		width:653px;
-		float:left; background-color:#f6f6f6;
+		width:638px;
+		float:left; 
 		}	
 		
 		
@@ -1562,12 +1601,13 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		
 		
 		
+
 		/*-----------Categorias ---------*/
 		
 	.categorias{ width:290px;
 				height:190px;
 				border: 1px  solid #ccc;
-				float:left; padding:5px;}	
+				float:left; padding:5px; background-image:url(../img/font.gif)}	
 		
 		
 		.categorias ul{ margin:0; padding:0;}
@@ -1600,7 +1640,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	/*---------------------------PORTADA REPORTEROS ---------------------------*/
 	  
 	 .reporteros_sigues{
-		 				width:655px;
+		 				width:650px;
 	 					 height:140px;						 
 						 margin:5px 0 10px 2px;
 						 border:1px  solid #ccc;
