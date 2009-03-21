@@ -155,12 +155,12 @@ line-height:13px;
 
 
 
-#noticia_principal #noticia_titular h1 a{
+#noticia_principal #noticia_titular h1 a, .reporteros_premio h1 a{
 color:#327199;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-#noticia_principal #noticia_titular h1 a:hover{
+#noticia_principal #noticia_titular h1 a:hover, .reporteros_premio h1 a:hover{
 color:#df0202;
 }
 
@@ -263,7 +263,7 @@ color:#df0202;
 
 
 .bold{ font-weight:bold; font-size:11px;}
-.bold2 { font-weight:bold; font-size:13px; margin-left:10px; ma}
+.bold2 { font-weight:bold; font-size:15px; margin-left:10px; ma}
 
 .regionales_titu { color:#327199; font-weight:bold;}
 
@@ -276,9 +276,9 @@ color:#df0202;
 .gris{
 	color:#999;
 }			
-.paddin{ padding-left:4px; color:#000; }
 
 
+.paddin{ padding:5px 0 0 0px; color:#666; }
 
 
 /*****************************************************************************************
@@ -352,3 +352,6 @@ color:#df0202;
                                       FINAL CSS HENRY
 
 *****************************************************************************************/
+
+
+
