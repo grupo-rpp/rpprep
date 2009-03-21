@@ -1634,3 +1634,552 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	
 	
+/*****************************************************************************************
+
+                                     INICIO CSS HENRY
+
+*****************************************************************************************/
+
+.both
+	{
+		clear:both;
+		font-size:0px;
+	}
+	
+.contact
+	{
+	float:left;
+	width:638px;
+	padding:0 8px 10px 8px;
+	border:#CCC solid 1px;
+	margin-bottom:15px;
+	}
+	
+.contact h4
+	{
+	float:left;
+	padding	:8px 0 5px 0;
+	}
+
+
+.fila_contact
+	{
+		width:600px;
+		padding:8px 0 0 30px;
+	}
+
+
+.txt_contact
+	{
+		float:left;
+		width:180px;
+		padding:4px 0 2px 0;
+	}
+
+
+.camptxt_contact
+	{
+		float:left;
+		width:300px;
+	}
+
+.camptxt_contact .campotexto
+	{
+		width:230px;
+		border:solid 1px #cccccc;
+	}
+
+.campmensaje_contact
+	{
+		float:left;
+		width:300px;
+	}
+
+.campmensaje_contact .campomensaje
+	{
+		width:300px;
+		height:100px;
+		border:solid 1px #cccccc;
+	}
+	
+.necesitasayuda
+	{
+		float:left;
+		width:300px;
+		background:#f6f6f6;
+		padding:90px 0;
+		text-align:center;
+		border:#f2f2f2 solid 1px;
+		margin-bottom:15px;
+	}
+
+
+.fila_btn_enviar
+	{
+		width:392px;
+		padding:8px 0 0 30px;
+		text-align:right;
+	}
+
+.arriba_contact
+	{
+		padding-top:8px;
+	}
+	
+#bloque_login_ingresar
+{
+	  float:left;
+	  width:310px; 
+	  background-color:#fff;
+	  padding-left:10px;
+	  border-right:1px #efefef solid;
+  }
+ 
+ 
+#bloque_registrarse
+{
+	float:right;
+	width:655px;
+	padding:8px 10px 10px; 
+	background:#FFFFFF;
+}
+
+
+	
+.box_ingresar
+	{
+		float:left;
+		width:290px;
+		padding:0 0 0 10px;
+		background:#f6f6f6;
+		border:#f2f2f2 solid 1px;
+		margin-bottom:15px;
+	}
+	
+
+.fila_termycond
+	{
+		width:600px;
+		padding:20px 0 0 30px;
+	}
+
+
+.cod_seg
+{
+	width:100px;
+	height:40px;
+	float:left;
+	border:solid 1px #cccccc;
+}
+
+#bt_codseguridad
+{
+	float:left;
+	width:130px;
+	padding:25px 0 0 4px;
+}
+
+#bt_aqui
+{
+	float:left;
+	width:50px;
+	padding:20px 0 0 0;
+}
+
+#mesj_informativo
+{
+	height:80px;
+	text-align:center;
+	border:solid 1px #cccccc;
+	margin:10px;
+}
+
+.fila_ingresar
+{
+		width:280px;
+		padding:8px 0 0 10px;
+}
+
+.ingresar_c1
+{
+	float:left;
+	width:80px;
+	padding:3px 0 0 0;
+}
+
+.ingresar_c2
+{
+	float:left;
+	width:200px;
+}
+
+.ingresar_c3
+{
+	float:left;
+	text-align:right;
+	width:190px;
+	padding:0 10px 0 0;
+}
+
+.camptxt_ingresar
+	{
+		width:190px;
+		border:solid 1px #cccccc;
+	}
+	
+
+#completa_datos
+	{
+		width:596px;
+		padding:20px 200px 10px 200px;
+	}
+
+#form_completadatos
+	{
+		padding:20px 0;
+	}
+
+.filas_form
+	{
+		padding:4px 0;
+	}
+
+.compl0
+	{
+		float:left;
+		width:180px;
+		padding:45px 0 0 0;
+	}
+
+.compl1
+	{
+		float:left;
+		width:180px;
+		padding:5px 0 0 0;
+	}
+
+.compl2
+	{
+		float:left;
+		width:410px;
+	}
+
+.compl3
+	{
+		float:left;
+		width:252px;
+		text-align:right;
+	}
+
+.compl4
+	{
+		float:left;
+		width:322px;
+		text-align:right;
+	}
+
+.compl5
+	{
+		float:left;
+		width:320px;
+	}
+
+.camp_completadatos
+	{
+		width:250px;
+		border:solid 1px #cccccc;
+	}
+	
+
+#olvido_pass
+	{
+		width:570px;
+		padding:100px 0 100px 240px;
+	}
+
+.camp_correo
+	{
+		width:320px;
+	}
+
+#form_olvidopass
+	{
+		margin:15px 0;
+		padding:20px 10px 20px 20px;
+		border:solid 1px #cccccc;
+		width:520px;
+	}
+
+
+#cabecera_publicar
+	{
+		width:996px;
+		height:130px;
+		padding:5px 0 0 0;
+		background:#ffffff;
+		/*background:url(../img/city.gif) no-repeat bottom;*/
+		float:left;
+		border-bottom:solid 1px #c9c9c9;
+	}
+
+.fotousuario
+	{
+		border:solid 1px #cccccc;
+		height:60px;
+		width:80px;
+	}
+
+#bt_pasos
+	{
+		margin:10px 0 0 75px;
+		float:left;
+		font-size:10px;
+	}
+
+#bt_pasos a
+	{
+		margin:10px 20px 0 0;
+	}
+
+.paso1on
+	{
+		background:url(../img/paso1_on.jpg) center top no-repeat;
+		height:25px;
+		width:70px;
+		float:left;
+		padding:55px 0 0 0;
+		text-align:center;
+		display:block;
+	}
+
+.paso2on
+	{
+		background:url(../img/paso2_on.jpg) center top no-repeat;
+		height:25px;
+		width:70px;
+		float:left;
+		padding:55px 0 0 0;
+		text-align:center;
+		display:block;
+	}
+
+.paso3on
+	{
+		background:url(../img/paso3_on.jpg) center top no-repeat;
+		height:25px;
+		width:70px;
+		float:left;
+		padding:55px 0 0 0;
+		text-align:center;
+		display:block;
+	}
+
+.paso4on
+	{
+		background:url(../img/paso4_on.jpg) center top no-repeat;
+		height:25px;
+		width:70px;
+		float:left;
+		padding:55px 0 0 0;
+		text-align:center;
+		display:block;
+	}
+
+.paso1
+	{
+		background:url(../img/paso1_off.jpg) center top no-repeat;
+		height:25px;
+		width:70px;
+		float:left;
+		padding:55px 0 0 0;
+		text-align:center;
+		display:block;
+	}
+
+.paso1:hover
+	{
+		background:url(../img/paso1_on.jpg) center top no-repeat;
+		color:#df0202;
+	}
+
+.paso2
+	{
+		background:url(../img/paso2_off.jpg) center top no-repeat;
+		height:25px;
+		width:70px;
+		float:left;
+		padding:55px 0 0 0;
+		text-align:center;
+		display:block;
+	}
+
+.paso2:hover
+	{
+		background:url(../img/paso2_on.jpg) center top no-repeat;
+		color:#df0202;
+	}
+
+.paso3
+	{
+		background:url(../img/paso3_off.jpg) center top no-repeat;
+		height:25px;
+		width:70px;
+		float:left;
+		padding:55px 0 0 0;
+		text-align:center;
+		display:block;
+	}
+
+.paso3:hover
+	{
+		background:url(../img/paso3_on.jpg) center top no-repeat;
+		color:#df0202;
+	}
+
+.paso4
+	{
+		background:url(../img/paso4_off.jpg) center top no-repeat;
+		height:25px;
+		width:70px;
+		float:left;
+		padding:55px 0 0 0;
+		text-align:center;
+		display:block;
+	}
+
+.paso4:hover
+	{
+		background:url(../img/paso4_on.jpg) center top no-repeat;
+		color:#df0202;
+	}
+	
+#publicanoti
+	{
+		padding:20px 200px;
+	}
+
+
+.tit_left
+	{
+		float:left;
+		width:180px;
+	}
+
+.numeropaso
+	{
+		float:right;
+		width:180px;
+		text-align:right;
+	}
+	
+.cuadro_publinota
+	{
+		width:594px;
+		height:250px;
+		border:solid 1px #cccccc;
+	}
+
+.subtit_publinota
+	{
+		float:left;
+		width:180px;
+		margin:15px 0 10px 0;
+	}
+
+.quedanxx
+	{
+		font-size:9px;
+		width:185px;
+		text-align:right;
+		float:right;
+		margin:20px 0 10px 0;
+	}
+
+.cuadro_titularnoti
+	{
+		width:594px;
+		height:20px;
+		border:solid 1px #cccccc;
+	}
+
+.categoriass
+	{
+		width:594px;
+		margin:10px 0;
+	}
+
+.col_categorias
+	{
+		float:left;
+		width:148px;
+	}
+
+.comisiones
+	{
+		padding:0 0 40px 0;
+	}
+	
+.cuadro_comision
+	{
+		width:594px;
+		height:80px;
+		border:solid 1px #cccccc;
+	}
+	
+.link_condiciones
+{
+	float:left;
+	text-align:left;
+	width:190px;
+	padding:0 10px 0 0;
+	margin:35px 0 0 0;
+}
+	
+.link_ed_avanzada
+{
+	float:left;
+	text-align:left;
+	width:190px;
+	padding:0 10px 0 0;
+	margin:5px 0 0 0;
+}
+
+.bt_siguiente	
+	{
+		width:594px;
+		text-align:right;
+		margin-top:25px;
+	}
+	
+.cuadro_asisevera
+	{
+		width:594px;
+		height:500px;
+		border:solid 1px #cccccc;
+	}
+	
+#ed_avanzada
+	{
+		width:574px;
+		height:80px;
+		border:solid 1px #cccccc;
+		padding:10px;
+		margin:15px 0;
+	}
+
+.item_ed_avanzada
+	{
+		float:left;
+		height:80px;
+		width:100px;
+		border:solid 1px #999999;
+		margin:0 10px 0 0;
+		background:#cccccc;
+	}
+	
+	
+/*****************************************************************************************
+
+                                      FINAL CSS HENRY
+
+*****************************************************************************************/
