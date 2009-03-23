@@ -1151,7 +1151,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	border-left:  #CCc solid 1px;
 	border-right: 1px solid #ccc;
 	border-top: 1px solid #ccc; 
-	padding-left:15px;
+	padding-left:15px; margin-left:10px;
 	}
 	
 
@@ -1372,16 +1372,19 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		
 		
 	
-		
+.contennoticias{ border-left:1px  solid #ccc;
+				border-right:1px  solid #ccc;
+				border-bottom:1px  solid #ccc;
+				 float:left; padding:8px;}		
 		
 
 
 .mas-noticias{
-  float:left;
-  width:654px;
-  margin:2px 0;
-  border-bottom:#ccc solid 1px;
-  padding: 3px 0px 3px 0px;
+	float:left;
+	width:638px;
+	margin:2px 0;
+	border-bottom:#ccc solid 1px;
+	padding: 3px 0px 3px 0px;
   }
   
   .mas-noticias_login{
@@ -1426,7 +1429,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							.noticias_lista-noticias{
 							float:left;
 							padding:1px 0px 5px 4px ;
-							width:460px;
+							width:447px;
 						  	}
 							
 							
@@ -1455,15 +1458,32 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							}
 					   
 		
-							.noticias_barrita_pestanas{ width:641px;
+							.noticias_barrita_pestanas{ width:644px;
 							height:22px;
-							border: 1px solid #ccc;									
+							border-left: 1px solid #ccc;
+							border-right: 1px solid #ccc;	
+							border-top: 1px solid #ccc;	
 							text-align:right;
 							line-height:22px;
 							float:left;
 							padding-right:10px;
-							margin-left:1px; background-color:#FFF;
+						 background-color:#FFF;
 							}
+							
+							
+							.noticias_barrita_pestanas2{ width:640px;
+							height:22px;
+							border-left: 1px solid #ccc;
+							border-right: 1px solid #ccc;	
+							border-top: 1px solid #ccc;	
+							text-align:right;
+							line-height:22px;
+							float:left;
+							padding-right:10px;
+						 background-color:#FFF;
+						 margin-left:2px;
+							}
+							
 							
 							
 						    .noticias_fecha{
@@ -1620,7 +1640,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		
 	#paginado_{
 	float:right;
-	padding:10px 0px 0px 20px;
+	padding:10px 10px 10px 20px;
 	}
 	
 	#paginado_ a{
