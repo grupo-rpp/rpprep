@@ -1387,6 +1387,15 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	padding: 3px 0px 3px 0px;
   }
   
+  
+  .mas-noticiascomisiones{
+	float:left;
+	width:658px;
+	margin:2px 0;
+	border-bottom:#ccc solid 1px;
+	padding: 3px 0px 3px 0px;
+  }
+  
   .mas-noticias_login{
   float:left;
   width:638px; padding:10px 0;  
