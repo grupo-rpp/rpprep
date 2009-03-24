@@ -1060,6 +1060,13 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	border: #ccc solid 1px;
 	background:url(../img/pabuscar.gif); padding-bottom:2px
 	}
+	
+
+
+	.menu_boton:hover
+	{
+	background:url(../img/pabuscar_on.gif); padding-bottom:2px
+	}
 
 	.menu_itext{
 	border:#ccc solid 1px;
@@ -1826,7 +1833,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .fila_btn_enviar
 	{
-		width:392px;
+		width:492px;
 		padding:8px 0 0 30px;
 		text-align:right;
 	}
@@ -1986,7 +1993,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 .compl3
 	{
 		float:left;
-		width:252px;
+		width:388px;
 		text-align:right;
 	}
 
@@ -2013,7 +2020,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 #olvido_pass
 	{
 		width:570px;
-		padding:100px 0 100px 240px;
+		padding:60px 0 60px 240px;
 	}
 
 .camp_correo
@@ -2231,6 +2238,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{
 		float:left;
 		width:148px;
+		margin:0 0 10px 0;
 	}
 
 .comisiones
@@ -2260,7 +2268,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	text-align:left;
 	width:190px;
 	padding:0 10px 0 0;
-	margin:5px 0 0 0;
+	margin:0 0 0 0;
 }
 
 .bt_siguiente	
@@ -2351,13 +2359,15 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		width:320px;
 		float:left;
 		padding:0 10px 0 0;
-	    border-right:1px solid #ccc;
+	    /*border-right:1px solid #ccc;*/
 	}
 
 .perfil_izq_a
 	{
 		margin:0 0 12px 0;
-	}
+		padding:2px;
+		border:solid 1px #cccccc;
+		}
 
 .usuario_chico
 	{
@@ -2378,7 +2388,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 .datos_reportero_izq_a
 	{
 		float:left;
-		width:260px;
+		width:254px;
 	}
 
 .ult_public_usuario2
@@ -2449,7 +2459,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 .est_usuario
 	{
-		margin:0 0 10px 10px;
+		margin:20px 0 10px 10px;
 	}
   
  .h4right
@@ -2469,7 +2479,57 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{
 		margin:8px 0 8px 0;
 	}
- 
+	
+ .comisiones_2
+ {
+	float:left;
+	width:300px;	
+	background:#f6f6f6;
+	padding:5px 0 0  0;
+	border:#f2f2f2 solid 1px;
+	margin:10px 0;
+	
+		}.comisiones_2 h4{
+		padding:5px 0 0 10px;
+		}
+		
+		
+		.comisiones_2 ul{ /*agregado*/
+		float:left;
+		padding:5px 0 5px 10px;
+		}
+		
+
+		.comisiones_2 ul li{
+		float:left;
+		width:280px;
+		padding:4px 20px;
+		display:inline;
+		}
+		
+		.comisiones_2 ul li p a {
+		padding-left:10px;
+		color:#1d4d6c;
+		
+		font-size:14px;
+		}
+		
+		.comisiones_2 ul li p a:hover {
+		color:#df0202;
+		}
+							
+	
+		.comisiones_2ul li span{
+		padding-left:13px;
+		}
+		
+		
+.radio
+{
+margin:0px;
+padding:0px;
+}
+
 /*****************************************************************************************
 
                                       FINAL CSS HENRY
