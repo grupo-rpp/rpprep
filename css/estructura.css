@@ -1389,8 +1389,6 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		
 
 
-
-	
 .mas-noticiasinter
 	{
 		float:left;
@@ -1398,8 +1396,18 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		margin:2px 0;
 		border-bottom:#ccc solid 1px;
 		padding: 3px 0px 3px 0px;
+	}
+	
+.mas-noticiasinter2
+	{
+		float:left;
+		width:638px;
+		margin:2px 0;
+	
+		padding: 3px 0px 3px 0px;
 	}	
-
+	
+	
 .mas-noticias{
 	float:left;
 	width:654px;
@@ -1419,9 +1427,10 @@ background: url(../img/btn_activo.gif) right top no-repeat;
   
   .mas-noticias_login{
   float:left;
-  width:638px; padding:10px 0;  
+  width:638px;
+  padding:10px 0;  
   border-bottom:#ccc solid 1px;
->>>>>>> 2fc41b88232b17b10401221eac89e11a18f3080f:css/estructura.css
+}
   
   
 .mas-noticiascomisiones
@@ -1471,13 +1480,20 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 
 /*---------------------------PORTADA NOTICIAS _LOGOUT - LOGIN---------------------------*/
+
 	
 
 
-						.noticias_lista-noticias{
+.noticias_lista-noticias{
 							float:left;
 							padding:1px 0px 5px 4px ;
 							width:460px;
+						  	}
+
+.noticias_lista-noticias2{
+							float:left;
+							padding:1px 0px 5px 4px ;
+							width:430px;
 						  	}
 							
 
@@ -2606,14 +2622,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		background:#cccccc;
 	}
 	
-/*------comentarios resultados*/
 
-
-
-
-
-
-/*---comentarios  resultados*/
 	
 	
 	
@@ -2622,3 +2631,56 @@ background: url(../img/btn_activo.gif) right top no-repeat;
                                       FINAL CSS HENRY
 
 *****************************************************************************************/
+
+
+
+/*------ popup ----------*/
+
+.contenpopup
+	{ 
+		width:270px;
+		padding:15px;
+		border:1px solid #ccc;
+		background-color:#FFF;
+		height:220px;		
+	}
+.contenpopup .popup_contenform form .popupcaja2 ul li input{ height:12px;}	
+
+.popup_busqueda 
+	{ 
+		float:left;
+		width:238px;
+	}
+
+.popupcaja1
+	{
+	width:90px;
+	float:left;
+	margin:10px 5px 0 0;
+	}
+
+.popupcaja2
+	{
+		width:170px;
+		float:left;
+		margin:10px 5px 0 0;
+	}
+	
+
+.popupcaja1 ul 
+	{
+		margin:0;
+		padding:0;
+	}
+.popupcaja1 ul li 
+	{
+		margin:0 0 15px 0;
+	}	
+	
+.popupcaja2  ul li  
+	{ 
+		margin:0px 0 10px 0;
+	}
+
+.popup_enviar{ float:right; padding-top:10px;}
+/*------ fin popup -------*/
