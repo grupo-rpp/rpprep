@@ -46,7 +46,7 @@
   
 	
 	h4{
-	color:#FF8800;
+	color:#eb7d00;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:15px;
 	font-weight:bold;
@@ -277,3 +277,30 @@ color:#df0202;
 	color:#999;
 }			
 .paddin{ padding-left:4px; color:#000; }
+
+
+
+
+		/*----comentarios*/
+
+		.elcomentario a{
+		color:#5F8CE0;
+		}
+		
+		.elcomentario a:hover{
+		color:#DF0202;
+		}
+		
+		/*----comentarios*/
+		
+		
+		
+		
+		
+		.textito a{
+		color:#327199;
+		}
+
+		.textito a:hover{
+		color:#DF0202;
+		}

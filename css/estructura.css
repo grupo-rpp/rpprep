@@ -176,7 +176,7 @@ padding-left:9px;
   width:87px;
   }
   
-   .user2{
+  .user2{
   float:left;
   padding:3px;
   border:#EFEFEF solid 1px; 
@@ -184,6 +184,18 @@ padding-left:9px;
   width:136px;
   height:70px;
   }
+  
+  
+  .user3{
+  float:left;
+  padding:3px;
+  border:#EFEFEF solid 1px; 
+  background-color:#F9FBFF;
+  width:130px;
+  }
+  
+  
+  
   
   
   .fotodummy_reportero{ width:44px; height:60px; }
@@ -223,14 +235,16 @@ padding-left:9px;
 	margin:0 0 10px 0;
 	}
   
+  	.caja_noticias h4{
+	padding-top:10px;
+	}
   
   
   
   
   
   
-  
-/*------inicio reporteros destacados----------------------------------------------*/	  
+/*------inicio reporteros destacados  izquierda----------------------------------------------*/	  
 	
 	
 	.reporteros_destacados{
@@ -268,7 +282,65 @@ padding-left:9px;
 
 
   
-/*-------------fin reporteros destacados ---------------------------------------*/			
+/*-------------fin reporteros destacados ---------------------------------------*/		
+
+
+
+/*------inicio reporteros destacados derecha----------------------------------------------*/	  
+	
+	
+	.reporteros_destacados2{
+	float:left;
+	width:298px;
+	padding-bottom:7px;
+	border:1px solid #F2F2F2;
+	margin-bottom:10px;
+	}
+	
+	.reporteros_destacados2 h4{
+	padding:4px 0 4px 4px ;
+	}
+	
+	
+	.reporteros_destacados2 ul{
+	width:294px;
+	float:left;
+	}
+	
+	
+	.reporteros_destacados2 ul li{
+	float:left;
+	padding:5px 4px 5px 5px ;
+	}	
+
+	.reporteros_destacados2 h5{
+	float:right;
+	padding-right:8px;
+	padding-top:5px;
+	}
+	
+	
+	
+	
+
+
+  
+/*-------------fin reporteros destacados ---------------------------------------*/	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 /*-------------inicio actividades sitio---------------------------------------*/	  
@@ -600,6 +672,7 @@ padding-left:9px;
 		width:340px;
 		}
 		
+		
 		#noticia_foto{
 		float:left;
 		width:300px; 
@@ -653,6 +726,7 @@ padding-left:9px;
   width:310px; 
   background-color:#fff;
   padding-left:10px;
+  padding-bottom:10px;
   /*height:1725px;*/
 
   }
@@ -707,6 +781,8 @@ padding-left:9px;
   float:left;
   margin:0 0px 5px 0;  
   }
+  
+  
       
 
   .publi_300x250{
@@ -714,13 +790,13 @@ padding-left:9px;
   width:300px;
   height:250px;
   background:#666;
-  margin: 15px 10px 17px 0;
+  margin: 15px 10px 15px 0;
   }
 
 /*-----------------------------------------------------------------*/ 
   .grupos_{
   float:right;
-  margin-bottom:10px;
+  margin:5px 0;
   }
   
   .grupitos_{
@@ -1155,7 +1231,9 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	#bloque_derecho h4 {
 	float:left;
-		}
+	padding-bottom:3px;
+	
+	}
 	
 	#reporteros_peru{
 	float:right;
@@ -1270,6 +1348,15 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	padding-top:25px;
 	}
 	
+	#noticia_principal span a{
+	color:#0066CC;
+	padding-left:110px;
+	}
+	
+	#noticia_principal span a:hover{
+	color:#DF0202;
+	}
+	
 	.comisiones_grande{
 	float:left;
 	width:638px;
@@ -1358,7 +1445,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		
 
 
-.mas-noticias{
+  .mas-noticias{
   float:left;
   width:654px;
   margin:2px 0;
@@ -1405,8 +1492,15 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							width:460px;
 						  	}
 							
+							.noticias_ciudad{
+							float:left;
+							padding:1px 0px 5px 4px ;
+							width:545px;
+						  	}	
 							
-								.noticias_lista-noticias_log{
+							
+							
+							.noticias_lista-noticias_log{
 							float:left;
 							padding:1px 0px 0px 4px ;
 							width:460px;
@@ -1461,7 +1555,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		float:left;
 		width:300px;
 		background:#f6f6f6;
-		padding:5px 0 0  0;
+		padding:5px 0 10px  0;
+		margin-bottom:10px;
 		border:#f2f2f2 solid 1px;
 		}
 		
@@ -1549,10 +1644,154 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		}
 		
 		
+		/*-----------ultimos comentarios ciudad---------*/
+		
+		.ultimos_comentarios_ciudad{
+		float:left;
+		width:300px;
+		background:#f6f6f6;
+		padding:5px 0;
+		border:#f2f2f2 solid 1px;
+		margin-bottom:10px;
+		}
+		
+		.ultimos_comentarios_ciudad h4{
+		padding:5px 0 0 5px;
+		}
+		
+		.ultimos_comentarios_ciudad ul {
+		float:left;
+		padding:5px 0 5px 5px;
+		}
+		
+		.ultimos_comentarios_ciudad ul li{
+		float:left;
+		width:290px;
+		padding-bottom:10px;
+		}
+		
+		.textito{
+		float:left;
+		width:190px;
+		padding-left:5px;
+		}
+		
+		
+		/*-----------ultimos comentarios ciudad---------*/
+		
+		
+		
+	.ultimos_comentarios_derecha{
+	float:left;
+	width:335px;
+	margin-right:5px;
+	padding:3px; padding-bottom:7px;
+	border:1px solid #F2F2F2;
+	}
+	
+	.ultimos_comentarios_derecha h4{
+	padding:4px 0 4px 4px ;
+	}
+	
+	
+	.ultimos_comentarios_derecha{ 
+	margin:0; padding:0;
+	float:left;
+	}
+	
+	
+	.ultimos_comentarios_derecha ul li{
+	float:left;
+	padding:10px 3px 11px 4px ;
+	}	
+
+	
+	.ultimos_comentarios_derecha h5{
+	float:right;
+	padding-right:5px;
+	padding-bottom:10px;
+	padding-top:5px;
+	}
+		
+	.textito_2{
+	float:left;
+	width:222px;
+	padding-left:6px;
+	}	
 		
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*-----------inicio_Comentarios ---------*/
+		
+		
+		.comentarios_derecha{
+		float:left;
+		width:300px;
+		padding:5px 0;
+		border:#f2f2f2 solid 1px;
+		margin:10px 0;
+		background:#333333;
+		}
+		
+		.comentarios_derecha h4{
+		padding:0 0 10px 10px;
+		}
+		
+		.comentarios_derecha ul {
+		padding-left:10px;
+		}
+		
+		.comentarios_derecha ul li{
+		float:left;
+		width:280px;
+		padding:0 0 5px 0;
+		margin-bottom:7px;
+		background:#FFFFFF;
+		}
+		
+		.elcomentario{
+		float:left;
+		padding:3px 0 5px 3px;
+		width:280px;
+		}
+		
+		.comentarios_derecha ul li .mini_foto{
+		margin-left:3px;
+		}
+		
+		
+		
+		
+		
+		
+		/*-----------fin_Comentarios ---------*/
 		
 		
 		
@@ -1578,6 +1817,9 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		.categorias ul li a:hover{ color:#f80; font-weight:normal; }
 		.categorias ul li a{ color:#000; font-weight:normal;}
 		
+	
+	
+	
 	#paginado_{
 	float:right;
 	padding:10px 0px 0px 20px;
@@ -1590,6 +1832,16 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	#paginado_ a:hover{
 	color:#ff0000;
 	}
+	
+	
+  .mas-paginas{
+  float:right;
+  width:654px;
+  padding-bottom:15px;
+  }
+	
+	
+	
 		
 		
 		
