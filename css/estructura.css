@@ -183,6 +183,7 @@ padding-left:9px;
   background-color:#F9FBFF;
   width:136px;
   height:70px;
+  margin:0 5px 0 5px;
   }
   
   
@@ -219,7 +220,7 @@ padding-left:9px;
   
   	.caja_noticias{
 	float:left;
-	width:670px;
+	width:666px;
 	margin:0 0 10px 0;
 	}
   
@@ -725,6 +726,12 @@ padding-left:9px;
   margin-bottom:10px;
   }
   
+  .nubee{
+  /*float:right;*/
+  margin:0 0 10px 10px;
+  width:310px;
+  }
+  
   .grupitos_{
   float:right;
   width:286px;
@@ -1049,9 +1056,16 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 	.menu_boton{
 	font-size:12px;
-	color: #666666;
+	color: #333333;
 	border: #ccc solid 1px;
 	background:url(../img/pabuscar.gif); padding-bottom:2px
+	}
+	
+
+
+	.menu_boton:hover
+	{
+	background:url(../img/pabuscar_on.gif); padding-bottom:2px
 	}
 
 	.menu_itext{
@@ -1833,16 +1847,21 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{
 		margin-left:4px;
 	}					 
+			
+			
+			
+			
+			
 						 
-.reporteros_content
-	{
-		width:630px;
-		margin:0px 0 10px 2px;
-		float:left;
-		border-left:1px solid #ccc;
-		border-right:1px solid #ccc;
-		border-bottom:1px solid #ccc;
-	 	padding:10px;
+
+	.reporteros_content{
+	width:630px;	
+	margin:0px 0 10px 2px;
+	float:left;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	 padding:10px;
 	}
 						
 .reporteros_siguesfotos ul
@@ -2075,7 +2094,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	width:638px;
 	padding:0 8px 10px 8px;
 	border:#CCC solid 1px;
-	margin-bottom:15px;
+	/*margin-bottom:15px;*/
 	}
 	
 .contact h4
@@ -2095,8 +2114,13 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 .txt_contact
 	{
 		float:left;
-		width:180px;
+		width:190px;
 		padding:4px 0 2px 0;
+	}
+
+.font8px
+	{
+		padding:10px 0 0 0;
 	}
 
 
@@ -2139,7 +2163,15 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .fila_btn_enviar
 	{
-		width:392px;
+		width:492px;
+		padding:8px 0 0 30px;
+		text-align:right;
+	}
+
+
+.fila_btn_enviar_registro
+	{
+		width:480px;
 		padding:8px 0 0 30px;
 		text-align:right;
 	}
@@ -2155,7 +2187,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	  width:310px; 
 	  background-color:#fff;
 	  padding-left:10px;
-	  border-right:1px #efefef solid;
+	  /*border-right:1px #efefef solid;*/
   }
  
  
@@ -2172,8 +2204,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 .box_ingresar
 	{
 		float:left;
-		width:290px;
-		padding:0 0 0 10px;
+		width:301px;
+		padding:8px 0 3px 8px;
 		background:#f6f6f6;
 		border:#f2f2f2 solid 1px;
 		margin-bottom:15px;
@@ -2198,8 +2230,9 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 #bt_codseguridad
 {
 	float:left;
-	width:130px;
-	padding:25px 0 0 4px;
+	width:140px;
+	text-align:center;
+	padding:28px 0 0 4px;
 }
 
 #bt_aqui
@@ -2219,14 +2252,14 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .fila_ingresar
 {
-		width:280px;
-		padding:8px 0 0 10px;
+		width:283px;
+		padding:8px 0 0 5px;
 }
 
 .ingresar_c1
 {
 	float:left;
-	width:80px;
+	width:83px;
 	padding:3px 0 0 0;
 }
 
@@ -2240,13 +2273,13 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 {
 	float:left;
 	text-align:right;
-	width:190px;
-	padding:0 10px 0 0;
+	width:196px;
+	padding:0 4px 0 0;
 }
 
 .camptxt_ingresar
 	{
-		width:190px;
+		width:195px;
 		border:solid 1px #cccccc;
 	}
 	
@@ -2290,7 +2323,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 .compl3
 	{
 		float:left;
-		width:252px;
+		width:388px;
 		text-align:right;
 	}
 
@@ -2317,7 +2350,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 #olvido_pass
 	{
 		width:570px;
-		padding:100px 0 100px 240px;
+		padding:60px 0 60px 240px;
 	}
 
 .camp_correo
@@ -2354,14 +2387,14 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 #bt_pasos
 	{
-		margin:10px 0 0 75px;
+		margin:0 0 0 75px;
 		float:left;
 		font-size:10px;
 	}
 
 #bt_pasos a
 	{
-		margin:10px 20px 0 0;
+		margin:8px 20px 0 0;
 	}
 
 .paso1on
@@ -2535,6 +2568,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{	
 		float:left;
 		width:148px;
+		margin:0 0 10px 0;
 	}
 
 .comisiones
@@ -2564,7 +2598,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	text-align:left;
 	width:190px;
 	padding:0 10px 0 0;
-	margin:5px 0 0 0;
+	margin:0 0 0 0;
 }
 
 .bt_siguiente	
@@ -2583,10 +2617,10 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 #ed_avanzada
 	{
-		width:574px;
+		width:580px;
 		height:80px;
 		border:solid 1px #cccccc;
-		padding:10px;
+		padding:10px 0 10px 13px;
 		margin:15px 0;
 	}
 
@@ -2594,23 +2628,245 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{
 		float:left;
 		height:80px;
-		width:100px;
+		width:101px;
 		border:solid 1px #999999;
-		margin:0 10px 0 0;
+		margin:0 12px 0 0;
 		background:#cccccc;
 	}
 	
+	
+
+/**********************  ****************************/
+
+
+.ult_public_usuario
+	{
+		float:left;
+		padding:1px 0px 5px 4px ;
+		width:547px;
+	}
+
+.btn_floatright
+	{
+		float:right;
+	}
+
+.separador_alt5px
+	{
+		height:5px;
+	}
+
+.separador_alt15px
+	{
+		height:15px;
+	}
+
+.mas-noticias .user_comment
+	{
+		float:left; 
+		margin-top:19px; 
+		margin-right:5px;
+	    padding:3px;
+	    border:#EFEFEF solid 1px; 
+	    background-color:#F9FBFF;
+	    width:87px;
+	}
+
+.reporteros_seguidores
+{
+	width:630px;
+	margin:0px 0 10px 2px;
+	float:left;
+	border:1px solid #ccc;
+    padding:10px;
+}
+	
+
+
+
+.bloque_izquierdo_a
+	{
+		width:320px;
+		float:left;
+		padding:0 10px 0 0;
+	    /*border-right:1px solid #ccc;*/
+	}
+
+.perfil_izq_a
+	{
+		margin:0 0 12px 0;
+		padding:2px;
+		border:solid 1px #cccccc;
+		}
+
+.usuario_chico
+	{
+		float:left;
+		text-align:center;
+		width:50px;
+		margin:0 10px 0 0;
+	}
+
+.bloque_izquierdo_b
+	{
+		width:314px;
+		float:left;
+		margin:0 0 0 10px;
+	}
+
+
+.datos_reportero_izq_a
+	{
+		float:left;
+		width:254px;
+	}
+
+.ult_public_usuario2
+	{
+		float:left;
+		padding:0 10px 0 0;
+		width:310px;
+		margin:0 0 15px 0;
+	}
+	
+.noticia_ult_user
+{
+	float:left;
+	padding:1px 0px 5px 4px ;
+	width:220px;
+}
+	
+.noticia_ult_user_txt
+{
+	float:left;
+	padding:1px 0px 5px 4px ;
+	width:300px;
+}
+
 /*------comentarios resultados*/
 
 
 
 
 
+	
+.publicacion_user
+{
+  float:left;
+  width:316px;
+  margin:2px 0;
+  border:#ccc solid 1px;
+  padding: 3px 0px 3px 0px;
+}
+	
+.act_recientes
+{
+  float:left;
+  width:313px;
+  margin:2px 0;
+  border-bottom:#ccc solid 1px;
+  /*padding: 3px 0px 3px 0px;*/
+}	
 
-/*---comentarios  resultados*/
+
+.act_recientes_usuario
+	{
+		float:left;
+		padding:1px 0px 5px 4px ;
+		/*width:547px;*/
+	}
 	
+
+
+
+.seguidores_usuario
+{
+	width:310px;
+	margin:0px 0 10px 2px;
+	float:left;
+	border:1px solid #ccc;
+    /*padding:10px;*/
+}
+
+.fila_seguidor
+{
+	width:310px;
+	margin:10px 0;
+}
 	
+.est_usuario
+	{
+		margin:20px 0 10px 10px;
+	}
+  
+ .h4right
+ 	{
+		float:right;
+    }
+
+.aboutme
+	{
+		background:#f3f3f3;
+		width:297px;
+		margin:10px 0 10px 0;
+		padding:8px;
+	}
+
+.aboutme p
+	{
+		margin:8px 0 8px 0;
+	}
 	
+ .comisiones_2
+ {
+	float:left;
+	width:300px;	
+	background:#f6f6f6;
+	padding:5px 0 0  0;
+	border:#f2f2f2 solid 1px;
+	margin:10px 0;
+	
+		}.comisiones_2 h4{
+		padding:5px 0 0 10px;
+		}
+		
+		
+		.comisiones_2 ul{ /*agregado*/
+		float:left;
+		padding:5px 0 5px 10px;
+		}
+		
+
+		.comisiones_2 ul li{
+		float:left;
+		width:280px;
+		padding:4px 20px;
+		display:inline;
+		}
+		
+		.comisiones_2 ul li p a {
+		padding-left:10px;
+		color:#1d4d6c;
+		
+		font-size:14px;
+		}
+		
+		.comisiones_2 ul li p a:hover {
+		color:#df0202;
+		}
+							
+	
+		.comisiones_2ul li span{
+		padding-left:13px;
+		}
+		
+		
+.radio
+{
+margin:0px;
+padding:0px;
+}
+
 /*****************************************************************************************
 
                                       FINAL CSS HENRY
