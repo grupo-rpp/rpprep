@@ -347,6 +347,28 @@ color:#df0202;
 		text-align:center;
 		color:#ffffff;
 	}
+	
+	
+	
+	
+	
+
+.usuario_chico
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:10px;
+	}
+
+#usuario_chico a
+{
+color:#327199;
+}
+
+#usuario_chico a:hover
+{
+color:#ff0000;
+}
+
 /*****************************************************************************************
 
                                       FINAL CSS HENRY
