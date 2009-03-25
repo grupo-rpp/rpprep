@@ -652,13 +652,10 @@ padding-left:9px;
 	
 	
 	
-	
-	
-	
-	
 	#cuerpo{
 	float:left;
 	width:996px;
+	padding-bottom:10px;
 
 	
 	background:#ffffff;
@@ -686,6 +683,13 @@ padding-left:9px;
 	padding-bottom:10px;
 	margin:8px 0 10px 0px;
 	border-bottom:1px solid #ccc;
+	}
+	
+	#cuerpo #bloque_izquierdo #noticia_principal_comision{
+	float:left;
+	width:657px;
+	padding-bottom:10px;
+	margin:8px 0 0 0;
 	}
 	
 	
@@ -1243,7 +1247,6 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	.titulo_interiores{
 	float:left;
 	padding-bottom:3px;
-	padding-left: 5px;
 	}
 	
 	.titulo_interiores_ciudad{
@@ -1258,6 +1261,15 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	}
 
 	#veamos h4{
+	padding-bottom:3px;
+	}
+	
+	#veamos_comision{
+	float:left;
+	padding-bottom:5px;
+	}
+
+	#veamos_comision h4{
 	padding-bottom:3px;
 	}
 	
@@ -1336,7 +1348,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	#bloque_derecho h4 {
 	float:left;
-		}
+	}
 	
 	#reporteros_peru{
 	float:right;
@@ -1440,20 +1452,25 @@ background: url(../img/btn_activo.gif) right top no-repeat;
  	}
 	
 	
-.comision_
-	{
+		.comision_{
 		float:left;
 		width:646px;
 		padding:4px 0;	
 		border-bottom:#ccc solid 1px;
-	}
-	
-.comision_2
-	{
+		}
+		
+		.comision_3{
 		float:left;
 		width:638px;
 		padding:4px 0;	
-	}
+		border-bottom:#ccc solid 1px;
+		}
+	
+		.comision_2{
+		float:left;
+		width:638px;
+		padding:4px 0;	
+		}
 	
 	
 	
@@ -1968,12 +1985,29 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		padding:5px 0 5px 10px;
 	}
 		
-.mas_comisiones ul li
-	{
+	
+		.mas_comisiones ul li{
 		float:left;
 		width:280px;
 		padding-bottom:10px;
-	}
+		}
+		
+		
+		
+		
+		.mas_comisiones_comision ul li{
+		float:left;
+		width:240px;
+		padding-bottom:10px;
+		background:#99CC33;
+		}
+		
+		
+		
+	
+	
+	
+		
 		
 .mas_comisiones ul li h3
 	{
@@ -1981,46 +2015,63 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		padding-right:5px;
 	}
 		
-		
 
-		/*-----------Categorias ---------*/
-		
-.categorias
-	{
-		width:290px;
-		/*height:190px;*/
+
+
+/*-----------Inicio Comisiones derecha---------*/
+		.categorias{
+		width:298px;
 		border: 1px  solid #ccc;
 		float:left;
-		padding:5px;
-		background-image:url(../img/font.gif)
-	}	
+		margin:5px 0;
+		background:url(../img/font2.gif) repeat-x;
+		}	
 		
 		
-.categorias ul
-	{
-		margin:0;
-		padding:0;
-	}
-			
-.categorias ul li
-	{
+		.categorias h2{
+		padding:5px 5px 0 5px;
+		}
+		
+		
+		.categorias ul li{
 		font-size:15px;
+		margin:5px 0 5px 50px;
+		color:#f80;
+
 		margin:10px 0 5px 50px;
 		color:#000;
 		font-weight:bold;
-	}
+		}
 		
-.categorias ul li a:hover
-	{
+		.categorias ul li a:hover{
 		color:#f80;
 		font-weight:normal;
-	}
+		}
 	
-.categorias ul li a
-	{
+
+		.categorias ul li a{
 		color:#327199;
 		font-weight:normal;
-	}
+		}
+
+
+/*-----------Fin Comisiones derecha---------*/
+
+		.mapa_peru{
+		width:298px;
+		border: 1px  solid #ccc;
+		float:left;
+		margin-top:3px;
+		}
+		
+		.mapa_peru img{
+		padding:3px 3px 0 3px;
+		}
+
+
+/*-----------Categorias ---------*/
+		
+
 		
 #paginado_
 	{
