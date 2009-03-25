@@ -1254,7 +1254,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 
 	
-	ul#lomas_tabs_nav li{
+	ul#lomas_tabs_nav li , ul#lomas_tabs_nav2 li{
 	display:inline;
 	list-style:none;
 	margin:0;
@@ -1262,7 +1262,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	}
 	
-	ul#lomas_tabs_nav li a{
+	ul#lomas_tabs_nav li a , ul#lomas_tabs_nav2 li a{
 	display:block;
 	margin-left:1px;
 	padding:0 15px;
@@ -1292,8 +1292,23 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	border-left:  #CCc solid 1px;
 	border-right: 1px solid #ccc;
 	border-top: 1px solid #ccc; 
-	padding-left:15px; margin-left:10px;
+	padding-left:15px;
+	margin-left:0px;
 	}
+	
+	
+		ul#lomas_tabs_nav2 li a.activo, ul#lomas_tabs_nav2 li a:hover.activo{ background-color:#FFF;
+	color:#000;
+	height:25px;
+	font-size:11px;
+	line-height:25px;	
+	border-left:  #CCc solid 1px;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc; 
+	padding-left:15px;
+	margin-left:2px;
+	}
+	
 	
 
 
@@ -1703,7 +1718,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		padding-right:10px
 	}
 
-.mas-noticias .user, .mas-noticiasinter .user
+.mas-noticias .user, .mas-noticiasinter .user , .mas-noticiasinter2 .user
 	{
 		float:right;
 		margin-top:21px;
@@ -1959,7 +1974,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{
 		font-size:15px;
 		margin:10px 0 5px 50px;
-		color:#f80;
+		color:#000;
 		font-weight:bold;
 	}
 		
@@ -1971,7 +1986,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 .categorias ul li a
 	{
-		color:#000;
+		color:#327199;
 		font-weight:normal;
 	}
 		
@@ -2169,6 +2184,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	margin-bottom:10px;
 	margin-top:10px; background-color:#f8f8f8; 
 	}
+	
+.datos_usuario2 h4{ margin-bottom:5px;}	
 				 
 .datos_usuario2 ul li{ margin:0 0 0px 0; padding:0;}	
 
@@ -2182,6 +2199,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	padding:5px 0 0 7px;
 	
 					}
+					
+				
 					
 					
 					
@@ -2444,19 +2463,19 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .camptxt_contact .campotexto
 	{
-		width:230px;
+		width:340px;
 		border:solid 1px #cccccc;
 	}
 
 .campmensaje_contact
 	{
 		float:left;
-		width:300px;
+		width:380px;
 	}
 
 .campmensaje_contact .campomensaje
 	{
-		width:300px;
+		width:380px;
 		height:100px;
 		border:solid 1px #cccccc;
 	}
@@ -2475,7 +2494,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .fila_btn_enviar
 	{
-		width:492px;
+		width:572px;
 		padding:8px 0 0 30px;
 		text-align:right;
 	}
@@ -3245,7 +3264,12 @@ padding:0px;
 		margin:0px 0 10px 0;
 	}
 
-.popup_enviar{ float:right; padding-top:10px;}
+.popup_enviar
+	{
+		float:right;
+		padding-top:10px;
+		padding-right:15px;
+	}
 /*------ fin popup -------*/
 
 /*--- INDEX PERFIL DE USUARIO LOGIN ---- */
@@ -3289,12 +3313,12 @@ padding:0px;
 	float:left;
 	display:inline;
 	height:95px;
-	width:200px;
+	width:206px;
 	margin-left:5px;
 	border:1px solid #ccc;
-	padding-left:5px;
+	padding-left:5px; 
 	text-align:left;
-	overflow:hidden;
+	overflow:hidden; margin-top:6px;
 	}				  
 
 
@@ -3321,6 +3345,7 @@ padding:0px;
 							 padding-bottom:10px;
 							 margin-bottom:5px;
 							 overflow:hidden;
+							 margin-top:2px;
 							 }
 							 
 .perfil_loultimopublicadoreciente {
@@ -3344,6 +3369,14 @@ padding:0px;
 				  padding-top:5px; 
 				  }
 				  
+.perfil_vertodo a  
+	{
+		border-top:1px  solid #ccc;
+		text-align:right;
+		padding-top:5px;
+		color:#134D86; 
+				  }					  
+				  
 .perfil_vertodo2
 	{ 
 		 text-align:right;
@@ -3351,7 +3384,16 @@ padding:0px;
 		  padding-right:10px 
 	 }				  
 
-.perfil_vertodo a:hover , .perfil_vertodo2 a:hover{ color:#900;}
+
+.perfil_vertodo2
+	{ 
+		 text-align:right;
+		  padding-top:5px;
+		  padding-right:10px;
+		  color:#134D86;
+	 }	
+
+.perfil_vertodo a:hover , .perfil_vertodo2 a:hover{ color:#DF0202;}
 
 .perfil_foto{ width:60px;
 			  height:45px;
