@@ -1885,7 +1885,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	
 							
-			/*---------comisiones-------------*/				
+/*---------comisiones-------------*/				
 .comisiones_
 	{
 		float:left;
@@ -2025,6 +2025,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		float:left;
 		margin:5px 0 10px;
 		background:url(../img/font2.gif) repeat-x;
+		margin:5px 0 10px 0;
 		}	
 		
 		
@@ -3527,3 +3528,64 @@ padding:0px;
  }
  
  /*------fin reporteros destacados portada----------------------------------------------*/
+
+
+
+
+
+
+
+
+/*------comentarios_derecha----------------------------------------------*/
+
+
+		.comentarios_derecha{
+		float:left;
+		width:300px;
+		background:#f6f6f6;
+		padding:5px 0;
+		border:#f2f2f2 solid 1px;
+		margin-bottom:10px;
+		}
+		
+		.comentarios_derecha h4{
+		padding:5px 0 0 10px;
+		}
+		
+		.comentarios_derecha ul{
+		float:left;
+		padding:5px 0 5px 10px;
+		}
+		
+	
+		.comentarios_derecha ul li{
+		float:left;
+		width:280px;
+		padding-bottom:3px;
+		border-bottom:#CCC solid 1px;
+		}
+		
+		.comentarios_derecha ul li h3{
+		float:left;
+		}
+		
+		.comentarios_derecha ul li p{
+		padding-bottom:8px;
+		}
+		
+		
+
+
+/*------fin comentarios_derecha----------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
