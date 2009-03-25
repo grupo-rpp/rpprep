@@ -242,6 +242,7 @@ padding-left:9px;
 	border:1px solid #F2F2F2;
 	}
 	
+	
 	.reporteros_destacados h4{
 	padding:4px 0 4px 4px ;
 	}
@@ -266,6 +267,45 @@ padding-left:9px;
 	}
 	
 	
+	
+	
+	/*------inicio reporteros destacados portada----------------------------------------------*/
+	
+	
+	.reporteros_destacados_portada{
+	float:left;
+	width:322px;
+	margin-right:5px;
+	padding:3px; padding-bottom:7px;
+	border:1px solid #F2F2F2;
+	}
+	
+	
+	.reporteros_destacados_portada h4{
+	padding:4px 0 4px 4px ;
+	}
+	
+	
+	.reporteros_destacados_portada ul, .perfil_seguidores ul{ margin:0; padding:0;
+	float:left;
+	}
+	
+	
+	.reporteros_destacados_portada ul li{
+	float:left;
+	padding:10px 3px 11px 4px ;
+	}	
+
+	
+	.reporteros_destacados_portada h5{
+	float:right;
+	padding-right:5px;
+	padding-bottom:10px;
+	padding-top:5px;
+	}
+	
+	/*------fin reporteros destacados portada----------------------------------------------*/
+		
 
 
   
@@ -283,6 +323,20 @@ padding-left:9px;
 	margin-left:5px;
 	background:#F7F7F7;
 	}
+	
+	#actividades_sitio_portada{
+	float:left;
+	padding:3px;
+	width:306px;
+	border:#ccc solid 1px;
+	margin-left:5px;
+	background:#F7F7F7;
+	}
+	
+	#actividades_sitio_portada h4{
+	padding:4px 0 4px 4px ;
+	}
+	
 	
 	#actividades_sitio h4{
 	padding:4px 0 4px 4px ;
@@ -330,13 +384,47 @@ padding-left:9px;
 	/*width:300px;*/
 
 	
+	.caja_ultima{
+	width:245px;
+	}
+	
 	.user_actividades{
+	float:left;
+	display:inline;	
 	padding:3px 0 10px 0;
 	width:330px;
+ 	}
+	
+	.user_actividades_portada{
+	float:left;	
+	padding:3px 0 10px 5px;
+	width:300px;
+	background: #66FF00;
+ 	}
+	
+	
+	
+	
+	
+	.user_actividades p{
+	float:left;
+	width:245px;
+	background:#CCCCCC;
+	}
+	
+	
+	
+	#actividades_sitio_portada .user_actividades{
+	padding:3px 0 10px 5px;
+	width:298px;
 	float:left;
  	}
 	
-	#actividades_sitio .user_actividades .txt_nombre {
+	
+	
+	
+	
+	#actividades_sitio .user_actividades .txt_nombre_2 {
 	font-size:11px;
 	font-weight:bold;
 	padding-left:5px;
@@ -746,6 +834,7 @@ padding-left:9px;
   padding:3px 6px;
   border-top:#CCC solid 1px;
   margin-right:10px;
+  margin-bottom:5px;
   } 
 
   .grupitos_ ul{
@@ -1282,7 +1371,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{
 		float:left;
 		width:638px;
-		padding:4px 0;	
+		padding:4px 0;
 		border-bottom:#ccc solid 1px;
 	}
 	
@@ -1411,6 +1500,25 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		padding: 3px 0px 3px 0px;
 	}	
 
+.mas-noticiasinter
+	{
+		float:left;
+		width:638px;
+		margin:2px 0;
+		border-bottom:#ccc solid 1px;
+		padding: 3px 0px 3px 0px;
+	}
+	
+.mas-noticiasinter2
+	{
+		float:left;
+		width:638px;
+		margin:2px 0;
+	
+		padding: 3px 0px 3px 0px;
+	}	
+	
+	
 .mas-noticias{
 	float:left;
 	width:654px;
@@ -1430,7 +1538,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
   
   .mas-noticias_login{
   float:left;
-  width:638px; padding:10px 0;  
+  width:638px;
+  padding:10px 0;  
   border-bottom:#ccc solid 1px;
 }
   
@@ -1478,7 +1587,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	}
 
 
-
+/*---------------------------PORTADA NOTICIAS _LOGOUT - LOGIN---------------------------*/
 
 
 /*---------------------------PORTADA NOTICIAS _LOGOUT - LOGIN---------------------------*/
@@ -1486,6 +1595,12 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							float:left;
 							padding:1px 0px 5px 4px ;
 							width:460px;
+						  	}
+
+.noticias_lista-noticias2{
+							float:left;
+							padding:1px 0px 5px 4px ;
+							width:430px;
 						  	}
 							
 
@@ -1513,8 +1628,23 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		margin-bottom:10px;
 		padding-bottom:5px;
 	
-		 		
+		padding-right:10px
 	}
+
+.mas-noticias .user, .mas-noticiasinter .user
+	{
+		float:right;
+		margin-top:21px;
+		margin-right:2px;
+	}
+							
+.mas-noticias_login .user, .mas-noticias_login2 .user
+	{
+		float:right;
+		margin-top:21px;
+		margin-right:4px;
+	}
+
 
 .noticias_lista-noticias_log h2
 	{
@@ -1633,14 +1763,13 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 							
 			/*---------comisiones-------------*/				
-.comisiones_
-	{
+		.comisiones_{
 		float:left;
 		width:300px;	
 		background:#f6f6f6;
 		padding:5px 0 0  0;
 		border:#f2f2f2 solid 1px;
-	}
+		}
 		
 .noticias_tevaainterezar
 	{
@@ -1748,6 +1877,90 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		
 
 		/*-----------Categorias ---------*/
+		
+		/*---------comentarios-------------*/
+		
+		
+		.comentarios{
+		float:left;
+		width:300px;
+		padding:5px 0 0  0;
+		background: #FCFCFC;
+		border:#ccc solid 1px;
+		}
+		
+		
+		.comentarios ul{ 
+		float:left;
+		padding:5px 0 5px 8px;
+		}
+		
+
+		.comentarios ul li{
+		float:left;
+		width:288px;
+		padding:4px 0;
+		display:inline;
+		}
+		
+		.comentarios ul li p a{
+		padding-left:10px;
+		color:#1d4d6c;
+		font-size:14px;
+		}
+		
+		.comentarios ul li p a:hover{
+		color:#df0202;
+		}
+							
+	
+		.comentarios ul li span{
+		padding-left:2px;
+		}
+		
+		.elcomentario{
+		margin-bottom:5px;
+		}
+		
+		.elcomentario a{
+		color:#5F8CE0;
+		}
+		
+		
+		.elcomentario a:hover{
+		color:#DF0202;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 .categorias
 	{
@@ -2053,6 +2266,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
   margin-bottom:10px;
   }
   
+  
   .ultimos_comentarios_ciudad h4{
   padding:5px 0 0 5px;
   }
@@ -2073,7 +2287,54 @@ background: url(../img/btn_activo.gif) right top no-repeat;
   width:190px;
   padding-left:5px;
   }	
-	
+  
+  
+  
+  
+  
+  
+  
+  
+  .ultimos_comentarios_ciudad_2{
+  float:left;
+  width:317px;
+  background:#f6f6f6;
+  padding:5px 0;
+  border:#f2f2f2 solid 1px;
+  margin-bottom:10px;
+  }
+  
+  
+  .ultimos_comentarios_ciudad_2 h4{
+  padding:5px 0 0 5px;
+  }
+  
+  .ultimos_comentarios_ciudad_2 ul {
+  float:left;
+  padding:5px 0 5px 5px;
+  }
+  
+  .ultimos_comentarios_ciudad_2 ul li{
+  float:left;
+  width:305px;
+  padding-bottom:10px;
+  }
+  
+  
+  
+  .textito{
+  float:left;
+  width:190px;
+  padding-left:5px;
+  }
+  
+  .textito_portada{
+  float:left;
+  width:248px;
+  padding-left:5px;
+  }
+  
+  
 /*------------------------ FIN Busqueda AVANZADA ---------------------------*/		
 	
 /*****************************************************************************************
@@ -2633,8 +2894,202 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		margin:0 12px 0 0;
 		background:#cccccc;
 	}
+
 	
+
+/**********************  ****************************/
+
+
+.ult_public_usuario
+	{
+		float:left;
+		padding:1px 0px 5px 4px ;
+		width:547px;
+	}
+
+.btn_floatright
+	{
+		float:right;
+	}
+
+.separador_alt5px
+	{
+		height:5px;
+	}
+
+.separador_alt15px
+	{
+		height:15px;
+	}
+
+.mas-noticias .user_comment
+	{
+		float:left; 
+		margin-top:19px; 
+		margin-right:5px;
+	    padding:3px;
+	    border:#EFEFEF solid 1px; 
+	    background-color:#F9FBFF;
+	    width:87px;
+	}
+
+.reporteros_seguidores
+{
+	width:630px;
+	margin:0px 0 10px 2px;
+	float:left;
+	border:1px solid #ccc;
+    padding:10px;
+}
 	
+
+
+
+.bloque_izquierdo_a
+	{
+		width:320px;
+		float:left;
+		padding:0 10px 0 0;
+	    /*border-right:1px solid #ccc;*/
+	}
+
+.perfil_izq_a
+	{
+		margin:0 0 12px 0;
+		padding:2px;
+		border:solid 1px #cccccc;
+		}
+
+.usuario_chico
+	{
+		float:left;
+		text-align:center;
+		width:50px;
+		margin:0 10px 0 0;
+	}
+
+.bloque_izquierdo_b
+	{
+		width:314px;
+		float:left;
+		margin:0 0 0 10px;
+	}
+
+
+.datos_reportero_izq_a
+	{
+		float:left;
+		width:254px;
+	}
+
+.ult_public_usuario2
+	{
+		float:left;
+		padding:0 10px 0 0;
+		width:310px;
+		margin:0 0 15px 0;
+	}
+	
+.noticia_ult_user
+{
+	float:left;
+	padding:1px 0px 5px 4px ;
+	width:220px;
+}
+	
+.noticia_ult_user_txt
+{
+	float:left;
+	padding:1px 0px 5px 4px ;
+	width:300px;
+}
+
+/*------comentarios resultados*/
+
+
+
+
+
+	
+.publicacion_user
+{
+  float:left;
+  width:316px;
+  margin:2px 0;
+  border:#ccc solid 1px;
+  padding: 3px 0px 3px 0px;
+}
+	
+.act_recientes
+{
+  float:left;
+  width:313px;
+  margin:2px 0;
+  border-bottom:#ccc solid 1px;
+  /*padding: 3px 0px 3px 0px;*/
+}	
+
+
+.act_recientes_usuario
+	{
+		float:left;
+		padding:1px 0px 5px 4px ;
+		/*width:547px;*/
+	}
+	
+
+
+
+.seguidores_usuario
+{
+	width:310px;
+	margin:0px 0 10px 2px;
+	float:left;
+	border:1px solid #ccc;
+    /*padding:10px;*/
+}
+
+.fila_seguidor
+{
+	width:310px;
+	margin:10px 0;
+}
+	
+.est_usuario
+	{
+		margin:20px 0 10px 10px;
+	}
+  
+ .h4right
+ 	{
+		float:right;
+    }
+
+.aboutme
+	{
+		background:#f3f3f3;
+		width:297px;
+		margin:10px 0 10px 0;
+		padding:8px;
+	}
+
+.aboutme p
+	{
+		margin:8px 0 8px 0;
+	}
+
+	
+ .comisiones_2
+ {
+	float:left;
+	width:300px;	
+	background:#f6f6f6;
+	padding:5px 0 0  0;
+	border:#f2f2f2 solid 1px;
+	margin:10px 0;
+	}
+	
+
 
 /**********************  ****************************/
 
@@ -2826,6 +3281,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	border:#f2f2f2 solid 1px;
 	margin:10px 0;
 	
+=======
+>>>>>>> e02024b5f05eb81be1013bee0f57bcc08d7ba602:css/estructura.css
 		}.comisiones_2 h4{
 		padding:5px 0 0 10px;
 		}
@@ -2872,3 +3329,58 @@ padding:0px;
                                       FINAL CSS HENRY
 
 *****************************************************************************************/
+
+
+
+
+/*------ popup ----------*/
+
+.contenpopup
+	{ 
+		width:270px;
+		padding:15px;
+		border:1px solid #ccc;
+		background-color:#FFF;
+		height:220px;		
+	}
+.contenpopup .popup_contenform form .popupcaja2 ul li input{ height:12px;}	
+
+.popup_busqueda 
+	{ 
+		float:left;
+		width:238px;
+	}
+
+.popupcaja1
+	{
+	width:90px;
+	float:left;
+	margin:10px 5px 0 0;
+	}
+
+.popupcaja2
+	{
+		width:170px;
+		float:left;
+		margin:10px 5px 0 0;
+	}
+	
+
+.popupcaja1 ul 
+	{
+		margin:0;
+		padding:0;
+	}
+.popupcaja1 ul li 
+	{
+		margin:0 0 15px 0;
+	}	
+	
+.popupcaja2  ul li  
+	{ 
+		margin:0px 0 10px 0;
+	}
+
+.popup_enviar{ float:right; padding-top:10px;}
+/*------ fin popup -------*/
+>>>>>>> e02024b5f05eb81be1013bee0f57bcc08d7ba602:css/estructura.css
