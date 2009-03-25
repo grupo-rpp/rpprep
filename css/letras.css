@@ -12,7 +12,19 @@
 	color:#327199;
 	font-family: Arial, Helvetica, sans-serif;
 	}
-		
+	
+	
+	h1 a{
+	font-size: 20px;
+	font-weight:700;
+	color:#327199;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+	
+	h1 a:hover{
+	color: #df0202;
+	}
+	
 	h2{
 	font-size:16px;
 	color: #327199;
