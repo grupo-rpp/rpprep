@@ -1714,7 +1714,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 							.noticias_lista-noticias2{
 							float:left;
 							padding:1px 0px 5px 4px ;
-							width:430px;
+							width:443px;
 						  	}
 							
 							
@@ -2155,7 +2155,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	border-left:1px solid #ccc;
 	border-right:1px solid #ccc;
 	border-bottom:1px solid #ccc;
-	 padding:10px;
+	 padding:10px 10px 25px 10px
 	}
 						
 .reporteros_siguesfotos ul
