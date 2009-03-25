@@ -76,7 +76,18 @@
 	color: #df0202;
 	}
  
- 
+ h6 a{
+	float:left;
+	font-size:12px;
+	text-decoration:none;
+	color:#5F8CE0;
+	padding-left:6px;
+	}
+
+	h6 a:hover{
+	color:#df0202;
+	}
+
  
  
  
@@ -258,7 +269,7 @@ color:#df0202;
 	}
 /*----clases nueva*/
 
-.size12 a{ font-size:12px; color:#134D86;}
+.size12 a  { font-size:12px; color:#134D86;}
 .size12 a:hover{ color:#DF0202;}
 
 
@@ -347,6 +358,28 @@ color:#df0202;
 		text-align:center;
 		color:#ffffff;
 	}
+	
+	
+	
+	
+	
+
+.usuario_chico
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:10px;
+	}
+
+#usuario_chico a
+{
+color:#327199;
+}
+
+#usuario_chico a:hover
+{
+color:#ff0000;
+}
+
 /*****************************************************************************************
 
                                       FINAL CSS HENRY
@@ -354,4 +387,4 @@ color:#df0202;
 *****************************************************************************************/
 
 
-
+.calificacion{ font-size:11px; margin-left:5px; font-weight:bold; color:#000}
