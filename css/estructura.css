@@ -254,6 +254,13 @@ padding-left:9px;
 				   margin-top:2px;
 				   }
 				   
+ .foto_acerca{ width:72px;
+  				   height:54px;
+				   padding:2px;
+				   border:1px solid #efefef;
+				   margin-top:2px;
+				   }				   
+				   
 .fotonoticiasperfil
 	{
 		width:53px;
@@ -2953,12 +2960,6 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		border-bottom:solid 1px #c9c9c9;
 	}
 
-.fotousuario
-	{
-		border:solid 1px #cccccc;
-		height:60px;
-		width:80px;
-	}
 
 #bt_pasos
 	{
