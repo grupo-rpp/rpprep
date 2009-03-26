@@ -1576,7 +1576,9 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		 float:left;
 		 width:638px;
 		 padding:0 8px 10px 8px;
-		 border:#CCC solid 1px;
+		 border-left:#CCC solid 1px;
+		 border-right:#CCC solid 1px;
+		  border-bottom:#CCC solid 1px;
 		 margin-bottom:15px;
 		 }
 		 
@@ -2009,17 +2011,25 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	/*--------------------------- inicio ndetallesolo foto LOGIN ---------------------------*/
 	 
 	 .ndetalle_contenmultimedia{
-	width:650px;
-	height:400px;
+	width:650px;	
 	float:left;
 	margin-bottom:10px;
 								 }
 								 
 	.ndetalle_comentaaqui{
 	width:650px;
-	height:160px; margin-top:10px;
+	height:160px;
+	margin-top:10px;
+	margin-bottom:10px;
 	float:left;
-						   }							 
+						   }
+						   
+						   
+	.ndetalle_comentaaqui img{ float:right;}					   
+						   
+	.multimedia_ndetalle ul { margin:0; padding:0px;}
+	
+	.multimedia_ndetalle ul li { float:left; margin:10px 39px 0 0px;} 	
 	 
 	  /*--------------------------- fin ndetallesolo foto LOGIN ---------------------------*/
 	  
