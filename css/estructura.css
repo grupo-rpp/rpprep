@@ -1560,7 +1560,9 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		#noticia_principal a img{
 		float:right;
 		padding-right:3px;
+
 		}
+
 
 	
 		 .comisiones_grande{
@@ -2578,10 +2580,11 @@ background: url(../img/btn_activo.gif) right top no-repeat;
  .perfil_usuario
 	{
 		width:634px;
+		height:280px;
 		border:1px solid #dedede;
 		margin-bottom:15px;
 		padding:10px;
-		background-color:#F8F8F8;
+		background-color:#F8F8F8; overflow:hidden;
     }
  
 .perfil_usuario p
