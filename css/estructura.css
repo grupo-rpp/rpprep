@@ -173,7 +173,7 @@ padding-left:9px;
   padding:3px;
   border:#EFEFEF solid 1px; 
   background-color:#F9FBFF;
-  width:87px;
+  width:83px;
   }
   
 .user2
@@ -187,6 +187,12 @@ padding-left:9px;
 	  margin:0 5px 0 5px;
      }
 
+.user 2 mini_foto a img
+  {
+    float:left;
+    width:44px;
+	height:60px;
+  }
 
 .user3
 	{
@@ -214,7 +220,21 @@ padding-left:9px;
    border:#efefef solid 1px;
    padding:2px;
    margin-right:4px;
+   width:22px;
+   height:30px;
   }
+  
+  .mini_foto a img
+  {
+    float:left;
+    width:22px;
+	height:30px;
+  }
+  
+  .fotoavatar{
+   width:22px;
+   height:30px;
+   }
   
   .foto_noticias{ width:80px;
   				   height:60px;
@@ -229,15 +249,26 @@ padding-left:9px;
 		height:40px;
 		border:0px;
 	}				   
-  
-  .datos_user{
-   float:left;
-  }
+ 
 
-    .datos_user img{
+    .datos_user img, .datos_user{
     float:left;
 	padding-top:2px;
-    }	
+    }
+	
+	
+	.datos_user{
+    float:left;
+	padding-top:2px;
+	
+    }
+	
+	
+	.datos_user2{
+    float:left;
+	padding-top:2px;
+	margin-left:25px;
+    }
   
   .caja_noticias
  	{
@@ -608,6 +639,8 @@ padding-left:9px;
 	
 	.mapa .foto_mapa .mapita{
 	padding-top:5px;
+	height:385px;
+	width:300px;
 	}
 	
 	.mapa .datos_mapa{
@@ -755,7 +788,12 @@ padding-left:9px;
 		width:300px; 
 		height:225px;
 		margin-right:12px;
-		}			
+		}
+		
+		.fotoprincipal{ 
+		width:300px;
+		height:225px;
+		}
 		
 		#noticia_usuario{
 		float:left;		
@@ -910,6 +948,7 @@ padding-left:9px;
   }
   .grupos_ h4{
   padding-bottom:3px;
+  width:290px; margin-top:10px;
   }
   .grupos_ h5{
   float:right;
@@ -1498,7 +1537,13 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		#noticia_principal a img{
 		float:right;
 		padding-right:3px;
+<<<<<<< HEAD:css/estructura.css
 		}
+=======
+		width:300px;
+		height:225px;
+	}
+>>>>>>> bec46c1a7f2be28d26054154ad6f9be73bec4b91:css/estructura.css
 	
 		 .comisiones_grande{
 		 float:left;
@@ -1669,7 +1714,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	.mas-noticias{
 	float:left;
-	width:654px;
+	width:655px;
 	margin:2px 0;
 	border-bottom:#ccc solid 1px;
 	padding: 3px 0px 3px 0px;
@@ -1835,7 +1880,6 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{
 		float:right;
 		margin-top:21px;
-		margin-right:2px;
 	}
 	
 
@@ -1849,11 +1893,16 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .noticiasportada_foto
 	{
-		width:80px;
-		height:60px;
 		float:left;
 		margin-right: 10px;
 	}
+	
+/*.noticiasportada_foto a img
+	{
+		width:80px;
+		height:60px;
+	}*/
+		
 .noticiasportada_foto2
 	{
 		width:60px;
@@ -2334,7 +2383,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 /*---------------------------------------- PERFIL DATOS DE USUARIO ------------------------------ */
 .datos_usuario1{
-	width:200px;
+	width:200px; 
 	
 	float:left;
 	margin-right:11px;
@@ -2351,7 +2400,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 				 
 .datos_usuario2
 	{
-	width:416px;
+	width:420px;
 	border:1px solid #ccc;
 	float:left;
 	padding:10px;
@@ -3515,15 +3564,16 @@ padding:0px;
 	height:65px;
 						}					
 						
-.perfil_loultimopublicado {  width:300px;
-						     height:40px;
-							 padding-bottom:10px;
-							 margin-bottom:5px;
-							 overflow:hidden;
-							 margin-top:2px;
-							 }
+	.perfil_loultimopublicado {
+	width:300px;
+	height:40px;
+	padding-bottom:10px;
+	margin-bottom:5px;
+	overflow:hidden;
+	margin-top:2px;
+	}
 							 
-.perfil_loultimopublicadoreciente {
+	.perfil_loultimopublicadoreciente {
 	width:300px;
 	height:65px;
 	padding-bottom:5px;
@@ -3533,90 +3583,98 @@ padding:0px;
 							 }							 
 							 
   	
- .perfil_publicodeta { float:left;
- 					   width:230px;
-					   display:inline;
-					   margin-left:6px;
-					   }
+ 	.perfil_publicodeta { 
+	float:left;
+ 	width:230px;
+	display:inline;
+	margin-left:6px;
+	}
 					   
-.perfil_vertodo { border-top:1px  solid #ccc;
-				  text-align:right;
-				  padding-top:5px; 
-				  }
-				  
-.perfil_vertodo a  
-	{
-		border-top:1px  solid #ccc;
-		text-align:right;
-		padding-top:5px;
-		color:#134D86; 
-				  }					  
-				  
-.perfil_vertodo2
-	{ 
-		 text-align:right;
-		  padding-top:5px;
-		  padding-right:10px 
+	.perfil_vertodo { 
+	border-top:1px  solid #ccc;
+	text-align:right;
+	padding-top:5px; 
+	}
+					  
+	.perfil_vertodo a  {
+	 color:#134D86; 
+	  }					  
+					  
+	.perfil_vertodo2{ 
+	 text-align:right;
+	  padding-top:5px;
+	  padding-right:10px 
 	 }				  
 
 
-.perfil_vertodo2
-	{ 
-		 text-align:right;
-		  padding-top:5px;
-		  padding-right:10px;
-		  color:#134D86;
-	 }	
+	.perfil_vertodo2{ 
+	text-align:right;
+	padding-top:5px;
+	padding-right:10px;
+	color:#134D86;
+	}	
 
-.perfil_vertodo a:hover , .perfil_vertodo2 a:hover{ color:#DF0202;}
+	.perfil_vertodo a:hover , .perfil_vertodo2 a:hover{ 
+	color:#DF0202;
+	}
+	
+	.perfil_foto{
+	width:60px;
+	height:45px;
+	}
+	
+	.perfil_seguidores{
+	width:70px;
+	height:52px;
+	}
+	
+	.perfil_usuario_seguidores{
+	padding:0;
+	margin:0;
+	height:225px;
+	}
 
-.perfil_foto{ width:60px;
-			  height:45px;
-			  }
+	.perfil_usuario_seguidores ul li { 
+	float:left;
+	margin:0 15px 5px 15px;
+	}
 
-.perfil_seguidores{ width:70px;
-					height:52px;
-					}
-
-.perfil_usuario_seguidores{ padding:0; margin:0; height:225px;}
-
-.perfil_usuario_seguidores ul li { float:left; margin:0 15px 5px 15px; }
 /*--- FIN PERFIL DE USUARIO LOGIN ---- */
 
 /*------inicio reporteros destacados portada----------------------------------------------*/
  
  
- .reporteros_destacados_portada{
- float:left;
- width:322px;
- margin-right:5px;
- padding:3px; padding-bottom:7px;
- border:1px solid #F2F2F2;
- }
+	 .reporteros_destacados_portada{
+	 float:left;
+	 width:322px;
+	 margin-right:5px;
+	 padding:3px; padding-bottom:7px;
+	 border:1px solid #F2F2F2;
+	 }
+	 
+	 
+	 .reporteros_destacados_portada h4{
+	 padding:4px 0 4px 4px ;
+	 }
  
  
- .reporteros_destacados_portada h4{
- padding:4px 0 4px 4px ;
- }
+	 .reporteros_destacados_portada ul, .perfil_seguidores ul{ margin:0; padding:0;
+	 float:left;
+	 }
  
  
- .reporteros_destacados_portada ul, .perfil_seguidores ul{ margin:0; padding:0;
- float:left;
- }
- 
- 
- .reporteros_destacados_portada ul li{
- float:left;
- padding:10px 3px 11px 4px ;
- } 
+	 .reporteros_destacados_portada ul li{
+	 float:left;
+	 padding:10px 3px 11px 4px ;
+	} 
 
  
- .reporteros_destacados_portada h5{
- float:right;
- padding-right:5px;
- padding-bottom:10px;
- padding-top:5px;
- }
+	 .reporteros_destacados_portada h5{
+	 float:right;
+	 padding-right:5px;
+	 padding-bottom:10px;
+	 padding-top:5px;
+	 }
  
  /*------fin reporteros destacados portada----------------------------------------------*/
 
@@ -3630,39 +3688,39 @@ padding:0px;
 /*------comentarios_derecha----------------------------------------------*/
 
 
-		.comentarios_derecha{
-		float:left;
-		width:300px;
-		background:#f6f6f6;
-		padding:5px 0;
-		border:#f2f2f2 solid 1px;
-		margin-bottom:10px;
-		}
+	.comentarios_derecha{
+	float:left;
+	width:300px;
+	background:#f6f6f6;
+	padding:5px 0;
+	border:#f2f2f2 solid 1px;
+	margin-bottom:10px;
+	}
 		
-		.comentarios_derecha h4{
-		padding:5px 0 0 10px;
-		}
+	.comentarios_derecha h4{
+	padding:5px 0 0 10px;
+	}
 		
-		.comentarios_derecha ul{
-		float:left;
-		padding:5px 0 5px 10px;
-		}
+	.comentarios_derecha ul{
+	float:left;
+	padding:5px 0 5px 10px;
+	}
 		
 	
-		.comentarios_derecha ul li{
-		float:left;
-		width:280px;
-		padding:3px 0;
-		border-bottom:1px solid #EFEFEF;
-		}
+	.comentarios_derecha ul li{
+	float:left;
+	width:280px;
+	padding:3px 0;
+	border-bottom:1px solid #EFEFEF;
+	}
 		
-		.comentarios_derecha ul li h3{
-		float:left;
-		}
+	.comentarios_derecha ul li h3{
+	float:left;
+	}
 		
-		.comentarios_derecha ul li p{
-		padding-bottom:3px;
-		}
+	.comentarios_derecha ul li p{
+	padding-bottom:3px;
+	}
 		
 		
 
