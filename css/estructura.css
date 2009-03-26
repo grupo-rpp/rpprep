@@ -224,6 +224,17 @@ padding-left:9px;
    height:30px;
   }
   
+   .avatar_foto{
+   float:left;
+   border:#efefef solid 1px;
+   padding:2px;
+   margin-right:4px;
+   width:44px;
+   height:60px;
+  }
+  
+  
+  
   .mini_foto a img
   {
     float:left;
@@ -261,14 +272,26 @@ padding-left:9px;
     float:left;
 	padding-top:2px;
 	
+	
     }
 	
 	
 	.datos_user2{
     float:left;
 	padding-top:2px;
-	margin-left:25px;
+	margin-left:10px;
     }
+	
+	
+	.datos_user3{
+    float:left;
+	padding-top:2px;
+	margin-left:20px;
+	
+	
+    }
+	
+	
   
   .caja_noticias
  	{
