@@ -1922,7 +1922,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 								 
 	.ndetalle_comentaaqui{
 	width:650px;
-	height:160px;
+	height:160px; margin-top:10px;
 	float:left;
 						   }							 
 	 
