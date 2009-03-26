@@ -1943,7 +1943,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 			}			  
 			  
 .icocoment2{
-	margin-left:220px;
+	margin-left:285px;
 }
 
 .botoncomentario{ margin-left:380px;}
@@ -2664,7 +2664,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .arriba_contact
 	{
-		padding-top:8px;
+		margin-top:8px;
 	}
 	
 #bloque_login_ingresar
@@ -2894,6 +2894,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		display:block;
 	}
 
+.top_comi{ margin-top:8px;}
 .paso2on
 	{
 		background:url(../img/paso2_on.jpg) center top no-repeat;
@@ -3648,15 +3649,3 @@ padding:0px;
 
 
 /*------fin comentarios_derecha----------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
