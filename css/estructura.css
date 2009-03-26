@@ -931,12 +931,12 @@ padding-left:9px;
   color:#CCCCCC;
   }
   
-  .grupos_ .grupitos_ p a{
-  float:right;
-  padding-bottom:6px;
-  padding-right:5px;
-  color:#5B5B5B;
-  }
+					  .grupos_ .grupitos_ p a{
+					  float:right;
+					  padding-bottom:6px;
+					  padding-right:5px;
+					  color:#5B5B5B;
+					  }
   
   .grupos_ .grupitos_ p a:hover{
   color:#df0202;
@@ -1108,10 +1108,11 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	/*-------------boton activo------------------------*/	
 				
 		
-	#nav li.activo1{
-					/*cursor:pointer; border-bottom:#f10505 solid 1px;*/
-					background: url(../img/btn_activo.gif) left top no-repeat;
-					}
+#nav li.activo1{
+	background: url(../img/btn_activo.gif) left top no-repeat;
+}
+
+
 	#nav li.activo1 span{ 
 					background: url(../img/btn_activo.gif) right top no-repeat;
 					color:#fff;
@@ -1487,37 +1488,48 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	/*FIN PORTADA_REPORTERO*/
 	
 	
-#noticia_principal a img
-	{
+		#noticia_principal a img{
 		float:right;
 		padding-right:3px;
-	}
+		}
 	
-.comisiones_grande
-	{
+		 .comisiones_grande{
 		 float:left;
 		 width:638px;
 		 padding:0 8px 10px 8px;
 		 border:#CCC solid 1px;
 		 margin-bottom:15px;
-	}
+		 }
+		 
+		 
+		 .comisiones_grande_2{
+		 float:left;
+		 width:638px;
+		 padding:0 8px 10px 8px;
+		 border-bottom:#CCC solid 1px;
+		 border-left:#CCC solid 1px;
+		 border-right:#CCC solid 1px;
+		 margin-bottom:15px;
+		 }
  
- .comisiones_grande h4
-	 {
-		color: #666666;
-	 }
- 
- .comisiones_grande h4
-	{
-		float:left;
-		padding :8px 0 5px 0;
-	}
- 
-.comisiones_grande .paginas
-	{
+ 		.comisiones_grande_2 .paginas{
 		padding-top:15px;
 		float:right;
-	}
+		}
+		
+		.comisiones_grande h4{
+		color: #666666;
+	 	}
+ 
+ 		.comisiones_grande h4{
+		float:left;
+		padding :8px 0 5px 0;
+		}
+ 
+		.comisiones_grande .paginas{
+		padding-top:15px;
+		float:right;
+		}
 	
 	
 	
@@ -1864,12 +1876,12 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		
 		.noticias_barrita_pestanas_3{ 
 		width:644px;
-		height:22px;
+		height:35px;
 		border-left: 1px solid #ccc;
 		border-right: 1px solid #ccc;	
 		border-top: 1px solid #ccc;	
 		text-align:right;
-		line-height:22px;
+		line-height:30px;
 		float:left;
 		padding-right:10px;		
 		background-color:#FFF;
@@ -1960,7 +1972,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 .comisiones_
 	{
 		float:left;
-		width:300px;	
+		width:298px;	
 		background:#f6f6f6;
 		padding:5px 0 0  0;
 		border:#f2f2f2 solid 1px;
