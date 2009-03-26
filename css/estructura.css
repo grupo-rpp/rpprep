@@ -1657,7 +1657,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	.mas-noticias{
 	float:left;
-	width:654px;
+	width:655px;
 	margin:2px 0;
 	border-bottom:#ccc solid 1px;
 	padding: 3px 0px 3px 0px;
@@ -1823,7 +1823,6 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{
 		float:right;
 		margin-top:21px;
-		margin-right:2px;
 	}
 	
 
