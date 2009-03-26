@@ -173,7 +173,7 @@ padding-left:9px;
   padding:3px;
   border:#EFEFEF solid 1px; 
   background-color:#F9FBFF;
-  width:87px;
+  width:83px;
   }
   
 .user2
@@ -214,12 +214,11 @@ padding-left:9px;
    border:#efefef solid 1px;
    padding:2px;
    margin-right:4px;
-   width:22px;
-   height:30px;
   }
   
   .mini_foto a img
   {
+    float:left;
     width:22px;
 	height:30px;
   }
@@ -237,10 +236,7 @@ padding-left:9px;
 		height:40px;
 		border:0px;
 	}				   
-  
-  .datos_user{
-   float:left;
-  }
+ 
 
     .datos_user img{
     float:left;
