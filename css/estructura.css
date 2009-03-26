@@ -173,7 +173,7 @@ padding-left:9px;
   padding:3px;
   border:#EFEFEF solid 1px; 
   background-color:#F9FBFF;
-  width:87px;
+  width:83px;
   }
   
 .user2
@@ -216,6 +216,13 @@ padding-left:9px;
    margin-right:4px;
   }
   
+  .mini_foto a img
+  {
+    float:left;
+    width:22px;
+	height:30px;
+  }
+  
   .foto_noticias{ width:80px;
   				   height:60px;
 				   padding:2px;
@@ -229,10 +236,7 @@ padding-left:9px;
 		height:40px;
 		border:0px;
 	}				   
-  
-  .datos_user{
-   float:left;
-  }
+ 
 
     .datos_user img{
     float:left;
@@ -1492,6 +1496,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{
 		float:right;
 		padding-right:3px;
+		width:300px;
+		height:225px;
 	}
 	
 .comisiones_grande
@@ -1651,7 +1657,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	.mas-noticias{
 	float:left;
-	width:654px;
+	width:655px;
 	margin:2px 0;
 	border-bottom:#ccc solid 1px;
 	padding: 3px 0px 3px 0px;
@@ -1817,7 +1823,6 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{
 		float:right;
 		margin-top:21px;
-		margin-right:2px;
 	}
 	
 
@@ -1831,11 +1836,16 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .noticiasportada_foto
 	{
-		width:80px;
-		height:60px;
 		float:left;
 		margin-right: 10px;
 	}
+	
+.noticiasportada_foto a img
+	{
+		width:80px;
+		height:60px;
+	}
+		
 .noticiasportada_foto2
 	{
 		width:60px;
