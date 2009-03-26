@@ -231,6 +231,11 @@ padding-left:9px;
 	height:30px;
   }
   
+  .fotoavatar{
+   width:22px;
+   height:30px;
+   }
+  
   .foto_noticias{ width:80px;
   				   height:60px;
 				   padding:2px;
@@ -246,10 +251,24 @@ padding-left:9px;
 	}				   
  
 
-    .datos_user img{
+    .datos_user img, .datos_user{
     float:left;
 	padding-top:2px;
-    }	
+    }
+	
+	
+	.datos_user{
+    float:left;
+	padding-top:2px;
+	
+    }
+	
+	
+	.datos_user2{
+    float:left;
+	padding-top:2px;
+	margin-left:25px;
+    }
   
   .caja_noticias
  	{
@@ -620,6 +639,8 @@ padding-left:9px;
 	
 	.mapa .foto_mapa .mapita{
 	padding-top:5px;
+	height:385px;
+	width:300px;
 	}
 	
 	.mapa .datos_mapa{
@@ -760,7 +781,12 @@ padding-left:9px;
 		width:300px; 
 		height:225px;
 		margin-right:12px;
-		}			
+		}
+		
+		.fotoprincipal{ 
+		width:300px;
+		height:225px;
+		}
 		
 		#noticia_usuario{
 		float:left;		
