@@ -214,6 +214,8 @@ padding-left:9px;
    border:#efefef solid 1px;
    padding:2px;
    margin-right:4px;
+   width:22px;
+   height:30px;
   }
   
   .mini_foto a img
@@ -909,6 +911,7 @@ padding-left:9px;
   }
   .grupos_ h4{
   padding-bottom:3px;
+  width:150px;
   }
   .grupos_ h5{
   float:right;
@@ -1956,7 +1959,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 			}			  
 			  
 .icocoment2{
-	margin-left:220px;
+	margin-left:285px;
 }
 
 .botoncomentario{ margin-left:380px;}
@@ -2328,7 +2331,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 /*---------------------------------------- PERFIL DATOS DE USUARIO ------------------------------ */
 .datos_usuario1{
-	width:200px;
+	width:200px; 
 	
 	float:left;
 	margin-right:11px;
@@ -2345,7 +2348,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 				 
 .datos_usuario2
 	{
-	width:416px;
+	width:420px;
 	border:1px solid #ccc;
 	float:left;
 	padding:10px;
@@ -2677,7 +2680,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .arriba_contact
 	{
-		padding-top:8px;
+		margin-top:8px;
 	}
 	
 #bloque_login_ingresar
@@ -2907,6 +2910,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		display:block;
 	}
 
+.top_comi{ margin-top:8px;}
 .paso2on
 	{
 		background:url(../img/paso2_on.jpg) center top no-repeat;
@@ -3508,15 +3512,16 @@ padding:0px;
 	height:65px;
 						}					
 						
-.perfil_loultimopublicado {  width:300px;
-						     height:40px;
-							 padding-bottom:10px;
-							 margin-bottom:5px;
-							 overflow:hidden;
-							 margin-top:2px;
-							 }
+	.perfil_loultimopublicado {
+	width:300px;
+	height:40px;
+	padding-bottom:10px;
+	margin-bottom:5px;
+	overflow:hidden;
+	margin-top:2px;
+	}
 							 
-.perfil_loultimopublicadoreciente {
+	.perfil_loultimopublicadoreciente {
 	width:300px;
 	height:65px;
 	padding-bottom:5px;
@@ -3526,90 +3531,98 @@ padding:0px;
 							 }							 
 							 
   	
- .perfil_publicodeta { float:left;
- 					   width:230px;
-					   display:inline;
-					   margin-left:6px;
-					   }
+ 	.perfil_publicodeta { 
+	float:left;
+ 	width:230px;
+	display:inline;
+	margin-left:6px;
+	}
 					   
-.perfil_vertodo { border-top:1px  solid #ccc;
-				  text-align:right;
-				  padding-top:5px; 
-				  }
-				  
-.perfil_vertodo a  
-	{
-		border-top:1px  solid #ccc;
-		text-align:right;
-		padding-top:5px;
-		color:#134D86; 
-				  }					  
-				  
-.perfil_vertodo2
-	{ 
-		 text-align:right;
-		  padding-top:5px;
-		  padding-right:10px 
+	.perfil_vertodo { 
+	border-top:1px  solid #ccc;
+	text-align:right;
+	padding-top:5px; 
+	}
+					  
+	.perfil_vertodo a  {
+	 color:#134D86; 
+	  }					  
+					  
+	.perfil_vertodo2{ 
+	 text-align:right;
+	  padding-top:5px;
+	  padding-right:10px 
 	 }				  
 
 
-.perfil_vertodo2
-	{ 
-		 text-align:right;
-		  padding-top:5px;
-		  padding-right:10px;
-		  color:#134D86;
-	 }	
+	.perfil_vertodo2{ 
+	text-align:right;
+	padding-top:5px;
+	padding-right:10px;
+	color:#134D86;
+	}	
 
-.perfil_vertodo a:hover , .perfil_vertodo2 a:hover{ color:#DF0202;}
+	.perfil_vertodo a:hover , .perfil_vertodo2 a:hover{ 
+	color:#DF0202;
+	}
+	
+	.perfil_foto{
+	width:60px;
+	height:45px;
+	}
+	
+	.perfil_seguidores{
+	width:70px;
+	height:52px;
+	}
+	
+	.perfil_usuario_seguidores{
+	padding:0;
+	margin:0;
+	height:225px;
+	}
 
-.perfil_foto{ width:60px;
-			  height:45px;
-			  }
+	.perfil_usuario_seguidores ul li { 
+	float:left;
+	margin:0 15px 5px 15px;
+	}
 
-.perfil_seguidores{ width:70px;
-					height:52px;
-					}
-
-.perfil_usuario_seguidores{ padding:0; margin:0; height:225px;}
-
-.perfil_usuario_seguidores ul li { float:left; margin:0 15px 5px 15px; }
 /*--- FIN PERFIL DE USUARIO LOGIN ---- */
 
 /*------inicio reporteros destacados portada----------------------------------------------*/
  
  
- .reporteros_destacados_portada{
- float:left;
- width:322px;
- margin-right:5px;
- padding:3px; padding-bottom:7px;
- border:1px solid #F2F2F2;
- }
+	 .reporteros_destacados_portada{
+	 float:left;
+	 width:322px;
+	 margin-right:5px;
+	 padding:3px; padding-bottom:7px;
+	 border:1px solid #F2F2F2;
+	 }
+	 
+	 
+	 .reporteros_destacados_portada h4{
+	 padding:4px 0 4px 4px ;
+	 }
  
  
- .reporteros_destacados_portada h4{
- padding:4px 0 4px 4px ;
- }
+	 .reporteros_destacados_portada ul, .perfil_seguidores ul{ margin:0; padding:0;
+	 float:left;
+	 }
  
  
- .reporteros_destacados_portada ul, .perfil_seguidores ul{ margin:0; padding:0;
- float:left;
- }
- 
- 
- .reporteros_destacados_portada ul li{
- float:left;
- padding:10px 3px 11px 4px ;
- } 
+	 .reporteros_destacados_portada ul li{
+	 float:left;
+	 padding:10px 3px 11px 4px ;
+	} 
 
  
- .reporteros_destacados_portada h5{
- float:right;
- padding-right:5px;
- padding-bottom:10px;
- padding-top:5px;
- }
+	 .reporteros_destacados_portada h5{
+	 float:right;
+	 padding-right:5px;
+	 padding-bottom:10px;
+	 padding-top:5px;
+	 }
  
  /*------fin reporteros destacados portada----------------------------------------------*/
 
@@ -3623,53 +3636,41 @@ padding:0px;
 /*------comentarios_derecha----------------------------------------------*/
 
 
-		.comentarios_derecha{
-		float:left;
-		width:300px;
-		background:#f6f6f6;
-		padding:5px 0;
-		border:#f2f2f2 solid 1px;
-		margin-bottom:10px;
-		}
+	.comentarios_derecha{
+	float:left;
+	width:300px;
+	background:#f6f6f6;
+	padding:5px 0;
+	border:#f2f2f2 solid 1px;
+	margin-bottom:10px;
+	}
 		
-		.comentarios_derecha h4{
-		padding:5px 0 0 10px;
-		}
+	.comentarios_derecha h4{
+	padding:5px 0 0 10px;
+	}
 		
-		.comentarios_derecha ul{
-		float:left;
-		padding:5px 0 5px 10px;
-		}
+	.comentarios_derecha ul{
+	float:left;
+	padding:5px 0 5px 10px;
+	}
 		
 	
-		.comentarios_derecha ul li{
-		float:left;
-		width:280px;
-		padding:3px 0;
-		border-bottom:1px solid #EFEFEF;
-		}
+	.comentarios_derecha ul li{
+	float:left;
+	width:280px;
+	padding:3px 0;
+	border-bottom:1px solid #EFEFEF;
+	}
 		
-		.comentarios_derecha ul li h3{
-		float:left;
-		}
+	.comentarios_derecha ul li h3{
+	float:left;
+	}
 		
-		.comentarios_derecha ul li p{
-		padding-bottom:3px;
-		}
+	.comentarios_derecha ul li p{
+	padding-bottom:3px;
+	}
 		
 		
 
 
 /*------fin comentarios_derecha----------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
