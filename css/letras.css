@@ -118,7 +118,6 @@
 	p{
 	text-decoration:none;
 	line-height:16px;
-	float:left;
 	}
 	
 	.ultimas{
@@ -393,6 +392,15 @@ color:#327199;
 color:#ff0000;
 }
 
+
+
+
+.ventana_mensaje
+	{ 
+		text-align:center;
+		font-size:20px;
+	}
+
 /*****************************************************************************************
 
                                       FINAL CSS HENRY
@@ -400,9 +408,4 @@ color:#ff0000;
 *****************************************************************************************/
 
 
-.calificacion{
-	font-size:11px;
-	margin-left:10px;
-	font-weight:bold;
-	color:#000
-}
+.calificacion{ font-size:11px; margin-left:5px; font-weight:bold; color:#000}

@@ -173,7 +173,7 @@ padding-left:9px;
   padding:3px;
   border:#EFEFEF solid 1px; 
   background-color:#F9FBFF;
-  width:87px;
+  width:83px;
   }
   
 .user2
@@ -187,6 +187,12 @@ padding-left:9px;
 	  margin:0 5px 0 5px;
      }
 
+.user 2 mini_foto a img
+  {
+    float:left;
+    width:44px;
+	height:60px;
+  }
 
 .user3
 	{
@@ -214,7 +220,32 @@ padding-left:9px;
    border:#efefef solid 1px;
    padding:2px;
    margin-right:4px;
+   width:22px;
+   height:30px;
   }
+  
+   .avatar_foto{
+   float:left;
+   border:#efefef solid 1px;
+   padding:2px;
+   margin-right:4px;
+   width:44px;
+   height:60px;
+  }
+  
+  
+  
+  .mini_foto a img
+  {
+    float:left;
+    width:22px;
+	height:30px;
+  }
+  
+  .fotoavatar{
+   width:22px;
+   height:30px;
+   }
   
   .foto_noticias{ width:80px;
   				   height:60px;
@@ -223,21 +254,51 @@ padding-left:9px;
 				   margin-top:2px;
 				   }
 				   
+ .foto_acerca{ width:72px;
+  				   height:54px;
+				   padding:2px;
+				   border:1px solid #efefef;
+				   margin-top:2px;
+				   }				   
+				   
 .fotonoticiasperfil
 	{
 		width:53px;
 		height:40px;
 		border:0px;
 	}				   
-  
-  .datos_user{
-   float:left;
-  }
+ 
 
-    .datos_user img{
+    .datos_user img, .datos_user{
     float:left;
 	padding-top:2px;
-    }	
+    }
+	
+	
+	.datos_user{
+    float:left;
+	padding-top:2px;
+	
+	
+    }
+	
+	
+	.datos_user2{
+    float:left;
+	padding-top:2px;
+	margin-left:10px;
+    }
+	
+	
+	.datos_user3{
+    float:left;
+	padding-top:2px;
+	margin-left:20px;
+	
+	
+    }
+	
+	
   
   .caja_noticias
  	{
@@ -608,6 +669,8 @@ padding-left:9px;
 	
 	.mapa .foto_mapa .mapita{
 	padding-top:5px;
+	height:385px;
+	width:300px;
 	}
 	
 	.mapa .datos_mapa{
@@ -734,6 +797,13 @@ padding-left:9px;
 		width:345px;
 		}
 		
+		#noticia_titular_2{
+		float:left;
+		display:inline;
+		width:345px;
+		padding-bottom:12px;
+		}
+		
 		#noticia_titular h1{
 		float: left;
 		margin-bottom:5px;
@@ -748,7 +818,12 @@ padding-left:9px;
 		width:300px; 
 		height:225px;
 		margin-right:12px;
-		}			
+		}
+		
+		.fotoprincipal{ 
+		width:300px;
+		height:225px;
+		}
 		
 		#noticia_usuario{
 		float:left;		
@@ -903,6 +978,7 @@ padding-left:9px;
   }
   .grupos_ h4{
   padding-bottom:3px;
+  width:290px; margin-top:10px;
   }
   .grupos_ h5{
   float:right;
@@ -931,12 +1007,12 @@ padding-left:9px;
   color:#CCCCCC;
   }
   
-  .grupos_ .grupitos_ p a{
-  float:right;
-  padding-bottom:6px;
-  padding-right:5px;
-  color:#5B5B5B;
-  }
+					  .grupos_ .grupitos_ p a{
+					  float:right;
+					  padding-bottom:6px;
+					  padding-right:5px;
+					  color:#5B5B5B;
+					  }
   
   .grupos_ .grupitos_ p a:hover{
   color:#df0202;
@@ -1108,10 +1184,11 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	/*-------------boton activo------------------------*/	
 				
 		
-	#nav li.activo1{
-					/*cursor:pointer; border-bottom:#f10505 solid 1px;*/
-					background: url(../img/btn_activo.gif) left top no-repeat;
-					}
+#nav li.activo1{
+	background: url(../img/btn_activo.gif) left top no-repeat;
+}
+
+
 	#nav li.activo1 span{ 
 					background: url(../img/btn_activo.gif) right top no-repeat;
 					color:#fff;
@@ -1487,37 +1564,53 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	/*FIN PORTADA_REPORTERO*/
 	
 	
-#noticia_principal a img
-	{
+		#noticia_principal a img{
 		float:right;
 		padding-right:3px;
-	}
+
+		}
+
+
 	
-.comisiones_grande
-	{
+		 .comisiones_grande{
 		 float:left;
 		 width:638px;
 		 padding:0 8px 10px 8px;
-		 border:#CCC solid 1px;
+		 border-left:#CCC solid 1px;
+		 border-right:#CCC solid 1px;
+		  border-bottom:#CCC solid 1px;
 		 margin-bottom:15px;
-	}
+		 }
+		 
+		 
+		 .comisiones_grande_2{
+		 float:left;
+		 width:638px;
+		 padding:0 8px 10px 8px;
+		 border-bottom:#CCC solid 1px;
+		 border-left:#CCC solid 1px;
+		 border-right:#CCC solid 1px;
+		 margin-bottom:15px;
+		 }
  
- .comisiones_grande h4
-	 {
-		color: #666666;
-	 }
- 
- .comisiones_grande h4
-	{
-		float:left;
-		padding :8px 0 5px 0;
-	}
- 
-.comisiones_grande .paginas
-	{
+ 		.comisiones_grande_2 .paginas{
 		padding-top:15px;
 		float:right;
-	}
+		}
+		
+		.comisiones_grande h4{
+		color: #666666;
+	 	}
+ 
+ 		.comisiones_grande h4{
+		float:left;
+		padding :8px 0 5px 0;
+		}
+ 
+		.comisiones_grande .paginas{
+		padding-top:15px;
+		float:right;
+		}
 	
 	
 	
@@ -1650,7 +1743,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 	.mas-noticias{
 	float:left;
-	width:654px;
+	width:655px;
 	margin:2px 0;
 	border-bottom:#ccc solid 1px;
 	padding: 3px 0px 3px 0px;
@@ -1816,7 +1909,6 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{
 		float:right;
 		margin-top:21px;
-		margin-right:2px;
 	}
 	
 
@@ -1830,11 +1922,16 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .noticiasportada_foto
 	{
-		width:80px;
-		height:60px;
 		float:left;
 		margin-right: 10px;
 	}
+	
+/*.noticiasportada_foto a img
+	{
+		width:80px;
+		height:60px;
+	}*/
+		
 .noticiasportada_foto2
 	{
 		width:60px;
@@ -1864,12 +1961,12 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		
 		.noticias_barrita_pestanas_3{ 
 		width:644px;
-		height:22px;
+		height:35px;
 		border-left: 1px solid #ccc;
 		border-right: 1px solid #ccc;	
 		border-top: 1px solid #ccc;	
 		text-align:right;
-		line-height:22px;
+		line-height:30px;
 		float:left;
 		padding-right:10px;		
 		background-color:#FFF;
@@ -1914,17 +2011,25 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	/*--------------------------- inicio ndetallesolo foto LOGIN ---------------------------*/
 	 
 	 .ndetalle_contenmultimedia{
-	width:650px;
-	height:400px;
+	width:650px;	
 	float:left;
 	margin-bottom:10px;
 								 }
 								 
 	.ndetalle_comentaaqui{
 	width:650px;
-	height:160px; margin-top:10px;
+	height:160px;
+	margin-top:10px;
+	margin-bottom:10px;
 	float:left;
-						   }							 
+						   }
+						   
+						   
+	.ndetalle_comentaaqui img{ float:right;}					   
+						   
+	.multimedia_ndetalle ul { margin:0; padding:0px;}
+	
+	.multimedia_ndetalle ul li { float:left; margin:10px 39px 0 0px;} 	
 	 
 	  /*--------------------------- fin ndetallesolo foto LOGIN ---------------------------*/
 	  
@@ -1943,7 +2048,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 			}			  
 			  
 .icocoment2{
-	margin-left:220px;
+	margin-left:285px;
 }
 
 .botoncomentario{ margin-left:380px;}
@@ -1960,7 +2065,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 .comisiones_
 	{
 		float:left;
-		width:300px;	
+		width:298px;	
 		background:#f6f6f6;
 		padding:5px 0 0  0;
 		border:#f2f2f2 solid 1px;
@@ -2315,7 +2420,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	
 /*---------------------------------------- PERFIL DATOS DE USUARIO ------------------------------ */
 .datos_usuario1{
-	width:200px;
+	width:200px; 
 	
 	float:left;
 	margin-right:11px;
@@ -2332,7 +2437,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 				 
 .datos_usuario2
 	{
-	width:416px;
+	width:420px;
 	border:1px solid #ccc;
 	float:left;
 	padding:10px;
@@ -2492,10 +2597,11 @@ background: url(../img/btn_activo.gif) right top no-repeat;
  .perfil_usuario
 	{
 		width:634px;
+		height:280px;
 		border:1px solid #dedede;
 		margin-bottom:15px;
 		padding:10px;
-		background-color:#F8F8F8;
+		background-color:#F8F8F8; overflow:hidden;
     }
  
 .perfil_usuario p
@@ -2578,18 +2684,8 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 	{
 	float:left;
 	width:638px;
-	padding:10px 8px 10px 8px;
-	border:#CCC solid 1px;
-	margin:10px 0 0 0;
-	}
-	
-.contact01
-	{
-	float:left;
-	width:638px;
 	padding:0 8px 10px 8px;
 	border:#CCC solid 1px;
-	margin:10px 0 0 0;
 	/*margin-bottom:15px;*/
 	}
 	
@@ -2674,7 +2770,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 .arriba_contact
 	{
-		padding-top:8px;
+		margin-top:8px;
 	}
 	
 #bloque_login_ingresar
@@ -2874,12 +2970,6 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		border-bottom:solid 1px #c9c9c9;
 	}
 
-.fotousuario
-	{
-		border:solid 1px #cccccc;
-		height:60px;
-		width:80px;
-	}
 
 #bt_pasos
 	{
@@ -2904,6 +2994,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		display:block;
 	}
 
+.top_comi{ margin-top:8px;}
 .paso2on
 	{
 		background:url(../img/paso2_on.jpg) center top no-repeat;
@@ -3133,26 +3224,20 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 
 	
 
-.micontacto
-	{
-		width:285px;
-		margin:0 10px 10px 0;
-		float:left;
-		border:solid 1px #cccccc;
-		padding:5px;
-	}
-
-.micontacto .chek
-	{
-		margin:0 5px 0 0;
-	}
-
-
-
 /**********************  ****************************/
 
 
-
+.ult_public_usuario
+	{
+		float:left;
+		padding:1px 0px 5px 4px ;
+		width:527px;
+	}
+	
+.ult_public_usuario p
+	{ 
+		font-style:italic; 
+	}	
 
 .btn_floatright
 	{
@@ -3169,7 +3254,7 @@ background: url(../img/btn_activo.gif) right top no-repeat;
 		height:15px;
 	}
 
-.mas-noticias .user_comment , .mas-noticias-coment .user_comment , .filamensajes .user_comment
+.mas-noticias .user_comment , .mas-noticias-coment .user_comment
 	{
 		float:left; 
 		margin-top:19px; 
@@ -3443,7 +3528,243 @@ padding:0px;
 	}
 /*------ fin popup -------*/
 
-<<<<<<< HEAD:css/estructura.css
+/*--- INDEX PERFIL DE USUARIO LOGIN ---- */
+
+.perfil_publico1{
+	width:320px;
+	
+	float:left;
+				  }
+				  
+.perfil_publico2{
+	width:317px;
+	float:left;
+	margin-left:18px;
+				  }
+.perfil_usuario_on
+	{
+		width:305px;
+		border:1px solid #dedede;
+		margin-bottom:15px;
+		padding:7px; float:left; 
+	}
+	
+	
+.perfil_usuario_on ul
+	{
+		margin:0;
+		padding:0;
+	}
+	
+.perfil_usuario_on ul li{ float:left; margin:2px 2px 10px 2px; }	
+	
+.perfil_datosusuario_on
+	{
+		float:left;
+		width:280px;
+		margin:8px 0;
+	}			  
+				  
+.perfil_statusdetalle2{
+	float:left;
+	display:inline;
+	height:95px;
+	width:206px;
+	margin-left:5px;
+	border:1px solid #ccc;
+	padding-left:5px; 
+	text-align:left;
+	overflow:hidden; margin-top:6px;
+	}				  
+
+
+ .perfilpublico_masnoticias{
+  float:left;
+  width:300px;
+  padding-top:10px;
+  padding-bottom:5px;
+  }
+  .perfil_loultimoimg{ float:left;
+  						width:61px;
+						height:45px;
+						}
+						
+						
+	.perfil_loultimoimg_recientes{
+	float:left;
+	width:61px;
+	height:65px;
+						}					
+						
+	.perfil_loultimopublicado {
+	width:300px;
+	height:40px;
+	padding-bottom:10px;
+	margin-bottom:5px;
+	overflow:hidden;
+	margin-top:2px;
+	}
+							 
+	.perfil_loultimopublicadoreciente {
+	width:300px;
+	height:65px;
+	padding-bottom:5px;
+	margin-bottom:10px;
+	overflow:hidden;
+	border-bottom:1px solid #ccc;
+							 }							 
+							 
+  	
+ 	.perfil_publicodeta { 
+	float:left;
+ 	width:230px;
+	display:inline;
+	margin-left:6px;
+	}
+					   
+	.perfil_vertodo { 
+	border-top:1px  solid #ccc;
+	text-align:right;
+	padding-top:5px; 
+	}
+					  
+	.perfil_vertodo a  {
+	 color:#134D86; 
+	  }					  
+					  
+	.perfil_vertodo2{ 
+	 text-align:right;
+	  padding-top:5px;
+	  padding-right:10px 
+	 }				  
+
+
+	.perfil_vertodo2{ 
+	text-align:right;
+	padding-top:5px;
+	padding-right:10px;
+	color:#134D86;
+	}	
+
+	.perfil_vertodo a:hover , .perfil_vertodo2 a:hover{ 
+	color:#DF0202;
+	}
+	
+	.perfil_foto{
+	width:60px;
+	height:45px;
+	}
+	
+	.perfil_seguidores{
+	width:70px;
+	height:52px;
+	}
+	
+	.perfil_usuario_seguidores{
+	padding:0;
+	margin:0;
+	height:225px;
+	}
+
+	.perfil_usuario_seguidores ul li { 
+	float:left;
+	margin:0 15px 5px 15px;
+	}
+
+/*--- FIN PERFIL DE USUARIO LOGIN ---- */
+
+/*------inicio reporteros destacados portada----------------------------------------------*/
+ 
+ 
+	 .reporteros_destacados_portada{
+	 float:left;
+	 width:322px;
+	 margin-right:5px;
+	 padding:3px; padding-bottom:7px;
+	 border:1px solid #F2F2F2;
+	 }
+	 
+	 
+	 .reporteros_destacados_portada h4{
+	 padding:4px 0 4px 4px ;
+	 }
+ 
+ 
+	 .reporteros_destacados_portada ul, .perfil_seguidores ul{ margin:0; padding:0;
+	 float:left;
+	 }
+ 
+ 
+	 .reporteros_destacados_portada ul li{
+	 float:left;
+	 padding:10px 3px 11px 4px ;
+	} 
+
+ 
+	 .reporteros_destacados_portada h5{
+	 float:right;
+	 padding-right:5px;
+	 padding-bottom:10px;
+	 padding-top:5px;
+	 }
+ 
+ /*------fin reporteros destacados portada----------------------------------------------*/
+
+
+
+
+
+
+
+
+/*------comentarios_derecha----------------------------------------------*/
+
+
+	.comentarios_derecha{
+	float:left;
+	width:300px;
+	background:#f6f6f6;
+	padding:5px 0;
+	border:#f2f2f2 solid 1px;
+	margin-bottom:10px;
+	}
+		
+	.comentarios_derecha h4{
+	padding:5px 0 0 10px;
+	}
+		
+	.comentarios_derecha ul{
+	float:left;
+	padding:5px 0 5px 10px;
+	}
+		
+	
+	.comentarios_derecha ul li{
+	float:left;
+	width:280px;
+	padding:3px 0;
+	border-bottom:1px solid #EFEFEF;
+	}
+		
+	.comentarios_derecha ul li h3{
+	float:left;
+	}
+		
+	.comentarios_derecha ul li p{
+	padding-bottom:3px;
+	}
+		
+		
+
+
+/*------fin comentarios_derecha----------------------------------------------*/
+
+
+
+
+
+
+
 
 
 
@@ -3527,13 +3848,6 @@ padding:0px;
 		float:right;
 	}
 	
-.floatright_buscador
-	{
-		float:right;
-		text-align:right;
-		margin:10px 1px 10px 0;
-	}
-	
 	
 .noticias_barrita_pestanas001{ 
 		width:624px;
@@ -3587,13 +3901,6 @@ padding:0px;
 		width:455px;
 	}
 
-.msjes_usuario2
-	{
-		float:left;
-		padding:1px 0px 5px 4px ;
-		width:520px;
-	}
-
 .responder-eliminar{ 
 		width:589px;
 		height:22px;	
@@ -3601,365 +3908,9 @@ padding:0px;
 		line-height:22px;
 		float:left;	
 		}
-
-.responder-eliminar2{ 
-		width:624px;
-		height:22px;	
-		text-align:right;
-		line-height:22px;
-		float:left;	
-		}
-
-.responder-eliminar3{ 
-		width:604px;
-		height:22px;	
-		text-align:right;
-		line-height:22px;
-		float:left;	
-		}
-
-.responder-eliminar_floatright
-{ 
-		/*width:589px;*/
-		height:22px;	
-		text-align:right;
-		line-height:22px;
-		float:left;	
-		}
 		
 		
-.noticias_barrita_pestanas h5
-	{
+		.noticias_barrita_pestanas h5{
 		padding-right:8px;
-	}
+	 	}
 
-
-.ventana_mensaje
-	{ 
-		width:270px;
-		padding:15px;
-		border:1px solid #ccc;
-		background-color:#FFF;
-		/*height:170px;*/
-		text-align:center;
-	}
-	
-.btn_cerrar
-	{
-		text-align:right;
-	}
-	
-
-
-
-
-.fila_btn_enviar_guardar
-	{
-		width:432px;
-		padding:8px 0 0 30px;
-		text-align:right;
-	}
-
-
-.boton_right
-	{
-		float:right;
-		padding:0 2px 0 0;
-		text-align:right;
-	}
-
-.mensaje_top
-	{
-		text-align:center;
-		padding:25px 0;
-		margin:10px;
-		border: solid 1px #cccccc;
-	}
-
-.indice_alfabetico
-	{
-		padding:20px 0 10px 20px;
-		width:614px;
-		border-left: solid 1px #cccccc;
-		border-right: solid 1px #cccccc;
-	}
-
-.alfabeto
-	{
-		float:left;
-		width:20px;
-		border: solid 1px #cccccc;
-		padding:3px 0;
-		margin:0 20px 10px 0;
-		text-align:center;
-	}
-
-.alfabeto_vacio
-	{
-		float:left;
-		width:22px;
-		padding:3px 0;
-		margin:0 20px 10px 0;
-		text-align:center;
-	}
-	
-
-
-.noticias_lista-noticias222
-	{
-		float:left;
-		padding:1px 0px 5px 4px ;
-		width:514px;
-	}	
-	
-	
-
-
-.mas-noticiasinter222
-	{
-		float:left;
-		width:614px;
-		margin:5px 0;
-		border-bottom:#ccc solid 1px;
-		padding: 3px 0px 3px 0px;
-	}	
-	
-
-
-/*************************************************************************************/
-
-
-/*--- INDEX PERFIL DE USUARIO LOGIN ---- */
-
-.perfil_publico1{
-	width:320px;
-	
-	float:left;
-				  }
-				  
-.perfil_publico2{
-	width:317px;
-	float:left;
-	margin-left:18px;
-				  }
-.perfil_usuario_on
-	{
-		width:305px;
-		border:1px solid #dedede;
-		margin-bottom:15px;
-		padding:7px; float:left; 
-	}
-	
-	
-.perfil_usuario_on ul
-	{
-		margin:0;
-		padding:0;
-	}
-	
-.perfil_usuario_on ul li{ float:left; margin:2px 2px 10px 2px; }	
-	
-.perfil_datosusuario_on
-	{
-		float:left;
-		width:280px;
-		margin:8px 0;
-	}			  
-				  
-.perfil_statusdetalle2{
-	float:left;
-	display:inline;
-	height:95px;
-	width:206px;
-	margin-left:5px;
-	border:1px solid #ccc;
-	padding-left:5px; 
-	text-align:left;
-	overflow:hidden; margin-top:6px;
-	}				  
-
-
- .perfilpublico_masnoticias{
-  float:left;
-  width:300px;
-  padding-top:10px;
-  padding-bottom:5px;
-  }
-  .perfil_loultimoimg{ float:left;
-  						width:61px;
-						height:45px;
-						}
-						
-						
-	.perfil_loultimoimg_recientes{
-	float:left;
-	width:61px;
-	height:65px;
-						}					
-						
-.perfil_loultimopublicado {  width:300px;
-						     height:40px;
-							 padding-bottom:10px;
-							 margin-bottom:5px;
-							 overflow:hidden;
-							 margin-top:2px;
-							 }
-							 
-.perfil_loultimopublicadoreciente {
-	width:300px;
-	height:65px;
-	padding-bottom:5px;
-	margin-bottom:10px;
-	overflow:hidden;
-	border-bottom:1px solid #ccc;
-							 }							 
-							 
-  	
- .perfil_publicodeta { float:left;
- 					   width:230px;
-					   display:inline;
-					   margin-left:6px;
-					   }
-					   
-.perfil_vertodo { border-top:1px  solid #ccc;
-				  text-align:right;
-				  padding-top:5px; 
-				  }
-				  
-.perfil_vertodo a  
-	{
-		border-top:1px  solid #ccc;
-		text-align:right;
-		padding-top:5px;
-		color:#134D86; 
-				  }					  
-				  
-.perfil_vertodo2
-	{ 
-		 text-align:right;
-		  padding-top:5px;
-		  padding-right:10px 
-	 }				  
-
-
-.perfil_vertodo2
-	{ 
-		 text-align:right;
-		  padding-top:5px;
-		  padding-right:10px;
-		  color:#134D86;
-	 }	
-
-.perfil_vertodo a:hover , .perfil_vertodo2 a:hover{ color:#DF0202;}
-
-.perfil_foto{ width:60px;
-			  height:45px;
-			  }
-
-.perfil_seguidores{ width:70px;
-					height:52px;
-					}
-
-.perfil_usuario_seguidores{ padding:0; margin:0; height:225px;}
-
-.perfil_usuario_seguidores ul li { float:left; margin:0 15px 5px 15px; }
-/*--- FIN PERFIL DE USUARIO LOGIN ---- */
-
-/*------inicio reporteros destacados portada----------------------------------------------*/
- 
- 
- .reporteros_destacados_portada{
- float:left;
- width:322px;
- margin-right:5px;
- padding:3px; padding-bottom:7px;
- border:1px solid #F2F2F2;
- }
- 
- 
- .reporteros_destacados_portada h4{
- padding:4px 0 4px 4px ;
- }
- 
- 
- .reporteros_destacados_portada ul, .perfil_seguidores ul{ margin:0; padding:0;
- float:left;
- }
- 
- 
- .reporteros_destacados_portada ul li{
- float:left;
- padding:10px 3px 11px 4px ;
- } 
-
- 
- .reporteros_destacados_portada h5{
- float:right;
- padding-right:5px;
- padding-bottom:10px;
- padding-top:5px;
- }
- 
- /*------fin reporteros destacados portada----------------------------------------------*/
-
-
-
-
-
-
-
-
-/*------comentarios_derecha----------------------------------------------*/
-
-
-		.comentarios_derecha{
-		float:left;
-		width:300px;
-		background:#f6f6f6;
-		padding:5px 0;
-		border:#f2f2f2 solid 1px;
-		margin-bottom:10px;
-		}
-		
-		.comentarios_derecha h4{
-		padding:5px 0 0 10px;
-		}
-		
-		.comentarios_derecha ul{
-		float:left;
-		padding:5px 0 5px 10px;
-		}
-		
-	
-		.comentarios_derecha ul li{
-		float:left;
-		width:280px;
-		padding:3px 0;
-		border-bottom:1px solid #EFEFEF;
-		}
-		
-		.comentarios_derecha ul li h3{
-		float:left;
-		}
-		
-		.comentarios_derecha ul li p{
-		padding-bottom:3px;
-		}
-		
-		
-
-
-/*------fin comentarios_derecha----------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> f551be31654a7e26f71100f9f29d9ae26bc2c7ab:css/estructura.css
