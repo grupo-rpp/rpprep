@@ -84,84 +84,42 @@
           </div>
           <div id="bloque_izquierdo">
           <div class="titulo_interiores">
-               <h4><a href="#">Mi cuenta</a> <img src="img/flechita.gif"/> Mis Grupos</h4>
+               <h4><a href="#">Mi cuenta</a> <img src="img/flechita.gif"/> <a href="#">Mis grupos</a> <img src="img/flechita.gif"/> Crear grupo</h4>
             </div>
-            
-            <div class="boton_right"><input type="submit" class="menu_boton" title="Crea" value="Crea un grupo"/></div>
-             
-             <div class="both"></div>
-             <div class="floatright_buscador">
-             	<input type="text" class="menu_itext" />
-                          <input type="submit" class="menu_boton" title="Buscar" value="Buscar Grupo"/>
-             </div>
-             <div class="both"></div>
-              <div class="contact">
-                <div class="tablita">
-                       <ul id="lomas_tabs_nav">
-                            <li>
-                            <a  id="loultimo1" class="activo" onClick="javascript:ocultar('visto')"  onMouseOver="this.style.color='#000'" onMouseOut="this.style.color='#000'">Mis grupos</a></li>
-                       </ul>
-            </div>
-                       
-                       <div class="tablita">
-                       <ul id="lomas_tabs_nav">
-                            <li><a  id="lomasvisto1" class="" onClick="javascript:ocultar('comentado')" onMouseOver="this.style.color='#DF0202'" onMouseOut="this.style.color='#327199'">Grupos que sigo</a>   </li>
-                       </ul>
-                       </div>
-                       <!--[if !IE]>fin pestañas noticias<![endif]--> 
-              <div class="both"></div>
-              <div class="cont_filasmsjes">
-              
-              <div class="mas-noticiasinter222">
-               			<div class="noticiasportada_foto"> <a href="#"><img src="img/foto_60x80_3.jpg" alt="foto" class="foto_noticias" title="foto"/></a>
-                  </div>
-           			<div class="noticias_lista-noticias222">
-                <h2>  <a href="#">
-
-</a></h2>
-                           <p>Titulo de reportaje texto de prueba texto de prueba texto de prueba rtexto de prueba, texto de prueba, 
-mensaje importante de pueba</p>
-                           <span class="fechachica">N’ de integrantes : 20</span>
+         <div class="both"></div>
+           <!--[if !IE]>fin noticia-principal<![endif]-->
+</h4>
+         
+         
+   <div class="both"></div>
+              <div class="contact01">
+                  <div class="both"></div>
+                  <form id="form1" name="form1" method="post" action="">
+                  <div class="fila_contact">
+                    <div class="compl1">Nombre del Grupo (*)</div>
+                    <div class="compl2">
+                      <input type="text" name="textfield" id="textfield" class="camp_completadatos"/>
                     </div>
-                    <div class="both"></div>
-                    <div class="responder-eliminar3">
-                 <h5><a href="#"> | Invitar a un amigo</a> </h5> 
-                 <h5><a href="#"> | Administrar</a> </h5> 
-                 <h5><a href="#"> | Eliminar</a> </h5>  
-               </div>
-              </div>
-              
-              <div class="mas-noticiasinter222">
-               			<div class="noticiasportada_foto"> <a href="#"><img src="img/foto_60x80_3.jpg" alt="foto" class="foto_noticias" title="foto"/></a>
+                      <div class="both"></div>
                   </div>
-           			<div class="noticias_lista-noticias222">
-                <h2>  <a href="#">
-
-</a></h2>
-                           <p>Titulo de reportaje texto de prueba texto de prueba texto de prueba rtexto de prueba, texto de prueba, 
-mensaje importante de pueba</p>
-                           <span class="fechachica">N’ de integrantes : 20</span>
+                  <div class="fila_contact">
+                    <div class="compl1">Descripción del Grupo (*)</div>
+                    <div class="compl2">
+                      <textarea name="textarea" id="textarea" cols="45" rows="5"class="camp_completadatos"></textarea>
                     </div>
-                    <div class="both"></div>
-                    <div class="responder-eliminar3">
-                 <h5><a href="#"> | Invitar a un amigo</a> </h5> 
-                 <h5><a href="#"> | Administrar</a> </h5> 
-                 <h5><a href="#"> | Eliminar</a> </h5>  
-               </div>
-              </div>
-              <div class="both"></div>
-              <div id="paginado_">
-					<p>P&aacute;ginas 1 <a href="#">2</a> <a href="#">3</a></p>               
-               </div>
-              <div class="both"></div>
-              </div>
-              
-              
-              
-              
-              
+                      <div class="both"></div>
+                  </div>
+                  <div class="fila_contact">
+                    <div class="compl1">Tipo de grupo</div>
+                    <div class="compl2">
+                      <select name="select2" id="select2" class="camp_completadatos">
+                        <option> </option>
+                      </select>
+                    </div>
+                      <div class="both"></div>
+                  </div>
+                <div class="fila_btn_enviar_guardar"><img src="img/creargrupo.gif" width="122" height="27" alt="" /><span class="both"></span>                </div></form>
             </div>
-           
           </div> 
           <!--[if !IE]>fin bloque_izquierdo<![endif]-->
           <div id="bloque_derecho">
