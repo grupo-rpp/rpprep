@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet"  href="css/estructura.css"  type="text/css" media="screen"/>
+<link rel="stylesheet"  href="css/letras.css"  type="text/css" media="screen"/>
+
+<script type="text/javascript" src="js/jquery-1.2.3.min.js"></script>
+<script type="text/javascript" src="js/menu2.js"></script>
+<script src="SpryAssets/SpryValidationSelect.js" type="text/javascript"></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<title>[RPP_PROTOTIPO_REPORTEROW]</title>
+<link href="SpryAssets/SpryValidationSelect.css" rel="stylesheet" type="text/css" /></head>
+<body>
+
+<div id="contenedor">
+		
+		<div id="cabecera">
+        
+            <div id="registro">
+                    <div id="registro_izq">Tu estas en<span id="spryselect1">
+                      <label>
+                      <select name="select1" id="select1" class="borde_paises">
+                        <option>Per&uacute;</option>
+                        <option>Argentina</option>
+                        <option>Brasil</option>
+                        <option>Paraguay</option>
+                        <option>Perú</option>
+                        </select>
+                      </label>
+                      <img src="img/banderita.gif" alt=""/>
+                    <span class="selectRequiredMsg">Please select an item.</span></span></div>
+                    <div id="registro_der"><a href="#">Ingresar</a> | <a href="#">Registrarse</a></div>
+          </div>
+        
+            <div id="cabecera_medio">
+                    <div id="logaso"><img src="img/reportero.jpg" alt=""/></div>
+                    <div id="menu_buscador">
+                        <form action="index.php" method="post">
+                          <fieldset>
+                          <input type="text" class="menu_itext" />
+                          <input type="submit" class="menu_boton" title="Buscar" value="Buscar"/>
+                          </fieldset>
+                        </form>
+                    </div> <!--[if !IE]>fin menu buscador<![endif]-->
+                    
+                    <div id="publicar"><img src="img/sube.gif" alt="" /></div>
+            </div>
+            
+        	<div id="cabecera_menu">
+                 <ul id="nav">
+                        <li class="inicio"><a href="#"><span>Portada</span></a></li>
+                            
+                            <li class="boton1"><a href="#"><span>Noticias </span></a>
+                                <ul>
+                                    <li><a href="#">Reportero W</a></li>
+                                </ul>
+                            </li>
+                    
+                            <li class="boton2"><a href="#"><span>Reporteros</span></a>
+                          <ul>
+                                <li><a href="#">Reportero W</a></li>
+                          </ul>        
+                        </li>
+                     
+                        <li class="boton3"><a href="#"><span>Comisiones</span></a>
+                          <ul>
+                                <li><a href="#">Reportero W</a></li>
+                          </ul>            
+                        </li>
+                        
+                        <li class="boton4"><a href="#"><span>Tu ciudad</span></a>
+                          <ul>
+                                <li><a href="#">Reportero W</a></li>
+                          </ul>            
+                        </li>
+            	  </ul> 
+      		</div><!--[if !IE]>fin cabecera-menu <![endif]-->    
+      </div>
+        
+
+       <div id="cuerpo"><!--[if !IE]>inicio cuerpo<![endif]--> 
+          <div class="degrade">
+          </div>
+          <div class="both"></div>
+          <div id="bloque_izquierdo">
+          <div class="titulo_interiores">
+               <h4><a href="#">Mi cuenta</a> <img src="img/flechita.gif"/> Mis Contactos</h4>
+            </div>
+            
+            <div class="boton_right"><input type="submit" class="menu_boton" title="Escribir" value="Escribir un mensaje"/></div>
+             
+              <div class="contact">
+                   <div class="tablita">
+                       <ul id="lomas_tabs_nav">
+                            <li><a  id="lomasvisto1" class="" onClick="javascript:ocultar('comentado')" onMouseOver="this.style.color='#DF0202'" onMouseOut="this.style.color='#327199'">Todos</a>   </li>
+                       </ul>
+                       </div>
+                       
+                       <div class="tablita">
+                       <ul id="lomas_tabs_nav">
+                            <li><a  id="lomasvisto1" class="" onClick="javascript:ocultar('comentado')" onMouseOver="this.style.color='#DF0202'" onMouseOut="this.style.color='#327199'">Seguidores</a>   </li>
+                       </ul>
+                       </div>
+                       
+                        
+                       <div class="tablita">
+                       <ul id="lomas_tabs_nav">
+                            <li>
+                            <a  id="loultimo1" class="activo" onClick="javascript:ocultar('visto')"  onMouseOver="this.style.color='#000'" onMouseOut="this.style.color='#000'">De la A a la Z</a></li>
+                       </ul>
+                </div>
+                       
+                       <div class="tablita">
+                       <ul id="lomas_tabs_nav">
+                            <li><a  id="lomasvisto1" class="" onClick="javascript:ocultar('comentado')" onMouseOver="this.style.color='#DF0202'" onMouseOut="this.style.color='#327199'">Bloqueados</a>   </li>
+                       </ul>
+                   </div>
+                       
+                       <div class="tablita">
+                       <ul id="lomas_tabs_nav">
+                            <li><a  id="lomasvisto1" class="" onClick="javascript:ocultar('comentado')" onMouseOver="this.style.color='#DF0202'" onMouseOut="this.style.color='#327199'">Invitaciones pendientes</a>   </li>
+                       </ul>
+                   </div>
+                
+              <!--[if !IE]>fin pestañas noticias<![endif]--> 
+              
+              <div class="noticias_barrita_pestanas001">
+                 <h5><a href="#">Enviar invitación | </a></h5>   
+               <h5><a href="#"> Bloquear | </a></h5>
+              <div class="both"></div>
+              </div>
+              <div class="both"></div>
+              
+              <div class="indice_alfabetico">
+              
+              <div class="alfabeto">1-9</div>
+              <div class="alfabeto">A</div>
+              <div class="alfabeto">B</div>
+              <div class="alfabeto">C</div>
+              <div class="alfabeto">D</div>
+              <div class="alfabeto">E</div>
+              <div class="alfabeto">F</div>
+              <div class="alfabeto">G</div>
+              <div class="alfabeto">H</div>
+              <div class="alfabeto">I</div>
+              <div class="alfabeto">J</div>
+              <div class="alfabeto">K</div>
+              <div class="alfabeto">L</div>
+              <div class="alfabeto">M</div>
+              <div class="alfabeto_vacio">&nbsp;</div>
+              <div class="alfabeto">N</div>
+              <div class="alfabeto">O</div>
+              <div class="alfabeto">P</div>
+              <div class="alfabeto">Q</div>
+              <div class="alfabeto">R</div>
+              <div class="alfabeto">S</div>
+              <div class="alfabeto">T</div>
+              <div class="alfabeto">U</div>
+              <div class="alfabeto">V</div>
+              <div class="alfabeto">W</div>
+              <div class="alfabeto">X</div>
+              <div class="alfabeto">Y</div>
+              <div class="alfabeto">Z</div>
+              
+              <div class="both"></div>
+              </div>
+              
+              <div class="cont_filasmsjes">
+              <div class="micontacto">
+              
+              <div class="chek"><input type="checkbox" name="checkbox" id="checkbox" />
+                </div>
+                
+                <div class="user_comment">
+                <div class="mini_foto">
+                    <img src="img/avatar.jpg" alt="usuario" title="usuario" />
+                  </div>
+                    <div class="datos_user">
+                        <h2><a href="#">Malpartida</a></h2>
+                        <p class="txt_localidad">Arequipa</p>
+                        <img src="img/star.gif"/>
+                    </div>
+                    <div class="both"></div>
+                    <div class="responder-eliminar_floatright">
+                     <h5><a href="#"> | Eliminar</a> </h5>  
+                     <h5><a href="#"> | Responder  </a></h5>
+                   </div>
+                </div>
+              
+              </div>
+              
+              <div class="micontacto">
+              
+              <div class="chek"><input type="checkbox" name="checkbox" id="checkbox" />
+                </div>
+                
+                <div class="user_comment">
+                <div class="mini_foto">
+                    <img src="img/avatar.jpg" alt="usuario" title="usuario" />
+                  </div>
+                    <div class="datos_user">
+                        <h2><a href="#">Malpartida</a></h2>
+                        <p class="txt_localidad">Arequipa</p>
+                        <img src="img/star.gif"/>
+                    </div>
+                    <div class="both"></div>
+                    <div class="responder-eliminar_floatright">
+                     <h5><a href="#"> | Eliminar</a> </h5>  
+                     <h5><a href="#"> | Responder  </a></h5>
+                   </div>
+                </div>
+              
+              </div>
+              
+              <div class="micontacto">
+              
+              <div class="chek"><input type="checkbox" name="checkbox" id="checkbox" />
+                </div>
+                
+                <div class="user_comment">
+                <div class="mini_foto">
+                    <img src="img/avatar.jpg" alt="usuario" title="usuario" />
+                  </div>
+                    <div class="datos_user">
+                        <h2><a href="#">Malpartida</a></h2>
+                        <p class="txt_localidad">Arequipa</p>
+                        <img src="img/star.gif"/>
+                    </div>
+                    <div class="both"></div>
+                    <div class="responder-eliminar_floatright">
+                     <h5><a href="#"> | Eliminar</a> </h5>  
+                     <h5><a href="#"> | Responder  </a></h5>
+                   </div>
+                </div>
+              
+              </div>
+              
+              <div class="micontacto">
+              
+              <div class="chek"><input type="checkbox" name="checkbox" id="checkbox" />
+                </div>
+                
+                <div class="user_comment">
+                <div class="mini_foto">
+                    <img src="img/avatar.jpg" alt="usuario" title="usuario" />
+                  </div>
+                    <div class="datos_user">
+                        <h2><a href="#">Malpartida</a></h2>
+                        <p class="txt_localidad">Arequipa</p>
+                        <img src="img/star.gif"/>
+                    </div>
+                    <div class="both"></div>
+                    <div class="responder-eliminar_floatright">
+                     <h5><a href="#"> | Eliminar</a> </h5>  
+                     <h5><a href="#"> | Responder  </a></h5>
+                   </div>
+                </div>
+              
+              </div>
+              
+              <div class="micontacto">
+              
+              <div class="chek"><input type="checkbox" name="checkbox" id="checkbox" />
+                </div>
+                
+                <div class="user_comment">
+                <div class="mini_foto">
+                    <img src="img/avatar.jpg" alt="usuario" title="usuario" />
+                  </div>
+                    <div class="datos_user">
+                        <h2><a href="#">Malpartida</a></h2>
+                        <p class="txt_localidad">Arequipa</p>
+                        <img src="img/star.gif"/>
+                    </div>
+                    <div class="both"></div>
+                    <div class="responder-eliminar_floatright">
+                     <h5><a href="#"> | Eliminar</a> </h5>  
+                     <h5><a href="#"> | Responder  </a></h5>
+                   </div>
+                </div>
+              
+              </div>
+              <div class="both"></div>
+              <div id="paginado_">
+					<p>P&aacute;ginas 1 <a href="#">2</a> <a href="#">3</a></p>               
+               </div>
+              <div class="both"></div>
+              </div>
+            </div>
+           
+          </div> 
+          <!--[if !IE]>fin bloque_izquierdo<![endif]-->
+          <div id="bloque_derecho">
+                <div class="categorias">
+                        <h2 class="bold2 ">Mi cuenta</h2>
+                        <ul>
+                                <li><a href="#">Mis Datos</a></li>
+                                <li><img src="img/flechita.gif"/><span class="comisioncolor">Mis Mensajes</span> <span class="rojo">(2 nuevos)</span></li>
+                                <li><a href="#">Mis Contactos</a></li>
+                                <li><a href="#">Mis Noticias</a></li>
+                                <li><a href="#">Moderar comentarios</a> <span class="rojo">(3 nuevos)</span></li>
+                                <li><a href="#">Mis grupos</a></li>
+                                <li><a href="#">Mis comisiones</a></li>
+                                <li><a href="#">Mis preferencias</a></li>
+                                <li><a href="#">Mis RSS</a></li>
+                        </ul>
+                 </div>
+             </div>
+          <!--[if !IE]>fin bloque_derecho<![endif]-->
+       </div><!--[if !IE]>fin cuerpo<![endif]-->  
+	   <div id="piecera"><!--[if !IE]>inicio piecera<![endif]-->   
+        	<ul>
+            	<li class="pieceracopyright"><h3 class="gris">Copyright © 2009 ReporteroW </h3> </li>
+				<li class="pieceranav">
+                    <ul>
+                        <li >
+                        	<h3><a href="#">Quiénes somos</a> | </h3>
+                        </li>
+                        <li>
+                        	<h3> <a href="#">Contáctanos</a> | </h3>
+                        </li>
+                        <li>
+                        	<h3><a href="#"> Términos y Condiciones </a> | </h3>
+                        </li>
+                        <li>
+                        	<h3><a href="#"> RSS</a> | </h3>
+                        </li>
+                        <li>
+                        	<h3><a href="#">Ayuda </a> |</h3> 
+                         </li>
+                        <li>
+                        	<h3> <a href="#">Móvil</a></h3>
+                        </li>
+                    </ul>
+                    </li>
+                </ul>
+          </div><!--[if !IE]>fin piecera<![endif]--> 
+</div><!--[if !IE]>fin contenedor <![endif]--> 
+<script type="text/javascript">
+<!--
+var spryselect1 = new Spry.Widget.ValidationSelect("spryselect1");
+swfobject.registerObject("FlashID");
+//-->
+</script>
+</body>
+</html>
