@@ -70,12 +70,17 @@ h4, h4 a{
 h4 a:hover{  color:#BB0000; cursor:pointer;}
 h4 {color:#333;}
 h5, h5 a{
+<<<<<<< HEAD:rpp_letras.css
     font-size:10px;
+=======
+        font-size:10px;
+>>>>>>> 36218d9b9521f73a3d63f741550155107bc5f6bb:rpp_letras.css
 	color:#013E87; text-decoration:none;
 	font-family:Arial, Helvetica, sans-serif; font-weight:500;
 	}
 h5 a:hover{  color:#BB0000; cursor:pointer;}
 h5 {color:#333;}
+<<<<<<< HEAD:rpp_letras.css
 
 .txt_sz11, .txt_sz11 a{font-size:11px; font-weight:bold; text-decoration:none;}
 .txt_sz22{font-size:22px; font-weight:600;}
@@ -85,6 +90,21 @@ h5 {color:#333;}
 .txt_sz12, .txt_sz12 a{font-size:12px; text-decoration:none; font-weight:600;}
 .txt_bold{font-weight:bold;}
 .txt_align_right{float:right; text-align:right;}
+=======
+.nd11 a {font-size:11px; font-weight:700; text-decoration:none; color:#013E87;
+           line-height:25px;}
+.nd12 a {font-size:12px; font-weight:700; text-decoration:none; color:#013E87;}
+.nd13 a {font-size:13px; font-weight:700; text-decoration:none; color:#013E87;}
+.nd11 a:hover, .nd12 a:hover, .nd13 a:hover{color:#bb0000;}
+.txt_sz11, .txt_sz11 a{font-size:11px;  text-decoration:none;}
+.txt_sz22{font-size:22px; font-weight:600;}
+.txt_sz16, .txt_sz16 a{font-size:16px; font-weight:600; text-decoration:none;}
+.txt_sz14, .txt_sz14 a{font-size:14px; font-weight:600; text-decoration:none; }
+.txt_sz12, .txt_sz12 a{font-size:12px; font-weight:600; text-decoration:none; }
+.txt_bold{font-weight:700;}
+.txt_align_right{float:right; text-align:right;}
+.txt_sz12_black{font-size:12px; text-decoration:none; font-weight:600; color:#000;}
+>>>>>>> 36218d9b9521f73a3d63f741550155107bc5f6bb:rpp_letras.css
 .txt_blue a{color:#013E87; text-decoration:none; font-size:12px;}
 .txt_blue a:hover{color:#bb0000;}
 
@@ -95,6 +115,7 @@ h5 {color:#333;}
 .txt_blue11, .txt_blue11 a{color:#0334B4; text-decoration:none; font-size:11px; }
 .txt_blue11 a:hover{color:#bb0000;}
 
+<<<<<<< HEAD:rpp_letras.css
 .txt_blue12, .txt_blue12 a{color:#0334B4; text-decoration:none; font-size:12px; font-weight:bold;}/*ndetalle*/
 .txt_blue12 a:hover{color:#bb0000;}
 
@@ -102,11 +123,31 @@ h5 {color:#333;}
 .txt_blue14 a:hover{color:#bb0000;}
 
 /*---------------------*/
+=======
+.txt_blue12, .txt_blue12 a{color:#013E87; text-decoration:none; font-size:12px; font-weight:bold;}/*ndetalle*/
+.txt_blue12 a:hover{color:#bb0000;}
+
+.txt_bluelight12, .txt_bluelight12 a{color:#013E87; text-decoration:none;
+                  font-size:12px; font-weight:400;}/*ndetalle*/
+.txt_bluelight12 a:hover{color:#bb0000;}
+
+.txt_blue14 a{color:#013E87; text-decoration:none; font-size:14px; font-weight:bold;}
+.txt_blue14 a:hover{color:#bb0000;}
+.txt_blue14 {color:#333; font-size:14px; font-weight:bold;}
+
+/*---------------------*/
+.txt_blue18 a{color:#013E87; text-decoration:none; font-size:18px; font-weight:bold;}
+.txt_blue18 a:hover{color:#bb0000;}
+>>>>>>> 36218d9b9521f73a3d63f741550155107bc5f6bb:rpp_letras.css
 .txt_miniblue, .txt_miniblue a{color:#013E87; text-decoration:none; font-size:11px;}
 .txt_miniblue a:hover{color:#bb0000; cursor:pointer;}
 .txt_mm a{font-weight:bold; color:#e98d03; text-decoration:none;}
 .txt_mm a:hover{ color:#90bdea; }
+<<<<<<< HEAD:rpp_letras.css
 .txt_underline{text-decoration:underline;}
+=======
+.txt_underline, .txt_underline a, .txt_underline a:hover{text-decoration:underline;}
+>>>>>>> 36218d9b9521f73a3d63f741550155107bc5f6bb:rpp_letras.css
 
 .linea_separadora{ border-bottom:#dadada solid 1px; }
 .linea_separadora2{ border-bottom:#dadada solid 1px; margin:0 0 7px 0;}
@@ -114,7 +155,22 @@ h5 {color:#333;}
 .linea_separadora_noticia{ border-bottom:#dadada solid 1px; margin:12px 0 2px 0;}
 .linea_sepadora_top {border-top:#dadada solid 1px; padding:10px 0 0 0;}
 .linea_sepadora_top2 {border-top:#dadada solid 1px; }
+<<<<<<< HEAD:rpp_letras.css
 
+=======
+.rpp_activo a, .rpp_activo a:hover
+{
+ font-weight:bold; font-size:11px;
+ text-decoration:none;
+ }
+.rpp_inactivo a
+{ 
+ color:#0334B4;font-size:11px;
+ text-decoration:underline;
+ font-weight:bold;
+ }
+ .rpp_inactivo a:hover{  color:#bb0000; } 
+>>>>>>> 36218d9b9521f73a3d63f741550155107bc5f6bb:rpp_letras.css
   .rpp_mini, .rpp_mini a{
   font-size:11px; 
   color:#909090; text-decoration:none;
@@ -122,10 +178,17 @@ h5 {color:#333;}
  .rpp_mini a:hover{
  text-decoration:underline;
  }
+<<<<<<< HEAD:rpp_letras.css
 .rpp_supermini{font-size:10px;}
 .rpp_temas{font-size:11px; color:#333;}
 .rpp_temas a {font-size:11px; color:#01387b; text-decoration:none;}
 .rpp_temas a:hover{color:#bb0000;}
+=======
+ .rpp_supermini{font-size:10px;}
+.rpp_temas{font-size:11px; color:#333;} /*no se usa ndesigne*/
+.rpp_temas a {font-size:11px; color:#01387b; text-decoration:none;} /*no se usa*/
+.rpp_temas a:hover{color:#bb0000;} /*no se usa*/
+>>>>>>> 36218d9b9521f73a3d63f741550155107bc5f6bb:rpp_letras.css
 
 .rpp_minitext a{font-size:11px; padding: 0 4px; text-decoration:none;}
 .rpp_minitext a:hover{text-decoration:underline;}
@@ -137,6 +200,13 @@ h5 {color:#333;}
 		width:790px; text-align:left; 	
 		}
 .rpp_tit_slide{ font-size:14px; color: #000; font-weight:bold; line-height:23px;}
+<<<<<<< HEAD:rpp_letras.css
+=======
+
+.rpp_tit_slide2{ font-size:14px; color: #666; font-weight:bold; line-height:23px;
+                  float:left; padding-left:10px; padding-top:3px;} /* para chekar */
+.rpp_txt_white{ font-size:14px; color: #fff; font-weight:bold;}                 
+>>>>>>> 36218d9b9521f73a3d63f741550155107bc5f6bb:rpp_letras.css
 .rpp_tit_slide_white{ font-size:14px; color: #fff; font-weight:bold; line-height:23px;}
 .rpp_txt_nropost{font-size:10px; color:#666; text-decoration:none;}
 .rpp_txt_center{text-align:center;}
@@ -147,7 +217,11 @@ h5 {color:#333;}
 
 /*-------- clases para asignar graficos a los tipos de noticia (video, foto, audio, blog, nota)-----------*/
 .f-video{ background:url(../img/ico_video.gif) 2px 2px no-repeat;}
+<<<<<<< HEAD:rpp_letras.css
 .f-nota{ background:url(../img/ico_texto.gif) 2px 2px  no-repeat;}
+=======
+.f-nota{ background:url(../img/ico_texto.gif) 0px 2px  no-repeat;}
+>>>>>>> 36218d9b9521f73a3d63f741550155107bc5f6bb:rpp_letras.css
 .f-blog{ background: url(../img/ico_blog.gif) 2px 2px  no-repeat;}
 .f-foto{ background: url(../img/ico_foto.gif) 2px 2px  no-repeat;}
 .f-audio{ background: url(../img/ico_audio.gif) 2px 2px  no-repeat;}
@@ -167,7 +241,11 @@ h5 {color:#333;}
 /*---*/
 .foto_caja{ float:left; width:64px; height:48px; margin:5px 4px 5px 5px; display:block; border:#ccc solid 1px; }
 .foto_cajad{ float:left; width:64px; height:48px; margin:2px 10px 5px 0; display:block; border:#ccc solid 1px; }
+<<<<<<< HEAD:rpp_letras.css
 .foto_cajatheme_a{ float:left; width:80px; height:60px; margin:2px 10px 5px 5px; display:block; border:#ccc solid 1px; }
+=======
+.foto_cajatheme_a{ float:left; width:80px; height:60px; margin:0 10px 0 5px; display:block; border:#ccc solid 1px; }
+>>>>>>> 36218d9b9521f73a3d63f741550155107bc5f6bb:rpp_letras.css
 .foto_blogprog{ float:left; border:0; width:133px; height:100px; margin-bottom:5px;}
 .foto_box_data_b{ float:left; width:64px; height:48px; margin:2px 10px 5px 0; display:block; border:#ccc solid 1px; }/*ndetalle*/
 .foto_noticialevel1 {  height:75px; width:100px; float:left; margin:0 10px  5px 0;}
@@ -186,6 +264,7 @@ ul.lista_vermas li{float:left; padding:12px 10px; border-bottom:#dadada solid 1p
 /*----*/
 .border_bottom {border-bottom:#dadada solid 1px; width:100%;}
 .margin10{margin-top:10px;}
+<<<<<<< HEAD:rpp_letras.css
 /*----*/
   
 .box_msg{ float:left; padding:10px; width:596px;  height:300px;
@@ -199,3 +278,17 @@ ul.nd_tree_second li h5 a{position:relative; top:7px; font-size:10px; }
 
 .linea_sepadora_top2 {border-top:#dadada solid 1px; }
 .padding10{padding-bottom:10px;}
+=======
+.padding10{padding-bottom:10px;}
+/*----*/
+.box_msg{ float:left; background:#FCF0BC ; display:inline; padding:10px;
+    margin:20px 0 20px 45px; text-align:center; width:550px;}
+/*----------*/
+.txt_buen{font-size:16px; font-weight:700; color:#277d27; width:25px;
+           float:left; text-align:center; }
+.txt_malo{font-size:16px; font-weight:700; color:#f00; width:25px;
+           float:left; text-align:center; }
+/*-----treeurl-*/
+#nd_tree{float:left; width:100%;  text-align:left;}
+
+>>>>>>> 36218d9b9521f73a3d63f741550155107bc5f6bb:rpp_letras.css
