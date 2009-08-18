@@ -1,0 +1,176 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6,  blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+ caption, tbody, tfoot, thead, th {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: Arial, Helvetica, sans-serif;	
+	 font-size:12px; list-style:none;
+	
+}
+
+
+/*letras*/
+
+.txt_sz16, .txt_sz16 a{font-size:16px; font-weight:600; text-decoration:none;}
+ .rpp_supermini{font-size:10px; color:#999; padding-top:10px }
+
+.float_r{ float:right;}
+.float_l{ float:left;}
+ h3 a{
+    font-size:12px;
+    color:#013E87; text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif; font-weight:500;
+	}
+h3 a:hover{  color:#BB0000; cursor:pointer;}
+h3 {color:#333;}
+h4 a{ color:#333333; text-decoration:underline;}
+
+.rpp_txt_gray2{ color:#666;}
+
+.txt_black a { color:#333;}
+.txt_black a:hover{ color:#bb0000}
+.txt_bold{ font-weight:bold}
+
+
+.ubica_img {
+border:0 none;
+margin:0 4px 0 0;
+position:relative;
+top:2px;
+}
+
+/*----bordes-------*/
+.rppboxheader_gray {background:url(../img/gray_12.gif) right 0 no-repeat; height:4px;
+                  width:100%; overflow:hidden;}
+.rppboxheader_gray div{background:url(../img/gray_11.gif) 0 0 no-repeat; height:4px;
+                 overflow:hidden; width:4px;}
+.rppboxfooter_white {background:url(../img/white_22.gif) right 0 no-repeat; height:4px;
+                  width:100%; overflow:hidden;clear:both;}
+.rppboxfooter_white div{background:url(../img/white_21.gif) 0 0 no-repeat; height:4px;
+               overflow:hidden; width:4px; clear:both;}
+/*------secciones--------------*/
+.news_wrapper{width:661px; }
+.news_wrapper_namesec{float:left; background:#bababa; width:100%;padding:0px 0 6px 0; }
+.news_wrapper_namesecleft{float:left; width:300px; 
+             padding-left:10px; line-height:20px;}
+.news_wrapper_namesecright{float:right; width:300px; text-align:right; padding-right:10px;}
+.news_wrapper_seccion{float:left; width:659px;  background:#fff;
+                    border:#dadada solid 1px; border-width:0 1px;}
+/*---------------------------------------------------------------*/
+
+/*inicio estadisticas*/
+.stats{ width:160px; background-color:#f8f8f8; height:370px; float:left; padding:10px; border-right:1px solid #dadada;}
+/*tabla*/
+.tabla{ width:469px;  float:left;  }
+/*anterior*/
+	#futbol_container{ width:302px; margin:4px 0 0 8px;  }
+#futbol_torneos{     float:left; display:inline;    
+	border-width:1px 1px 0 1px;
+	width:459px;
+	color:#999;
+	 font-size:14px;
+	position:relative; padding:10px  0 } 
+	
+#futbol_tabla{ float:left;	background:#FFF; width:459px; border:1px solid #dadada; padding:5px 0 0; margin-bottom:10px;}
+
+#futbol_lista {float:left; width:440px;  }
+#futbol_lista ul{ float:left; margin:0; padding:3px 0 0 0;
+				  list-style-type:none;
+				  					  
+				  }	
+#futbol_lista ul li{ float:left; cursor:pointer;}
+#futbol_lista ul li:hover.futbol_wid_menu_submenu{  color:#bb0000;  }				  
+
+
+.futbol_wid_menu_submenu { 	font-size: 12px; text-align:left; color:#013E87; font-weight:bold;
+				margin: 0 3px 0 0; padding:5px 10px; background-color:#f5f5f5; border-left:1px solid #dadada;
+				border-top:1px solid #dadada; border-right:1px solid #dadada; }
+				
+.futbol_tabla_result{height:241px; overflow:auto;text-align:left;}
+.futbol_container_titu{ height:25px;}
+.futbolresulttitu{font-weight:bold;}
+.futbol_masnoti a{	
+	color:#003F8A;
+	text-align:right;
+	width:78px;
+	float:right; font-size:11px;
+	line-height:26px; }
+.futbol_masnoti a:hover{color:#bb0000;}		
+	.futbol_masnoti	.futbol_vermas { height:10px;width:10px;  	margin-top:2px;} 
+.dark_gray{ background:#d1d1d1;}	
+.light_gray{ background:#f6f6f6;}	
+.galeria_ico{ height:10px; width:10px; margin-left:2px; border:0px;}
+.display_on{display:block;}
+.display_off{display:none;}
+.space_padding{padding-right:5px;}
+.futbol_menu_inact a{color:#013E87; text-decoration:underline;padding:0 0 0 3px; }
+.futbol_menu_inact a:hover{color:#bb0000; text-decoration:underline;}
+.futbol_wid_menu_submenu_act{font-size: 10px;
+							font-family: Arial;
+							color: #333; padding:5px 10px; background-color:#FFFFFF;
+							margin:0 3px 0 0;
+							text-align:left; border-left:1px solid #dadada;
+							border-right:1px solid #dadada;
+							border-top:1px solid #dadada; position:relative; top:1px; font-weight:bold;
+ 						
+							}
+							
+.futbol_menu{  font-family:arial;padding:0 0 0 4px ;					
+	 font-size:11px; color:#000; font-weight:600; }
+.futbol_menu a, .futbol_menu a:hover{ text-decoration:none; color:#000;}		
+
+/*fin tabla*/
+
+.torneos{ width:449px; float:left; padding:5px; border: 1px solid #dadada;}
+.torneos2{ width:449px; float:left; padding:3px; border: 1px solid #dadada;}
+.torneos ul { padding-left:4px;}
+.torneos ul  li{ float:left; padding-right:40px; font-size:10px;}
+.tor1{ width:8px; height:8px; background-color:#FFFFCC; border:1px solid #999; float:left; position:relative; top:2px;  margin-right:4px; }
+.tor2{ width:8px; height:8px; background-color:#EFF8FF;  border:1px solid #999; float:left; position:relative; top:2px;  margin-right:4px; }
+.tor3{ width:8px; height:8px; background-color:#FF9595; border:1px solid #999; float:left; position:relative; top:2px;  margin-right:4px; }
+
+/*taBLA DEMO*/
+.table{ width:439px; border:1px solid #dadada; margin:5px 0 0 9px; }
+.table2{ width:425px; border:1px solid #dadada; margin:5px 0 0 9px; }
+tr{ height:25px; }
+td{ border-bottom:1px solid #dadada;}
+.patleft{ padding-left:43px; width:100px;}
+.patleft2{ padding-left:9px; }
+.patleft3{ padding-left:9px; width:134px;}
+.li1{ background-color: #D8EBC5;  text-align:left;}
+.tdnone{ border-bottom:none;}
+.bg1{ background-color:#FFFFCC}
+.bg2{ background-color:#EFF8FF}
+.bg3{ background-color:#FF9595}
+.bg4{ background-color:#f8f8f8}
+.bold{ font-weight:bold;}
+.bor{ height:5px !important; }
+
+
+/*estadistica*/
+.wrapper_estadistica{ width:160px; height:345px; background-color:#f8f8f8; }
+
+.c999{ color:#999999}
+
+.caj1{ width:158px; border:1px solid #dadada; background-color:#FFFFFF; height:141px; float:left; margin-top:13px}
+
+.cajtitu{ border-bottom:1px solid #dadada; padding:5px 8px; color:#666666; font-weight:bold; text-transform:uppercase;}
+.cajimg{ width:158px; height:111px; background-image:url(../img/rombo.jpg);}
+.borderr{ border:none !important; }
+.estate{ padding:4px 0}
+.estate ul li { float:left; padding-right:8px;}
+
+
+
+	
+

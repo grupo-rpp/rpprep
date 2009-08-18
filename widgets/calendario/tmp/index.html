@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>[TITLE]</title>
+</head>
+<style type="text/css">
+fieldset{border:0; float:left; padding:0; margin:0;}
+table{float:left; width:287px; border:0; border-collapse:collapse; font-family: Arial, Helvetica, sans-serif; 
+		font-size: 14px; color:#333; font-family:Arial,Helvetica, sans-serif; font-weight:bold; background:#FFF;}
+
+.text_align_center{text-align:center;}
+.align_right{float:right;}
+
+
+.style1 {color: #FFFFFF; background-color:#ff5f5f;}
+.style2 {background-color:#ffffff; border:#bdbdbd solid 1px;}
+.style2 a {text-decoration:none; color: #666; }
+.style2 a:hover{color:#ff5f5f;}	
+
+.style3 {padding:5px 0; font-weight:bold; text-align:center;}	
+.style4 {color: #C1C1C1; }
+		
+
+</style>
+<SCRIPT language="JavaScript">
+function ir()
+{
+  document.calendario.submit();
+}
+</SCRIPT> 
+ 
+<form action="index.php" method="post" name="calendario" >
+  <fieldset>
+        <table>
+          
+          <tr>
+             <td colspan="2" class="text_align_center">Buscar noticia por fecha</td>
+          </tr>
+          <tr>
+            <td >
+              <select name="mes" id="mes" onchange="javascript:ir();">
+              <option [SELECTED1] value="1" >Enero</option>
+              <option [SELECTED2] value="2" >Febrero</option>
+              <option [SELECTED3] value="3" >Marzo</option>
+              <option [SELECTED4] value="4" >Abril</option>
+              <option [SELECTED5] value="5" >Mayo</option>
+              <option [SELECTED6] value="6" >Junio</option>
+              <option [SELECTED7] value="7" >Julio</option>
+              <option [SELECTED8] value="8" >Agosto</option>
+              <option [SELECTED9] value="9" >Setiembre</option>
+              <option [SELECTED10] value="10" >Octubre</option>
+              <option [SELECTED11] value="11" >Noviembre</option>
+              <option [SELECTED12] value="12" >Diciembre</option>
+              </select></td>
+            <td >
+             <select name="anio" id="anio">
+             [ANIOS]
+            </select></td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+            [CALENDAR]          </td>
+          </tr>
+        </table>
+  </fieldset>
+</form>
+ 
+</html>

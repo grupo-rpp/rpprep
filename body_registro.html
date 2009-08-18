@@ -1,0 +1,216 @@
+<script language="JavaScript">
+
+function populate(inForm)
+{
+var temp=0;
+var today= new Date();
+var day= today.getDate();
+var month= today.getMonth();
+var year= today.getFullYear();
+t2= 60;
+for (var i=0; i <31 ; i++)
+{
+var x= String(i+1);
+inForm.F_DAY.options[i] = new Option(x,x);
+}
+/*
+for (var i=0; i <31 ; i++)
+{
+var d=0;
+d=inForm.F_DAY.options[i].value;
+if (d=day){
+inForm.F_DAY.options[i].selected=true;
+break;}
+}
+*/
+
+for (var i=0,j=year; i <t2 ; i++, j--)
+{
+var y= String(j);
+inForm.F_YEAR.options[i] = new Option(y,y);
+}
+/*
+for(var i=0;i<12;i++)
+{
+if(i=month)
+{inForm.F_MONTH.options[i].selected=true;
+break;}
+}
+*/
+
+}
+
+function populate2(inForm2)
+{
+var t3=0;
+
+
+if(inForm2.F_MONTH.options[1].selected)
+
+t3=28;
+else if(inForm2.F_MONTH.options[8].selected||inForm2.F_MONTH.options[3].selected||inForm2.F_MONTH.options[5].selected||inForm2.F_MONTH.options[10].selected)
+t3=30;
+else
+t3=31;
+
+if (t3==28) { if ((inForm2.F_YEAR.value%4)==0) t3=29; }
+
+
+for(i=0;i<31;i++){
+inForm2.F_DAY.options[i]=null;
+}
+
+for (var i=0; i <t3 ; i++)
+	{
+	var x= String(i+1);
+	inForm2.F_DAY.options[i] = new Option(x);
+		
+	}
+}
+// ----------------------------------------------------------
+//
+// ----------------------------------------------------------
+</script>
+
+<div id="newbody_wrapper" >
+   <div id="wrapper_registro">
+
+         <div id="registro_header"><img src="img/rpp_logo_gentew.gif" alt="gente w" ></div>
+         <div id="registro_message" class="[DISPLAY_ALERTA]">[ALERTA]</div>
+         <div id="r_leftcol" >
+         <h2 class="txt_sz16">Ingresa a tu cuenta</h2>
+
+  <div class="[DISPLAY_INGRESAR]">
+      <form action="login.php" method="post"  >
+      <fieldset>
+      <div class="r_field">
+      <label for="email">Email:</label>
+      <input name="login" type="text" tabindex="1" size="25" maxlength="50" value=""  />
+      </div>
+
+      <div class="r_field" >
+      <label for="pass">Contrase&ntilde;a:</label>
+      <input name="pw" type="password" tabindex="2" size="25" maxlength="16" value=""  />
+      </div>
+      <input name="INGRESAR" type="submit" id="INGRESAR" value="Ingresar" class="input_btn"/>
+      </fieldset>
+     </form>
+    </div>
+
+         </div><!--[if !IE]>finr_leftcol<![endif]-->
+
+         <div id="r_rightcol">
+            <h2 class="txt_sz16">Registro de usuario</h2>
+            <form enctype="multipart/form-data" action="http://www.gentew.com/registernew.php" method="post" name="form1" id="form1" >
+            <input type=hidden name=ref value=rpp >
+            <fieldset>
+            <div class="r_field" >
+            <label for="email">Email:</label>
+            <input name="F_EMAIL" type="text" id="F_EMAIL" size="40" maxlength="60" value="[F_EMAIL]" [disabled]/>
+            </div>
+
+            <div class="r_field" >
+            <label for="password">Contrase&ntilde;a:</label>
+            <input name="F_PASSWORD" type="password" id="F_PASSWORD" size="40" maxlength="16"  value="[F_PASSWORD]"  />
+            </div>
+
+            <div class="r_field" >
+            <label for="user">Usuario / Alias</label>
+            <input name="F_USER" type="text" id="F_USER" size="40" maxlength="16"  value="[F_USER]"  />
+            </div>
+
+            <div class="r_field" >
+            <label for="nombre">Nombre</label>
+            <input name="F_NAME" type="text" id="F_NAME" size="40" maxlength="50" value="[F_NAME]" />
+            </div>
+
+            <div class="r_field" >
+            <label for="apellido">Apellido</label>
+            <input name="F_LASTNAME" type="text" id="F_LASTNAME" size="40" maxlength="50" value="[F_LASTNAME]" />
+            </div>
+
+           <div class="r_field" >
+            <label for="sexo">Sexo</label>
+            <input type="radio" name="F_SEXO" value="M" [MCHK] />Masculino&nbsp;
+            <input type="radio" name="F_SEXO" value="F" [FCHK] />Femenino
+            </div>
+
+           <div class="r_field" >
+            <label for="fnac">Fecha de nacimiento</label>
+             Dia /<select name="F_DAY" class="textbox_wide" id="F_DAY">[DAYS]</select>
+             Mes /<select name="F_MONTH" class="textbox_wide" id="F_MONTH" onchange = "populate2(form1)">[MONTHS]</select>
+             A&ntilde;o<select name="F_YEAR" class="textbox_wide" id="F_YEAR" onchange = "populate2(form1)">[YEARS]</select>
+            </div>
+
+           <div class="r_field" >
+            <label for="sube">Sube tu foto (opcional)</label><img src=[F_AVATAR] width=100 height=100  >
+            <input type="file" name="F_AVATAR" id="F_AVATAR" class="textbox_wide" value="" size="15" >
+            <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+            </div>
+
+           <div class="r_field" >
+            <label for="codigo">C&oacute;digo de seguridad</label>
+            <img src="[F_CAPTCHA]" >
+            <input name="F_KEY" type="hidden" value="[F_KEY]" align="absbottom" />
+            <input name="F_CODE" type="text" class="textbox_wide" id="F_CODE" size="10" maxlength="5" />
+            </div>
+
+           <div class="r_field" >
+            <p>Al registrarte en Gente W aceptas los<br/>
+              <span class="rpp_mini">T&eacute;rminos y Condiciones Legales</span>            </p>
+                 <br>[CONDICIONES]
+            </div>
+
+            <div class="r_field rpp_txt_center">
+             <input name="REGISTRARSE" type="submit" id="REGISTRARSE" value="Reg&iacute;strate"  />
+            </div>
+
+            </fieldset>
+            </form>
+
+
+         </div><!--[if !IE]>finr_rightcol<![endif]-->
+    </div><!--[if !IE]>fin wrapper_registro <![endif]-->
+</div>
+<script type="text/javascript" src="js/gen_validatorv2.js"></script>
+<script language="JavaScript">
+var frmvalidator = new Validator("form1");
+for(i=0; i<document.form1.elements.length; i++)
+{
+      if (document.form1.elements[i].name.substr(0,7) =='F_EMAIL')
+         {
+          frmvalidator.addValidation(document.form1.elements[i].name,"req","Ingrese una cuenta de correo vlida");
+          frmvalidator.addValidation(document.form1.elements[i].name,"email","Ingrese una cuenta de correo vlida");
+         }
+         if (document.form1.elements[i].name.substr(0,6) =='F_NAME')
+            {
+              frmvalidator.addValidation(document.form1.elements[i].name,"req","Ingresar Nombres");
+              frmvalidator.addValidation(document.form1.elements[i].name,"alpha","Nombre debe contener slo letras");
+            }
+         if (document.form1.elements[i].name.substr(0,10) =='F_LASTNAME')
+            {
+              frmvalidator.addValidation(document.form1.elements[i].name,"req","Ingresar Apellidos");
+              frmvalidator.addValidation(document.form1.elements[i].name,"alpha","Apellidos debe contener slo letras");
+            }
+         if (document.form1.elements[i].name.substr(0,6) =='F_USER')
+            {
+              frmvalidator.addValidation(document.form1.elements[i].name,"req","Ingresar Nick");
+              frmvalidator.addValidation(document.form1.elements[i].name,"alnum","Nick debe contener slo nmeros o letras");
+              frmvalidator.addValidation(document.form1.elements[i].name,"minlen=6","Nick no puede ser menor que 6 caracteres");
+              frmvalidator.addValidation(document.form1.elements[i].name,"maxlen=16","Nick no puede ser mayor que 16 caracteres");
+            }
+         if (document.form1.elements[i].name.substr(0,10) =='F_PASSWORD')
+            {
+              frmvalidator.addValidation(document.form1.elements[i].name,"req","Ingresar Contrasea");
+              frmvalidator.addValidation(document.form1.elements[i].name,"alnum","Contrasea debe contener slo nmeros o letras");
+              frmvalidator.addValidation(document.form1.elements[i].name,"minlen=6","Contrasea no puede ser menor que 6 caracteres");
+              frmvalidator.addValidation(document.form1.elements[i].name,"maxlen=16","Contrasea no puede ser mayor que 16 caracteres");
+            }
+         if (document.form1.elements[i].name.substr(0,6) =='F_CODE')
+            {
+              frmvalidator.addValidation(document.form1.elements[i].name,"req","Ingresar Cdigo de Seguridad");
+              frmvalidator.addValidation(document.form1.elements[i].name,"alnum","Cdigo de Seguridad debe contener slo nmeros o letras");
+            }
+}
+</script>
+

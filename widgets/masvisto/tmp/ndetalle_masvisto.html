@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>lo mejor de RPP</title>
+    
+<style type="text/css">
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6,  blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+ caption, tbody, tfoot, thead, th {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: Arial, Helvetica, sans-serif;	
+	color:#333; font-size:12px;
+	
+}
+h3 a{  color:#013E87; text-decoration:none; font-weight:500;}
+h3 a:hover{  color:#BB0000; cursor:pointer;}
+h3 {color:#333;}
+h4{font-size:10px;}
+h4 a{  color:#013E87; text-decoration:underline; font-size:10px; font-weight:500;	}
+h4 a:hover{  color:#BB0000; cursor:pointer;}
+.txt_gray{color:#999; font-size:10px; padding-left:10px;}
+.txt_sz12, .txt_sz12 a{font-size:12px; font-weight:600; text-decoration:none; }
+.txt_sz14, .txt_sz14 a{font-size:14px; font-weight:600; text-decoration:none; }   
+ul {list-style: none;}
+.wrapper_mv2c {float:left; margin:0; width:298px; _width:300px;
+              border:#dadada solid 1px;}
+.titulo{background:#bababa; width:100%; margin-bottom:10px;}	      
+.titulo h3{ padding:0 0 0 10px; line-height:27px;}
+.mv_nav    {float:left; width:100%; padding:5px 0 0 0;
+            border-top:#dadada solid 1px; display:inline;}
+.mv_nav_left{ float:left; padding-left:5px; }
+.mv_nav_left span{line-height:31px; padding-left:5px;}
+.mv_nav_right{float:right; }
+.mv_nav_right h4{ padding-right:10px; text-align:right; line-height:31px;}
+.caja_pestana{ float:left; display:inline; }
+.caja_pestana ul{ float:left; margin:0 0 0 5px; padding:0;}	
+.caja_pestana ul li { float:left; padding:0 5px 0 17px; }
+.caja_pestana .pestana{ border:0; padding:0; display:inline; background:#fff;}
+.caja_pestana .pestana li{float:left; padding:5px 10px;
+		margin:0 3px 0 0 ;}	
+.inactivo { background:#f7f7f7; border-left:#dadada solid 1px; border-top:#dadada solid 1px;
+         border-right:#dadada solid 1px;}
+.inactivo a{ background:#f7f7f7;  cursor:pointer;}
+.inactivo a:hover{  cursor:pointer;}			
+.activo{ background:#fff; border-left:#dadada solid 1px; border-top:#dadada solid 1px; border-right:#dadada solid 1px;
+	 position:relative; top:1px; z-index:0;	}
+.activo a, .activo a:hover{ background:#fff; color:#000; text-decoration:none;}
+.box_data{float:left; width:100%; border-top:#dadada solid 1px;
+	padding:0; margin:0; display:inline;}	
+.box_data ul{float:left;margin:0; padding:10px; list-style-type:none; }	
+.box_data ul li {float:left; display:block; padding:5px 0 5px 20px; line-height:17px; }
+.box_data ul li h3 .txt_red{color:#bb0000;}		 
+.box_data ul li a{font-size:12px;}		 
+.box_data ul li a img{float:left; width:64px; height:48px;
+	         border:#dadada solid 1px; margin:0 10px; }
+.display_on{display:block;}
+.display_off{display:none;}
+.ubica{position:relative; top:10px; margin-left:3px;}
+.f-video{ background:url(img/ico_video_12x12.gif) 0 7px no-repeat;}
+.f-nota{ background:url(img/ico_nota_12x12.gif) 0 7px no-repeat;}
+.f-blog{ background: url(img/ico_blog.gif) 20 7px no-repeat;}
+.f-foto{ background: url(img/ico_foto_12x12.gif) 0 7px no-repeat;}
+.f-audio{ background: url(img/ico_audio_12x12.gif) 0 7px no-repeat;}
+              
+</style>
+</head>
+<body>
+  
+        <div class="wrapper_mv2c">
+	    <div class="titulo">
+	       <h3 class="txt_sz14">Los + de RPP</h3>
+	    </div>
+           [JSMASVISTO]
+           <div class="caja_pestana">
+                <ul class="pestana">
+                    <li id="opcmavisto1" class="activo"><h3 class="txt_sz12">
+                         <a onclick="javascript:masvisto(1);">+ Vistos</a></h3></li>
+                    <li id="opcmavisto2" class="inactivo"><h3 class="txt_sz12">
+                         <a onclick="javascript:masvisto(2);">+ Comentados</a></h3></li>
+                    <li id="opcmavisto3" class="inactivo"><h3 class="txt_sz12">
+                         <a onclick="javascript:masvisto(3);">+ Votados</a></h3></li>  		    
+                </ul>
+           </div> <!--[if !IE]>fin caja_pestanas <![endif]--> 
+           
+           <div class="box_data">
+            [NOTICIAS]
+            </div><!--[if !IE]>fin box_data <![endif]-->
+            
+	    <div class="mv_nav">
+                <div class="mv_nav_left">
+                    <span class="txt_gray">Auspiciado por:</span>
+                </div>
+                <div class="mv_nav_left">
+                    <img src="img/a.gif" />
+                </div> 		
+		<div class="mv_nav_right" >
+		    <h4 id="txtvisto"><a href="http://www.rpp.com.pe/lomasvisto.php">Ver + vistos</a></h4>
+		</div>
+	   </div>
+            
+      </div><!--[if !IE]>fin wrapper_mv2c<![endif]-->
+
+
+
+</body>
+</html>

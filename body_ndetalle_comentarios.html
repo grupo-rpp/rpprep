@@ -1,0 +1,311 @@
+
+<link rel="stylesheet" href="css/rpp_ndetalle.css" type="text/css" media="screen" />
+
+<div id="newbody_wrapper">
+
+<div id="nd_contenedor">
+
+  <div class="nd_fila_seccion">
+      <div class="nd_bigpointer">
+	   <div class="zz">
+	       <div class="nd_bigpointer_bck">
+	         <h4>M&aacute;s noticias en</h4>
+	         <h3 class="rpp_txt_white">[SECCION]</h3>
+	       </div>
+	   </div>
+	   <div class="nd_bigpointer_img">
+	      <img src="img/bigarrow.gif" />
+	   </div>      
+      </div>
+      
+      <ul class="nd_listaseccion">
+	  <li>
+	      <a href="[LINK_SEC1]"><img src="[FOTO_SEC1]" alt="[TITLE_SEC1]"/></a>
+	      <h2 class="txt_sz12"><a href="[LINK_SEC1]">[TITLE_SEC1]</a></h2>
+	      <h4 class="rpp_txt_gray">[ITEMINI1] de [ITEMFIN1]</h4>	
+	  </li>
+	  <li>
+	      <a href="[LINK_SEC2]"><img src="[FOTO_SEC2]" alt="[TITLE_SEC2]"/></a>
+	      <h2 class="txt_sz12"><a href="[LINK_SEC2]">[TITLE_SEC2]</a></h2>
+	      <h4 class="rpp_txt_gray">[ITEMINI2] de [ITEMFIN2]</h4>		
+	  </li>
+	  <li>
+	      <a href="[LINK_SEC3]"><img src="[FOTO_SEC3]" alt="[TITLE_SEC3]"/></a>
+	      <h2 class="txt_sz12"><a href="[LINK_SEC3]">[TITLE_SEC3]</a></h2>
+	      <h4 class="rpp_txt_gray">[ITEMINI3] de [ITEMFIN3]</h4>	
+	  </li>		  
+      </ul>
+      
+      <ul class="nd_nav">
+	 <li class="margin1"><a href="#"><img src="img/nd_arrowright.gif" /></a></li>
+	 <li><a href="#"><img src="img/nd_arrowleft.gif" /></a></li>        
+      </ul>
+      
+  </div><!--[if !IE]>fin nd_fila_seccion<![endif]-->
+
+
+
+
+
+  <div id="nd_ab">
+    <div id="nd_tree">
+                [TREEURL][NID]     
+    </div><!--[if !IE]>fin nd_tree<![endif]-->
+    
+    <div id="nd_a">
+         <div class="nota_portada">
+            <h3 class="rpp_tit_slide rpp_txt_center">En Portada</h3>
+            <a href="[LNIKENPORTADA]">
+	      <img src="[FOTOENPORTADA]" alt="[TITULOENPORTADA]" class="np_foto"/></a>
+           <h2 class="txt_sz14">
+            <a href="[LINKENPORTADA]">[TITULOENPORTADA]</a></h2>
+          </div>
+          
+	<div class="wrapper_submenu">
+           <ul id="treemenu1" class="treeview">
+               <li class="submenu" id="submenu1"><a onclick="javascript:desplaza(1);" >
+                  <img name="imgssubmenu1" src="img/drop_up.gif" />Actualidad</a>
+                  <ul id="opcion1" class="display_on">[ACTUALIDAD]</ul>
+               </li>
+
+               <li class="submenu" id="submenu2"><a onclick="javascript:desplaza(2);" >
+                  <img name="imgssubmenu2" src="img/drop_up.gif" />Deportes</a>
+                  <ul id="opcion2" class="display_off">[DEPORTES]</ul>
+               </li>
+
+               <li class="submenu" id="submenu3"><a onclick="javascript:desplaza(3);" >
+                  <img name="imgssubmenu3" src="img/drop_up.gif" />Entretenimiento</a>
+                  <ul id="opcion3" class="display_off">[ENTRETENIMIENTO]</ul>
+               </li>
+	  </ul>	
+       </div> <!--[if !IE]>fin wrapper_submenu<![endif]-->       
+        
+
+
+    </div><!--[if !IE]>fin nd_a<![endif]-->
+    
+    
+    
+	 <div id="nd_b">            
+               [JSNOTICIA]
+               <div class="nd_main_pestanas">
+                  <ul>
+                     <li id="opcnoticia1" class="[NDCLASS1]">
+		       <a onclick="javascript:opcnoticia(1);">[NDP1]</a></li>
+                     <li id="opcnoticia2" class="[NDCLASS2]">
+		       <a onclick="javascript:opcnoticia(2);">[NDP2]</a></li>
+                     <li id="opcnoticia3" class="[NDCLASS3]">
+		       <a onclick="javascript:opcnoticia(3);">[NDP3]</a></li>
+                     <li id="opcnoticia4" class="[NDCLASS4]">
+		       <a onclick="javascript:opcnoticia(4);">[NDP4]</a></li>
+                     <li id="opcnoticia5" class="[NDCLASS5]">
+		       <a onclick="javascript:opcnoticia(5);">[NDP5]</a></li>		       
+		       
+                  </ul>
+               </div>
+            
+         <div id="nd_body_news">
+            <h4 class="rpp_txt_gray">Publicado el [FECHA01] a las [HORA01] hrs</h4>
+            <h1>[TITULO01]</h1>
+            <h4 class="rpp_txt_gray">[NROLECTURAS01]&nbsp;|&nbsp;[NROCOMENTARIOS01]&nbsp;Comentarios</h4>
+	    <div class="nd_wrapper_line">
+                <ul class="nd_califica">
+		   <li><span>[CALIFICACION]</span></li>                    
+                </ul>
+		
+		<ul class="nd_tipografia">
+		  <li>
+		      <h3 class="nd11"><a onclick="javascript:dzDecreaseFontSize(); return false;">A</a></h3>
+		  </li>
+		  <li>
+		      <h3 class="nd12"><a onclick="javascript:dzIncreaseFontSize(); return false;">A</a></h3> 
+		  </li>
+		  <li>
+		      <h3 class="nd13"><a onclick="javascript:dzIncreaseFontSize(); return false;">A</a></h3> 
+		  </li>
+		  <li>|</li>
+		  <li>
+		      <h5><a [ONCLICK_IMPRIMIR]>Imprimir</a>&nbsp;
+		      <a [ONCLICK_IMPRIMIR]><img src="img/printer.gif" alt="imprime"/></a>
+		      <h5>
+		  </li>
+		</ul>
+	    </div><!--[if !IE]>fin nd_wrapper_line<![endif]-->
+	    
+	    
+            <div class="nd_wrapper_line_gray">
+            	<ul class="share_news">
+                    <li>
+		        <h3 class="txt_sz14">
+			  <img src="img/share.gif" class="share_icon"/>Compartir</h3>                    
+                    </li>
+		    
+                    <li>
+                     <h3 class="txt_sz14">
+		      <a href="#postComment"><img src="img/add-comment.gif" class="share_icon" alt="comenta aqu&iacute;"/>Comentar
+                     </a></h3>                    
+                    </li>  
+		    
+                    <li>
+                    <h3 class="txt_sz14">
+		      <a [ONCLICK_ENVIAR]><img src="img/email.gif" class="share_icon"  alt="envia la noticia por mail" />Enviar
+                      </a></h3>
+                    </li>
+		    
+                    <li>
+                    <h3 class="txt_sz14">
+		      <a [ONCLICK_ENVIAR]><img src="img/heart.gif" class="share_icon"  alt="envia la noticia por mail" />Favorito
+                      </a></h3>
+                    </li>		    
+   
+                </ul>
+            </div><!--[if !IE]>fin nd_wrapper_line_gray<![endif]-->
+	    
+	    <div class="wrapper_social">
+	        <div class="nd_pointer"></div>
+	        <ul class="nd_social">
+	             <li><a href="#"><img src="img/ico_facebook.gif" />Facebook</a></li>
+	             <li><a href="#"><img src="img/ico_del.gif" />Delicious</a></li>
+	             <li><a href="#"><img src="img/ico_digg.gif" />Diggs</a></li>
+	             <li><a href="#"><img src="img/ico_link.gif" />Linkdln</a></li>
+	             <li><a href="#"><img src="img/ico_tech.gif" />Technorati</a></li>
+		     <li class="minitext">
+                        <script type="text/javascript">
+			    var addthis_pub = "gruporpp"; 	
+			    var addthis_logo = 'http://www.rpp.com.pe/img/new_hd_logo.gif';
+			    var addthis_brand = 'www.rpp.com.pe';
+		        </script> 
+		        <a href="http://www.addthis.com/bookmark.php" onMouseOver="return addthis_open(this, '', '[URL]', '[TITULO01]')" onMouseOut="addthis_close()" onClick="return addthis_sendto()">
+			  Ver m&aacute;s</a>
+			<script type="text/javascript" src=js/share.js ></script>
+		     </li>
+	        </ul>
+	    </div><!--[if !IE]>fin wrapper_social<![endif]-->	    
+	    
+            <p>[GORRO01]</p>
+	    <h3 class="txt_sz16">[NDNOMBRE]</h3>
+            <div id="nd_player">[FLASHPLAYER]</div>
+	    <div id="nd_noticia" class="nd_14">	      
+               [PARRAFO]
+	       <h5 class="txt_underline"><a href="#">Leer m&aacute;s</a></h5>
+	   </div><!--[if !IE]>fin nd_noticia<![endif]-->
+    
+     </div><!--[if !IE]>fin nd_body_news<![endif]-->
+     <span class="nd_etiqueta"><h2>Comentarios</h2></span> 
+     <div class="just_wrapper" id="postComment">	      
+      </div>[JSCOMMENTS]
+
+            <div class="nd_wrapper_line_gray">
+            	<ul class="share_news">
+                    <li>
+		        <h3 class="txt_sz14">
+			  <img src="img/share.gif" class="share_icon"/>Compartir</h3>                    
+                    </li>
+		    
+                    <li>
+                     <h3 class="txt_sz14">
+		      <a href="#postComment"><img src="img/add-comment.gif" class="share_icon" alt="comenta aqu&iacute;"/>Comentar
+                     </a></h3>                    
+                    </li>  
+		    
+                    <li>
+                    <h3 class="txt_sz14">
+		      <a [ONCLICK_ENVIAR]><img src="img/email.gif" class="share_icon"  alt="envia la noticia por mail" />Enviar
+                      </a></h3>
+                    </li>
+		    
+                    <li>
+                    <h3 class="txt_sz14">
+		      <a [ONCLICK_ENVIAR]><img src="img/heart.gif" class="share_icon"  alt="envia la noticia por mail" />Favorito
+                      </a></h3>
+                    </li>		    
+   
+                </ul>
+            </div><!--[if !IE]>fin nd_wrapper_line_gray<![endif]-->      
+      	    <div class="wrapper_social">
+	        <div class="nd_pointer"></div>
+	        <ul class="nd_social">
+	             <li><a href="#"><img src="img/ico_facebook.gif" />Facebook</a></li>
+	             <li><a href="#"><img src="img/ico_del.gif" />Delicious</a></li>
+	             <li><a href="#"><img src="img/ico_digg.gif" />Diggs</a></li>
+	             <li><a href="#"><img src="img/ico_link.gif" />Linkdln</a></li>
+	             <li><a href="#"><img src="img/ico_tech.gif" />Technorati</a></li>
+		     <li class="minitext">
+                        <script type="text/javascript">
+			    var addthis_pub = "gruporpp"; 	
+			    var addthis_logo = 'http://www.rpp.com.pe/img/new_hd_logo.gif';
+			    var addthis_brand = 'www.rpp.com.pe';
+		        </script> 
+		        <a href="http://www.addthis.com/bookmark.php" onMouseOver="return addthis_open(this, '', '[URL]', '[TITULO01]')" onMouseOut="addthis_close()" onClick="return addthis_sendto()">
+			  Ver m&aacute;s</a>
+			<script type="text/javascript" src=js/share.js ></script>
+		     </li>
+	        </ul>
+	    </div><!--[if !IE]>fin wrapper_social<![endif]-->
+                    <div class="nd_body_news_line">
+		      <span class="rpp_tit_slide">Palabras clave</span><br />
+                      <ul id="nd_keyword">
+                         <li><h3 class="txt_sz14"><a href="#">Peru</a></h3></li>
+                         <li><h3 class="txt_sz14"><a href="#">Lima</a></h3></li>
+                         <li><h3 class="txt_sz14"><a href="#">Centro de Lima</a></h3></li>
+                         <li><h3 class="txt_sz14"><a href="#">Gobierno</a></h3></li>
+                         <li><h3 class="txt_sz14"><a href="#">EEUU</a></h3></li>
+                      </ul>  
+                    </div>	    
+	          
+    </div><!--[if !IE]>fin nd_b<![endif]--> 
+    
+    </div><!--[if !IE]>fin nd_ab<![endif]-->
+    
+    <div id="nd_c">
+	  [NDMASVISTO]
+          <div class="wrapper_box_margin">[OAS_300X250]</div>     
+    </div><!--[if !IE]>fin nd_c<![endif]-->
+
+  <div class="nd_fila_seccion">
+      <div class="nd_bigpointer">
+	   <div class="zz">
+	       <div class="nd_bigpointer_bck">
+	         <h4>M&aacute;s noticias en</h4>
+	         <h3 class="rpp_txt_white">[SECCION]</h3>
+	       </div>
+	   </div>
+	   <div class="nd_bigpointer_img">
+	      <img src="img/bigarrow.gif" />
+	   </div>      
+      </div>
+      
+      <ul class="nd_listaseccion">
+	  <li>
+	      <a href="[LINK_SEC1]"><img src="[FOTO_SEC1]" alt="[TITLE_SEC1]"/></a>
+	      <h2 class="txt_sz12"><a href="[LINK_SEC1]">[TITLE_SEC1]</a></h2>
+	      <h4 class="rpp_txt_gray">[ITEMINI1] de [ITEMFIN1]</h4>	
+	  </li>
+	  <li>
+	      <a href="[LINK_SEC2]"><img src="[FOTO_SEC2]" alt="[TITLE_SEC2]"/></a>
+	      <h2 class="txt_sz12"><a href="[LINK_SEC2]">[TITLE_SEC2]</a></h2>
+	      <h4 class="rpp_txt_gray">[ITEMINI2] de [ITEMFIN2]</h4>		
+	  </li>
+	  <li>
+	      <a href="[LINK_SEC3]"><img src="[FOTO_SEC3]" alt="[TITLE_SEC3]"/></a>
+	      <h2 class="txt_sz12"><a href="[LINK_SEC3]">[TITLE_SEC3]</a></h2>
+	      <h4 class="rpp_txt_gray">[ITEMINI3] de [ITEMFIN3]</h4>	
+	  </li>		  
+      </ul>
+      
+      <ul class="nd_nav">
+	 <li class="margin1"><a href="#"><img src="img/nd_arrowright.gif" /></a></li>
+	 <li><a href="#"><img src="img/nd_arrowleft.gif" /></a></li>        
+      </ul>
+      
+  </div><!--[if !IE]>fin nd_fila_seccion<![endif]-->   
+   
+   
+   
+   
+
+</div><!--[if !IE]>fin contenedor<![endif]-->
+
+
+</div>
+

@@ -1,0 +1,588 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+	{
+		background:#333333;
+		font-family:Arial, Helvetica, sans-serif;
+		margin:0px;
+	}
+
+img
+	{
+		border:none;
+		margin:0px;
+		padding:0px;
+	}
+
+#contenedor
+	{
+		margin:33px auto 30px auto;
+		width:777px;
+	}
+
+.both
+	{
+		clear:both
+	}
+
+#header
+	{
+		padding:0 0 12px 0;
+	}
+
+#logo_menu
+	{
+		width:335px;
+		height:54px;
+		float:left;
+		background:url(../img/fnd_logo_menu.gif) no-repeat;
+	}
+
+#logo
+	{
+		background:url(../img/logo_rpp.jpg) no-repeat;
+		text-indent:-1000px;
+		width:113px;
+		height:38px;
+		margin:7px 0 0 19px;
+		float:left;
+	}
+
+#menu_radios
+	{
+		width:149px;
+		height:22px;
+		float:right;
+		margin:15px 20px 0 0;
+	}
+
+.menu_radios
+	{
+		width:149px;
+		height:22px;
+		font-size:10px;
+		color:#333333;
+		padding:2px;
+		background:#ffffff;
+	}
+
+#fecha_rss
+	{
+		float:right;
+		width:299px;
+		height:55px;
+	}
+
+#fecha
+	{
+		width:287px;
+		height:20px;
+		color:#ffffff;
+		font-size:11px;
+		text-align:right;
+		padding:6px 12px 0 0;
+	}
+
+#rss
+	{
+		font-weight:bold;
+		font-size:12px;
+		color:#ffffff;
+		background:url(../img/icn_rss.jpg) no-repeat 130px 1px;
+		height:22px;
+		padding:6px 0 0 161px;
+	}
+
+#rss a
+	{
+		color:#ffcf00;
+	}
+
+#contenedor_central
+	{
+		width:777px;
+		background:url(../img/fnd_central.jpg) repeat-y;
+	}
+
+#display_programa
+	{
+		height:62px;
+		background:url(../img/fnd_central_top.jpg) no-repeat top;
+		border-bottom: solid 1px #595959;
+		font-size:14px;
+	}
+
+#btn_anterior
+	{
+		width:85px;
+		float:left;
+		/*border-right: solid 1px #353535;*/
+		background:url(img/borde_btns.jpg) right 5px;
+		text-align:center;
+	}
+
+#btn_anterior a
+	{
+		display:block;
+		width:85px;
+		height:23px;
+		padding:39px 0 0 0;
+		text-decoration:none;
+		color:#4c4c4c;
+		background:url(../img/icn_anterior.jpg) no-repeat 32px 6px;
+	}
+	
+
+#btn_anterior a:hover
+	{
+		color:#aeaeae;
+		background:url(../img/icn_anterior_on.jpg) no-repeat 32px 6px;
+	}
+
+#btn_actual
+	{
+		width:77px;
+		float:left;
+		/*border-right: solid 1px #595959;*/
+		text-align:center;
+		font-size:12px;
+		line-height:13px;
+	}
+
+#btn_actual a
+	{
+		display:block;
+		width:77px;
+		height:23px;
+		padding:33px 0 6px 0;
+		text-decoration:none;
+		color:#4c4c4c;
+		background:url(../img/icn_actual.jpg) no-repeat 28px 6px;
+	}
+
+#btn_actual a:hover
+	{
+		color:#aeaeae;
+		background:url(../img/icn_actual_on.jpg) no-repeat 28px 6px;
+	}
+
+#txt_programa
+	{
+		float:left;
+		font-size:10px;
+		color:#aeaeae;
+		width:60px;
+		padding:12px 0 0 21px;
+		text-align:right;
+	}
+
+#nombre_programa
+	{
+		float:left;
+		padding:8px 0 0 21px;
+		color:#aeaeae;
+		line-height:24px;
+		font-weight:bold;
+		width:200px;
+	}
+
+.nombre_programa
+	{
+		font-size:18px;
+		font-weight:normal;
+		color:#ffcf00;
+	}
+
+.nombre_programa a
+	{
+		color:#ffcf00;
+		text-decoration:none;
+	}
+
+.nombre_programa a:hover
+	{
+		text-decoration:underline;
+	}
+
+#btn_siguiente
+	{
+		width:81px;
+		float:right;
+		/*border-left: solid 1px #595959;*/
+		text-align:center;
+	}
+
+#btn_siguiente a
+	{
+		display:block;
+		width:81px;
+		height:23px;
+		padding:39px 0 0 0;
+		text-decoration:none;
+		color:#4c4c4c;
+		background:url(../img/icn_siguiente.jpg) no-repeat 0px 6px;
+	}
+
+#btn_siguiente a:hover
+	{
+		color:#aeaeae;
+		background:url(../img/icn_siguiente_on.jpg) no-repeat 0px 6px;
+	}
+
+#links_blog_prog
+	{
+		float:right;
+		font-size:10px;
+		padding:40px 15px 0 0;
+		color:#ffffff;
+		width:213px;
+		text-align:right;
+	}
+
+#links_blog_prog a
+	{
+		color:#ffffff;
+	}
+
+#audio_video_chat
+	{
+		padding:13px 13px 13px 12px;
+		border-bottom: solid 1px #595959;
+	}
+
+#audio_video
+	{
+		width:321px;
+		float:left;
+		height:309px;
+	}
+
+#pestanas
+	{
+		height:23px;
+	}
+
+#pes_audio
+	{
+		float:left;
+		width:157px;
+		/*height:24px;*/
+		margin:0 5px 0 0;
+		text-align:center;
+		font-weight:bold;
+	}
+
+#pes_audio a
+	{
+		display:block;
+		background:url(../img/fnd_audio_off.jpg) no-repeat;
+		color:#333333;
+		font-size:13px;
+		text-decoration:none;
+		padding:4px 0;
+	}
+
+#pes_audio a:hover
+	{
+		background:url(../img/fnd_audio_over.jpg) no-repeat;
+		color:#dadada;
+	}
+
+#pes_audio a.pes_active
+	{
+		background:url(../img/fnd_audio_on.jpg) no-repeat;
+		color:#ffcf00;
+	}
+
+#pes_video
+	{
+		float:left;
+		width:159px;
+		/*height:24px;*/
+		text-align:center;
+		font-weight:bold;
+		visibility:hidden;
+	}
+
+#pes_video a
+	{
+		display:block;
+		background:url(../img/fnd_video_off.jpg) no-repeat;
+		color:#333333;
+		font-size:13px;
+		text-decoration:none;
+		padding:4px 0;
+	}
+
+#pes_video a:hover
+	{
+		background:url(../img/fnd_video_over.jpg) no-repeat;
+		color:#dadada;
+	}
+
+#pes_video a.pes_active
+	{
+		background:url(../img/fnd_video_on.jpg) no-repeat;
+		color:#ffcf00;
+	}
+
+#player
+	{
+		background:#333333;
+		padding:8px 0 0 0;
+		width:321px;
+		height:277px;
+	}
+
+#chat
+	{
+		float:right;
+		width:414px;
+	}
+
+#tit_participa
+	{
+		background:url(../img/bg_participa.jpg) repeat-x;
+		text-align:center;
+		color:#ffcf00;
+		font-size:13px;
+		height:23px;
+		padding:6px 0 0 0;
+		font-weight:bold;
+		position:relative;
+	}
+
+.bg_participa_left
+	{
+		position:absolute;
+		top:0px;
+		left:0px;
+	}
+
+.bg_participa_right
+	{
+		position:absolute;
+		top:0px;
+		left:403px;
+	}
+
+#cuadro_chat
+	{
+		background:#e8e8e8;
+		text-align:center;
+		font-size:12px;
+		height:280px;
+	}
+
+#cuadro_chat a
+	{
+		color:#000000;
+		margin:0 5px;
+	}
+
+#cuadro_chat a:hover
+	{
+		color:#00309c;
+	}
+
+#cuadro_chat a.active
+	{
+		color:#00309c;
+	}
+
+#links_chat
+	{
+		padding:10px 0;
+	}
+
+.chat_vivo
+	{
+		width:67px;
+		text-align:center;		
+	}
+
+.twitter
+	{
+		width:67px;
+		text-align:center;
+		background:url(../img/btn_twitter_off.jpg) no-repeat 0 0;
+		text-decoration:none;
+	}
+
+.twitter:hover
+	{
+		background:url(../img/btn_twitter.jpg) no-repeat 0 0;
+	}
+
+.twitter span
+	{
+		visibility:hidden;
+	}
+
+.twitter_active
+	{
+		width:67px;
+		text-align:center;
+		background:url(../img/btn_twitter.jpg) no-repeat 0 0;
+		text-decoration:none;
+	}
+
+.twitter_active span
+	{
+		visibility:hidden;
+	}
+
+.btn_facebook
+	{
+		width:67px;
+		text-align:center;
+		background:url(../img/btn_facebook_off.jpg) no-repeat 0 0;
+		text-decoration:none;
+		font-size-adjust:50px;
+	}
+	
+.btn_facebook:hover
+	{
+		background:url(../img/btn_facebook.jpg) no-repeat 0 0;
+	}
+
+.btn_facebook span
+	{
+		visibility:hidden;
+	}
+	
+.btn_facebook_active
+	{
+		width:67px;
+		text-align:center;
+		background:url(../img/btn_facebook_off.jpg) no-repeat 0 0;
+		text-decoration:none;
+		font-size-adjust:50px;
+	}
+
+.btn_facebook_active span
+	{
+		visibility:hidden;
+	}
+
+#facebook
+	{
+		height:45px;
+		padding:5px 12px 0 12px;
+		background:url(../img/fnd_central_bottom.jpg) no-repeat bottom;
+	}
+
+#links_compartir
+	{
+		padding:8px 0 0 0;
+	}
+		
+#links_compartir .compartir
+	{
+		width:500px;
+		color:#ffcf00;
+		padding:5px 0 0 34px;
+		float:left;
+		font-size:12px;
+		background:url(../img/icn_compartir.jpg) no-repeat 16px 5px;
+		position:relative;
+	}
+
+.cont_ing_compartir
+	{
+		position:absolute;
+		top:2px;
+		left:100px;
+	}
+
+#links_compartir .compartir a img
+	{
+		margin:2px 0 0 0;
+	}
+
+#links_compartir .compartir .txt_compartir
+	{
+		margin:0 12px 0 0;
+	}
+
+#links_compartir a
+	{
+		color:#ffcf00;
+		/*font-weight:bold;*/
+		margin:0 4px 0 4px;
+		/*font-size:14px;*/
+	}
+
+#links_compartir a:hover
+	{
+		color:#ff9900;
+	}
+
+#links_compartir .otras_redes
+	{
+		font-size:10px;
+	}
+
+.otras_redes
+	{
+		color:#ffcf00;
+		font-size:10px;
+	}
+
+#links_compartir .enviar_page
+	{
+		width:83px;
+		float:left;
+		padding:5px 0 0 0;
+		font-size:12px;
+		font-weight:normal;
+		color:#ffcf00;
+	}
+
+#links_compartir a.enviar
+	{
+		background:url(../img/icn_enviar.jpg) no-repeat 3px 0;
+		padding:0 15px 0 23px;
+		color:#ffcf00;
+	}
+
+#cont_facebook
+	{
+		background:#39599c url(../img/fnd_esq_facebook.jpg) right top no-repeat;
+		padding:12px 14px 0 14px;
+		width:722px;
+		height:31px;
+	}
+
+.txt_int_facebook
+	{
+		width:625px;
+		float:left;
+		padding:4px 0 5px 0;
+		margin:0 0 0 2px;
+		font-weight:bold;
+	}
+
+.btn_publicar
+	{
+		width:81px;
+		height:31px;
+		background:url(../img/btn_publicar.jpg) no-repeat;
+		border:none;
+		cursor:pointer;
+		float:left;
+		margin:-1px 0 0 10px;
+	}
+
+#pie_face
+	{
+		background:url(../img/fnd_facebook_bottom.jpg) no-repeat;
+		height:12px;
+	}
+
+#publicidad
+	{
+		padding:12px 0;
+		text-align:center;
+	}

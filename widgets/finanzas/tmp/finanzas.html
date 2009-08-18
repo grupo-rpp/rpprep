@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Finanzas</title>
+
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: Arial, Helvetica, sans-serif;	
+	color:#333; font-size:12px;
+	
+}
+h3 a{  color:#013E87; text-decoration:none;
+     font-weight:500;	}
+h3 a:hover{  color:#BB0000; cursor:pointer;}
+h3 {color:#333;}
+h5 { float:right; font-size:10px; color:#f1f1f1; padding:6px 10px 0 0; font-weight:bold;}
+.txt_gray{color:#999; font-size:10px; padding-left:10px;}
+.txt_sz12, .txt_sz12 a{font-size:12px; font-weight:600;
+   text-decoration:none; }
+   .tx12{ font-size:12px!important; font-weight:bold; color:#666666; text-align:right!important; padding-right:23px;}
+.txt_sz14, .txt_sz14 a{font-size:14px; font-weight:600;
+
+  text-decoration:none; }   
+ul {	list-style: none;}
+
+.wrapper_mv2c {float:left; margin:0; width:324px; _width:326px;
+              border:#dadada solid 1px; border-width:0 1px;}
+.titulo{background:#bababa; width:100%; margin-bottom:10px;}	      
+.titulo h3{ padding:0 0 0 10px; line-height:24px; float:left;}
+.mv_nav    {float:left; width:100%; padding:5px 0 0 0;
+            border-top:#dadada solid 1px; display:inline;}
+.mv_nav_left{ float:left; width:28%;}
+.mv_nav_left span{line-height:25px;}
+.mv_nav_right{float:right; width:44%;}
+.caja_pestana{ float:left; width:298px; display:inline;}
+.caja_pestana ul{ float:left; margin:0 0 0 5px; padding:0;width:293px;}	
+.caja_pestana ul li { float:left; padding:0 5px 0 17px; }
+.caja_pestana .pestana{ border:0; padding:0; display:inline; background:#fff;}
+.caja_pestana .pestana li{float:left; padding:5px 10px;
+		margin:0 3px 0 0 ;}	
+.inactivo { background:#f7f7f7;
+	 border-left:#dadada solid 1px; border-top:#dadada solid 1px; border-right:#dadada solid 1px;
+	}
+.inactivo a{ background:#f7f7f7;  cursor:pointer;}
+.inactivo a:hover{  cursor:pointer;}		
+			
+.activo{ background:#fff; border-left:#dadada solid 1px; border-top:#dadada solid 1px; border-right:#dadada solid 1px;
+	 position:relative; top:1px; z-index:0;
+	}
+.activo a, .activo a:hover{ background:#fff; color:#333; text-decoration:none;}
+.box_cambio{float:left; width:100%; border-top:#dadada solid 1px;
+	padding:0; margin:0; display:inline;}
+	
+.box_cambio ul{float:left;margin:0; padding:10px; list-style-type:none; }	
+.box_cambio ul li {float:left; display:block; padding:5px 0 5px 20px;
+		 line-height:17px; width:283px;}
+.box_cambio ul li h3 .txt_red{color:#bb0000;}		 
+.box_cambio ul li a{font-size:12px;}		 
+.box_cambio ul li a img{float:left; width:64px; height:48px;
+	         border:#dadada solid 1px; margin:0 10px; }
+.display_on{display:block;}
+.display_off{display:none;}
+
+/*---bordes--*/
+.box{float:left; width:326px; margin:0;}
+ .zoneheader {background:url(img/gray_12.gif) right 0 no-repeat; height:4px;
+                  width:100%; overflow:hidden;}
+.zoneheader div{background:url(img/gray_11.gif) 0 0 no-repeat; height:4px;
+                 overflow:hidden; width:4px;}
+ .zonefooter {background:url(img/white_22.gif) right 0 no-repeat; height:4px;
+                  width:100%; overflow:hidden;}
+ .zonefooter div{background:url(img/white_21.gif) 0 0 no-repeat; height:4px;
+               overflow:hidden; width:4px;}
+/*--fin bordes-*/
+
+.table_finanzas {  margin:10px 0 0 0; font-size:10px;}
+.table_finanzas td{ height:32px; vertical-align:middle; text-align:center; border-bottom:solid 1px #dadada; border-left:solid 1px #dadada; font-size:10px;}
+.table_finanzas td.td_bottom {border-bottom:none;}
+.table_finanzas td.colum_01 { width:115px;}
+.table_finanzas td.colum_02 { width:104px;}
+.table_finanzas td.colum_03 { width:114px;}
+.table_finanzas td.sub_col_01 {width:47px; font-size:12px; color:#666666;}
+.table_finanzas td.sub_col_02 {width:67px;}
+.table_finanzas td.td_top {color:#9c9a9c; border-left:none; text-align: left;  text-transform:uppercase; font-weight:bold; padding-left:10px;}
+/*.bord_r { border-right:solid 1px #dadada;}*/
+.sinborde {border-left:none !important;}
+.table_finanzas tr.dolar  { background:#fff8eb;}
+.table_finanzas tr.dolar .sub_col_01 { font-weight:bold; font-size:12px;}
+.table_finanzas tr.bggris  { background:#f7f3f7;}
+.table_finanzas td.sub_col_02 .fin_up {padding: 0 0 0 13px; background:url(../../img/finanzas_up.jpg) no-repeat left 2px; color:#008400; font-size:10px; }
+.table_finanzas td.sub_col_02 .fin_down {padding: 0 0 0 13px; background:url(../../img/finanzas_down.jpg) no-repeat left 2px; color:#bd0000; font-size:10px; }
+
+.table_finanzas td.sub_col_04  .fin_up {padding: 0 0 0 13px; background:url(../../img/finanzas_up.jpg) no-repeat left 2px; color:#008400; font-size:10px; }
+.table_finanzas td.sub_col_04  .fin_down {padding: 0 0 0 13px; background:url(../../img/finanzas_down.jpg) no-repeat left 2px; color:#bd0000; font-size:10px; }
+
+
+.both {clear:both;} 
+.news_content_footerleft{ float:left; padding-left:10px;}
+.news_content_footerleft span{line-height:31px;}
+.rpp_supermini{font-size:10px;}
+.rpp_txt_gray {color:#999; text-decoration:none;}
+.table_finanzas td.no_bleft { border-left:none; text-align:left; padding-left:10px;}
+.bordernone{ border-bottom:none !important;}
+</style>[JSFINANZAS]
+</head>
+<body>
+    <div class="box">
+	<div class="zoneheader"><div></div></div>    
+        <div class="wrapper_mv2c">
+	    <div class="titulo">
+	       <h3 class="txt_sz14">Finanzas |</h3>
+           <h5>17 de Junio de 2009</h5>
+           <div class="both"></div>
+	    </div>
+
+<div class="caja_pestana">
+                <ul class="pestana">
+                    <li id="fidcambio" class="activo"><h3 class="txt_sz12">
+                         <a id="cambio1" onClick="javascript:ocultarfinanzas('cambio')">Tipo de Cambio</a></h3></li>
+                    <li id="fidbolsa" class="inactivo"><h3 class="txt_sz12">
+                         <a id="bolsa1" onClick="javascript:ocultarfinanzas('bolsa')">Bolsa de valores</a></h3></li>  		    
+                </ul>
+<div class="both"></div>
+           </div> <!--[if !IE]>fin caja_pestanas <![endif]--> 
+           <div class="both"></div>
+           <div id="cambio" class="box_cambio display_on">
+                  <!--[NOTICIAS]-->
+				<table width="324" border="0" cellspacing="0" cellpadding="0" class="table_finanzas">
+                  <tr>
+                    <td class="colum_01 td_top">MONEDA</td>
+                    <td colspan="2" class="colum_02 td_top">&nbsp;&nbsp;&nbsp;COMPRA S/.</td>
+                    <td colspan="2" class="colum_03 td_top">VENTA S/.</td>
+                  </tr>
+                  <tr class="dolar">
+                    <td class="no_bleft">D&oacute;lar EEUU</td>
+                    <td class="sub_col_01">[TAG_11]</td>
+                    <td class="sub_col_02 sinborde"><span class="[CLASS_11_]">[TAG_11_]</span></td>
+                    <td class="sub_col_01">[TAG_12]</td>
+                    <td class="sub_col_02 bord_r sinborde"><span class="[CLASS_12_]">[TAG_12_]</span></td>
+                  </tr>
+                  <tr>
+                    <td class="no_bleft">D&oacute;lar Canad&aacute;</td>
+                    <td class="sub_col_01">[TAG_13]</td>
+                    <td class="sub_col_02 sinborde"><span class="[CLASS_13_]">[TAG_13_]</span></td>
+                    <td class="sub_col_01">[TAG_14]</td>
+                    <td class="sub_col_02 sinborde"><span class="[CLASS_14_]">[TAG_14_]</span></td>
+                  </tr>
+                  <tr class="bggris">
+                    <td class="no_bleft">Libra Esterlina</td>
+                    <td class="sub_col_01">[TAG_15]</td>
+                    <td class="sub_col_02 sinborde"><span class="[CLASS_15_]">[TAG_15_]</span></td>
+                    <td class="sub_col_01">[TAG_16]</td>
+                    <td class="sub_col_02 bord_r sinborde"><span class="[CLASS_16_]">[TAG_16_]</span></td>
+                  </tr>
+                  <tr>
+                    <td class="no_bleft">Yen Japon&eacute;s</td>
+                    <td class="sub_col_01">[TAG_17]</td>
+                    <td class="sub_col_02 sinborde"><span class="[CLASS_17_]">[TAG_17_]</span></td>
+                    <td class="sub_col_01">[TAG_18]</td>
+                    <td class="sub_col_02 sinborde"><span class="[CLASS_18_]">[TAG_18_]</span></td>
+                  </tr>
+                  <tr class="bggris">
+                    <td class="no_bleft">Franco Suizo</td>
+                    <td class="sub_col_01">[TAG_19]</td>
+                    <td class="sub_col_02 sinborde"><span class="[CLASS_19_]">[TAG_19_]</span></td>
+                    <td class="sub_col_01">[TAG_20]</td>
+                    <td class="sub_col_02 bord_r sinborde"><span class="[CLASS_20_]">[TAG_20_]</span></td>
+                  </tr>
+                  <tr>
+                    <td class="td_bottom no_bleft">Euro</td>
+                    <td class="sub_col_01 td_bottom">[TAG_21]</td>
+                    <td class="sub_col_02 td_bottom sinborde"><span class="[CLASS_21_]">[TAG_21_]</span></td>
+                    <td class="sub_col_01 td_bottom">[TAG_22]</td>
+                    <td class="sub_col_02 td_bottom sinborde"><span class="[CLASS_22_]">[TAG_22_]</span></td>
+                  </tr>
+                </table>
+           </div><!--[if !IE]>fin box_cambio <![endif]-->
+           <div class="both"></div>
+           <div id="bolsa" class="box_cambio display_off">
+                  <!--[NOTICIAS]-->
+				<table width="324" border="0" cellspacing="0" cellpadding="0" class="table_finanzas">
+                  <tr>
+                    <td class="colum_01 td_top">&Iacute;ndice Burs&aacute;til</td>
+                    <td class="colum_02 td_top">&Iacute;ndice del d&iacute;a</td>
+                    <td class="colum_03 td_top">Variaci&oacute;n (%)</td>
+                  </tr>
+                  <tr class="bggris">
+                    <td class="no_bleft">IGBVL</td>
+                    <td class="[CLASS_1] tx12">[TAG_1]</td>
+                    <td class="  sub_col_04 "> <span class="[CLASS_2]">[TAG_2]</span></td>
+                  </tr>
+                  <tr>
+                    <td class="no_bleft">IGSBVL</td>
+                    <td class=" [CLASS_3] tx12">[TAG_3]</td>
+                    <td class=" sub_col_04"><span class="[CLASS_4]">[TAG_4]</span></td>
+                  </tr>
+                  <tr class="bggris">
+                    <td class="no_bleft">ISP-15</td>
+                    <td class=" [CLASS_5] tx12">[TAG_5]</td>
+                    <td class="  sub_col_04"> <span class="[CLASS_6]">[TAG_6]</span></td>
+                  </tr>
+                  <tr>
+                    <td class="no_bleft">NASDAQ</td>
+                    <td class=" [CLASS_7] tx12">[TAG_7]</td>
+                    <td class="  sub_col_04"><span class="[CLASS_8]">[TAG_8]</span></td>
+                  </tr>
+                  <tr class="bggris">
+                    <td class="bordernone no_bleft">DOW JONES</td>
+                    <td class="[CLASS_9] bordernone tx12">[TAG_9]</td>
+                    <td class="  sub_col_04 bordernone"><span class="[CLASS_10]">[TAG_10]</span></td>
+                  </tr>
+                </table>
+           </div><!--[if !IE]>fin box_cambio <![endif]-->
+
+            
+	    <div class="mv_nav">
+                <div class="mv_nav_left">
+                    <span class="txt_gray">Auspiciado por:</span>
+                </div>
+                <div class="mv_nav_left">
+                    <img src="img/a.gif" />
+                </div> 	
+	   </div>
+       <div class="both"></div>
+      </div><!--[if !IE]>fin wrapper_mv2c<![endif]-->
+
+        <div class="zonefooter"><div></div></div>
+
+    </div>
+</body>
+</html>

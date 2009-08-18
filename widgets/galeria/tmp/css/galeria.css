@@ -1,0 +1,24 @@
+body{ font-family:Arial, Helvetica, San-serif; font-size:12px; color:#333;}
+h3,p,span {margin:0; padding:0; font-family:Arial, Helvetica, San-serif; font-size:12px;}
+p,span {color:#333;}
+h3, h3 a{ color:#00316C; text-decoration:none;}
+h3 a:hover{color:#bb0000;}
+.galeria_conten_titu{ width:300px; height:25px; margin-top:5px; }
+.galeria_vermas2 {float:right; text-align:right; width:140px; height:24px; }	
+.galeria_vermas2 a{text-decoration:none; color:#00316C; font-size:11px; position:relative; top:6px;}
+.galeria_vermas2 a:hover{color:#b30000   }
+#galeria_wrapper{ float:right; margin:0 6px 0 0; width:302px; height:180px;}
+
+#galeria_fotodeldia{
+    float:left; margin:0; position:relative; top:2px; background:#fff; width:75px; height:24px; line-height:21px; 
+	border-left:1px solid #dadada;	border-top:1px solid #dadada; border-right:1px solid #dadada;  }	
+#galeria_conten{ float:left;	width:300px; border:1px solid #dadada; background-color:#FFF; height:147px;	 }
+#galeria_conten h3 { padding:5px;}
+#galeria_conten p { padding:5px; display:block;}
+.galeria_ico{ position:relative; top:7px;}							
+.galeria_fotito{ float:right; height:105px; width:140px; border:0px; margin:5px 5px 35px 5px; }			
+		 
+
+
+
+

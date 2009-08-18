@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<title>PARTICIPA DE LA NOTICIA</title>
+
+<script type='text/JavaScript'>
+function validate_login()
+{
+	  if (document.rpp.nombreto.value=='')
+     {
+      alert('Por favor ingresa su nombre.');
+      document.rpp.nombreto.focus();
+      return;
+     }
+     if (document.rpp.mailto.value=='')
+     {
+      alert('Por favor ingresa su correo.');
+      document.rpp.mailto.focus();
+      return;
+     }
+
+	  if (document.rpp.nombrefrom.value=='')
+     {
+      alert('Por favor ingresa tu nombre.');
+      document.rpp.nombrefrom.focus();
+      return;
+     }
+     if (document.rpp.mailfrom.value=='')
+     {
+      alert('Por favor ingresa tu correo.');
+      document.rpp.mailfrom.focus();
+      return;
+     }
+	
+
+     if (document.rpp.rpp_formcomentario.value=='')
+     {
+      alert('Por favor ingresa tu comentario.');
+      document.rpp.rpp_formcomentario.focus();
+      return;
+     }
+
+     document.rpp.submit();
+}
+</script>
+<style type="text/css">
+body {margin:0; padding:0; background:#fff; font-family:Arial, helvetica, sans-serif;
+  color:#333; font-size:12px; font-weight:normal;}
+h2{font-size:22px; font-weight:600; padding:0; margin:0;}
+h4, p{padding:0; margin:0;}
+.wrapper_enviar{padding:10px; float:left; width:600px; display:inline;}
+.wrapper_enviar h2{margin:0 0 10px 0;}
+.wrapper_enviar h4{float:left;margin:15px 0 5px 0; font-size:12px;}
+.wrapper{float:left; width:600px;  display:inline;
+         margin:0 0 10px 0;}
+.wrapper textarea {width:590px; height:100px;}         
+.wrapper fieldset{border:0; padding:0; padding:10px 0 10px 10px;}
+.wrapper p {padding:10px; }
+.r_field{float:left; width:240px; padding:0 ; }
+.r_field input{width:170px; *width:160px;}
+
+.r_center{float:left; width:120px;_width:118px;text-align:center;}
+.r_center img{margin:20px 0 ;}
+
+.wrapper_enviar input.botoncito {float:right; margin:0; width:100px;
+               cursor:pointer;}
+
+.ubica{position:relative; top:4px;}
+</style>
+<body>
+   
+ <div class="wrapper_enviar">
+    <h2><img src="img/rpp_enviar.gif" class="ubica">|&nbsp;Env&iacute;a esta noticia </h2>    
+    <form action="[ACTION_ENVIAR]" method="post" name="rpp" id="rpp" onsubmit='validate_login();return false;'>
+        <div class="wrapper">
+             <div class="r_field"> 
+                 <fieldset>
+                    <label for="de">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De:</label>
+                    <input name="nombrefrom" type="text" id="nombrefrom"  />
+                 </fieldset>       
+                 <fieldset>             
+                    <label for="email">E-mail:</label>
+                    <input name="mailfrom" type="text"  id="mailfrom"  />
+                 </fieldset>
+             </div>
+             <div class="r_center"><img src="img/flecha_envia.gif" />
+
+             </div>              
+             <div class="r_field">
+                 <fieldset>
+                    <label for="de">&nbsp;&nbsp;&nbsp;Para:</label>
+                    <input name="nombreto" type="text" id="nombreto"  />
+                 </fieldset>       
+                 <fieldset>             
+                    <label for="email">E-mail:</label>
+                    <input name="mailto" type="text"  id="mailto"  />
+                 </fieldset>                
+
+             </div>
+        </div>
+        <h4>Mensaje</h4>
+        <div class="wrapper">
+           <textarea name="rpp_formcomentario"></textarea>
+        </div>
+        <input name="Submit" type="submit" class="botoncito" value="Enviar"  />
+        
+    </form>
+    
+
+    
+</body>
+
