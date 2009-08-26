@@ -20,7 +20,7 @@ fieldset, form, label, legend,
 
 
 /*letras*/
-
+.txt_sz14, .txt_sz14 a{font-size:14px; font-weight:600; text-decoration:none;}
 .txt_sz16, .txt_sz16 a{font-size:16px; font-weight:600; text-decoration:none;}
  .rpp_supermini{font-size:10px; color:#999; padding-top:10px }
 
@@ -33,9 +33,10 @@ fieldset, form, label, legend,
 	}
 h3 a:hover{  color:#BB0000; cursor:pointer;}
 h3 {color:#333;}
-h4 a{ color:#333333; text-decoration:underline;}
+h4 a{ color:#333333;  font-size:11px; text-decoration:none;}
+h4 a:hover{ cursor:pointer; color:#bb0000;}
 
-.rpp_txt_gray2{ color:#666;}
+.rpp_txt_gray2, .rpp_txt_gray2 a, .rpp_txt_gray2 a:hover { color:#666 !important; text-decoration:underline;}
 
 .txt_black a { color:#333;}
 .txt_black a:hover{ color:#bb0000}
@@ -69,7 +70,7 @@ top:2px;
 /*---------------------------------------------------------------*/
 
 /*inicio estadisticas*/
-.stats{ width:160px; background-color:#f8f8f8; height:370px; float:left; padding:10px; border-right:1px solid #dadada;}
+.stats{ width:160px; background-color:#f8f8f8; height:384px; float:left; padding:10px; border-right:1px solid #dadada;}
 /*tabla*/
 .tabla{ width:469px;  float:left;  }
 /*anterior*/
@@ -96,7 +97,7 @@ top:2px;
 				margin: 0 3px 0 0; padding:5px 10px; background-color:#f5f5f5; border-left:1px solid #dadada;
 				border-top:1px solid #dadada; border-right:1px solid #dadada; }
 				
-.futbol_tabla_result{height:241px; overflow:auto;text-align:left;}
+.futbol_tabla_result{height:248px; overflow:auto;text-align:left;}
 .futbol_container_titu{ height:25px;}
 .futbolresulttitu{font-weight:bold;}
 .futbol_masnoti a{	
@@ -137,7 +138,7 @@ top:2px;
 .torneos ul  li{ float:left; padding-right:40px; font-size:10px;}
 .tor1{ width:8px; height:8px; background-color:#FFFFCC; border:1px solid #999; float:left; position:relative; top:2px;  margin-right:4px; }
 .tor2{ width:8px; height:8px; background-color:#EFF8FF;  border:1px solid #999; float:left; position:relative; top:2px;  margin-right:4px; }
-.tor3{ width:8px; height:8px; background-color:#FF9595; border:1px solid #999; float:left; position:relative; top:2px;  margin-right:4px; }
+.tor3{ width:8px; height:8px; background-color:#FFCFCF; border:1px solid #999; float:left; position:relative; top:2px;  margin-right:4px; }
 
 /*taBLA DEMO*/
 .table{ width:439px; border:1px solid #dadada; margin:5px 0 0 9px; }
@@ -151,7 +152,7 @@ td{ border-bottom:1px solid #dadada;}
 .tdnone{ border-bottom:none;}
 .bg1{ background-color:#FFFFCC}
 .bg2{ background-color:#EFF8FF}
-.bg3{ background-color:#FF9595}
+.bg3{ background-color:#FFCFCF}
 .bg4{ background-color:#f8f8f8}
 .bold{ font-weight:bold;}
 .bor{ height:5px !important; }
@@ -170,6 +171,9 @@ td{ border-bottom:1px solid #dadada;}
 .estate{ padding:4px 0}
 .estate ul li { float:left; padding-right:8px;}
 
+.red {color:#333; text-decoration:underline; }
+.red a{color:#bb0000 !important; }
+.red a:hover {color:#bb0000 !important; }
 
 
 	

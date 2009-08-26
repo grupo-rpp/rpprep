@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>PARTICIPA DE LA NOTICIA</title>
 
 <script type='text/JavaScript'>
@@ -44,69 +45,80 @@ function validate_login()
 }
 </script>
 <style type="text/css">
-body {margin:0; padding:0; background:#fff; font-family:Arial, helvetica, sans-serif;
-  color:#333; font-size:12px; font-weight:normal;}
-h2{font-size:22px; font-weight:600; padding:0; margin:0;}
-h4, p{padding:0; margin:0;}
-.wrapper_enviar{padding:10px; float:left; width:600px; display:inline;}
-.wrapper_enviar h2{margin:0 0 10px 0;}
-.wrapper_enviar h4{float:left;margin:15px 0 5px 0; font-size:12px;}
-.wrapper{float:left; width:600px;  display:inline;
-         margin:0 0 10px 0;}
-.wrapper textarea {width:590px; height:100px;}         
-.wrapper fieldset{border:0; padding:0; padding:10px 0 10px 10px;}
-.wrapper p {padding:10px; }
-.r_field{float:left; width:240px; padding:0 ; }
-.r_field input{width:170px; *width:160px;}
-
-.r_center{float:left; width:120px;_width:118px;text-align:center;}
-.r_center img{margin:20px 0 ;}
-
-.wrapper_enviar input.botoncito {float:right; margin:0; width:100px;
-               cursor:pointer;}
-
-.ubica{position:relative; top:4px;}
+.bordes_participa{border-left:#CCCCCC solid 1px; border-bottom:#CCCCCC solid 1px; border-right:#CCCCCC solid 1px;
+        border-top:#CCCCCC solid 1px; padding:5px;}
+.texto1 { font-family:Arial, Helvetica, sans-serif;font-size:15px; color:#000; padding-left:15px}
+.texto2 {font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#999999;}
+.texto3 {font-family:Arial, Helvetica, sans-serif;font-size:12px; color:#000;}
+.textored { font-family:Arial, Helvetica, sans-serif;font-size:12px; color:#327199; font-weight:bold;}
+.botoncito {color: #000; background-image:url(img/baguser2.gif);font: 12px Arial, Helvetica, sans-serif; border:#cccccc solid 1px;
+padding:3px; text-decoration:none;}
 </style>
-<body>
-   
- <div class="wrapper_enviar">
-    <h2><img src="img/rpp_enviar.gif" class="ubica">|&nbsp;Env&iacute;a esta noticia </h2>    
-    <form action="[ACTION_ENVIAR]" method="post" name="rpp" id="rpp" onsubmit='validate_login();return false;'>
-        <div class="wrapper">
-             <div class="r_field"> 
-                 <fieldset>
-                    <label for="de">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De:</label>
-                    <input name="nombrefrom" type="text" id="nombrefrom"  />
-                 </fieldset>       
-                 <fieldset>             
-                    <label for="email">E-mail:</label>
-                    <input name="mailfrom" type="text"  id="mailfrom"  />
-                 </fieldset>
-             </div>
-             <div class="r_center"><img src="img/flecha_envia.gif" />
+</head>
 
-             </div>              
-             <div class="r_field">
-                 <fieldset>
-                    <label for="de">&nbsp;&nbsp;&nbsp;Para:</label>
-                    <input name="nombreto" type="text" id="nombreto"  />
-                 </fieldset>       
-                 <fieldset>             
-                    <label for="email">E-mail:</label>
-                    <input name="mailto" type="text"  id="mailto"  />
-                 </fieldset>                
+<body  style="margin:2px auto;">
+<form action="[ACTION_ENVIAR]" method="post" name="rpp" id="rpp" onsubmit='validate_login();return false;'>
+<table width="600" border="0" align="left" cellpadding="0" cellspacing="0" class="bordes">
+  <tr>
+    <td width="100%" colspan="3"  bgcolor="#FFFFFF">
+ 
+        <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0" >
 
-             </div>
-        </div>
-        <h4>Mensaje</h4>
-        <div class="wrapper">
-           <textarea name="rpp_formcomentario"></textarea>
-        </div>
-        <input name="Submit" type="submit" class="botoncito" value="Enviar"  />
-        
-    </form>
-    
+          <tr>
+            <td colspan="4" align="left" > <span class="texto1"><strong>Envia esta noticia</strong></span>&nbsp;&nbsp;<span class="texto2">S&oacute;lo debes llenar este formulario</span></td>
+          </tr>
+          <tr>
+            <td colspan="4" align="left" style="border-top:2px solid #327199;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2" align="left" class="textored">Para</td>
+            <td width="5%" rowspan="11" align="center">  </td>
+            <td width="53%" rowspan="11" align="left" ><span class="texto1"><strong>Agregar comentario:</strong></span>              <textarea name="comentario" cols="54" rows="9" class="texto3"></textarea></td>
+          </tr>
+          <tr>
+            <td height="1" colspan="2" bgcolor="#cccccc"></td>
+          </tr>
+          <tr>
+            <td height="8" colspan="2" ></td>
+            </tr>
+          <tr>
+            <td width="12%" align="left" class="texto3">Nombre</td>
+            <td width="33%"><input name="nombreto" type="text" class="texto3" id="nombreto" size="30" /></td>
+          </tr>
+          <tr>
+            <td align="left" class="texto3">E-mail</td>
+            <td><input name="mailto" type="text" class="texto3" id="mailto" size="30" /></td>
+          </tr>
+          <tr>
+            <td height="8" colspan="2"></td>
+            </tr>
+          <tr>
+            <td colspan="2" align="left" class="textored" >De</td>
+            </tr>
+          <tr>
+            <td height="1" colspan="2" bgcolor="#cccccc"></td>
+          </tr>
+          <tr>
+            <td height="8" colspan="2" align="left"></td>
+            </tr>
+          <tr>
+            <td align="left" class="texto3">Nombre</td>
+            <td><input name="nombrefrom" type="text" class="texto3" id="nombrefrom" size="30" /></td>
+          </tr>
+          <tr>
+            <td align="left" class="texto3">E-mail</td>
+            <td><input name="mailfrom" type="text" class="texto3" id="mailfrom" size="30" /></td>
+          </tr>
+          <tr>
+            <td align="center">&nbsp;</td>
+            <td align="center"><input name="Submit" type="submit" class="botoncito" value="Enviar"  style="cursor:pointer"/></td>
+            <td align="center"></td>
+            <td align="center">&nbsp;</td>
+          </tr>
+      </table>  </td>
+  </tr>
+</table>
+</form>
+ 
 
-    
-</body>
-
+</html>

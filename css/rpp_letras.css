@@ -1,5 +1,5 @@
 @charset "utf-8";
-html, body, div, span, applet, object, iframe,
+html, body, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6,  blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, font, img, ins, kbd, q, s, samp,
@@ -41,7 +41,7 @@ blockquote, q {
 }
 /*-----------------------------------------------------*/
 h1, h1 a{
-    font-size:22px;
+    font-size:22px ;
 	color:#013E87;
 	font-family:Arial, Helvetica, sans-serif;
 	font-weight:600; text-decoration:none;
@@ -86,7 +86,7 @@ h5 {color:#333;}
 .txt_sz11, .txt_sz11 a{font-size:11px;  text-decoration:none;}
 .txt_sz22{font-size:22px; font-weight:600;}
 .txt_sz16, .txt_sz16 a{font-size:16px; font-weight:600; text-decoration:none;}
-.txt_sz14, .txt_sz14 a{font-size:14px !important; font-weight:600; text-decoration:none; }
+.txt_sz14, .txt_sz14 a{font-size:14px; font-weight:600; text-decoration:none; }
 .txt_sz14nb, .txt_sz14nb a{font-size:14px; text-decoration:none; font-weight:200;}
 .txt_sz12, .txt_sz12 a{font-size:12px; font-weight:600; text-decoration:none; }
 .txt_bold{font-weight:bold;}
@@ -193,8 +193,8 @@ ul.nd_tree_second li h5 a{position:relative; top:7px; font-size:10px; }
 .jcarousel-skin-tango .jcarousel-container { background: #Ffff;}
 .jcarousel-skin-tango .jcarousel-container-horizontal { width:911px;  _width:711px; *width:711px;  padding: 0px 7px;}
 .jcarousel-skin-tango .jcarousel-clip-horizontal {  width:783px;     height: 84px;}
-.jcarousel-skin-tango .jcarousel-item {    width: 260px;    height: 79px;border-right:1px solid #dadada;}
-.jcarousel-skin-tango .jcarousel-item-horizontal { padding:5px 0 0 0;}
+.jcarousel-skin-tango .jcarousel-item {    width: 255px;    height: 79px;border-right:1px solid #dadada;}
+.jcarousel-skin-tango .jcarousel-item-horizontal { padding:5px 5px 0 0;}
 .jcarousel-skin-tango .jcarousel-item-placeholder { background: #fff; color: #000;}
 .jcarousel-skin-tango .jcarousel-next-horizontal {
     position: absolute;    top: 0px; left: 958px; _left: 820px; *left: 825px;
@@ -274,7 +274,8 @@ ul.nd_nav li a:hover img{background:#999;}
 .backgroundimage2{ position:relative}
 .backgroundimage2 ul { float:left; padding-left:10px;}
 .backgroundimage2 ul li{ float:left;}
-.txt_black,  txt_black a { color:#333 !important;}
-
+.txt_black,  txt_black a { color:#333;} /*  por revisar */
+.tipo_desta{ color:#bb0000; font-weight:bold;}
+/*.destp{ position:relative; top:42px; padding-left:206px;}*/
 
 	
